@@ -1,0 +1,11 @@
+[Protocol]
+exec=Hello-qt '%u'
+protocol=Hello
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

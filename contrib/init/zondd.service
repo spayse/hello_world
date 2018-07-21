@@ -1,0 +1,26 @@
+[Unit]
+Description=Hello's distributed currency daemon
+After=network.target
+
+[Service]
+User=Hello
+Group=Hello
+
+Type=forking
+PIDFile=/var/lib/Hellod/Hellod.pid
+
+ExecStart=/usr/bin/Hellod -daemon -pid=/var/lib/Hellod/Hellod.pid \
+          -conf=/etc/Hello/Hello.conf -datadir=/var/lib/Hellod
+
+ExecStop=-/usr/bin/Hello-cli -conf=/etc/Hello/Hello.conf \
+         -datadir=/var/lib/Hellod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

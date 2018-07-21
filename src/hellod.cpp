@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,8 +25,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Hello (http://www.Hello.network),
- * which enables instant payments to anyone, anywhere in the world. Hello uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called hello (http://www.hello.network),
+ * which enables instant payments to anyone, anywhere in the world. hello uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,18 +65,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/Hello.conf are parsed in qt/Hello.cpp's main()
+    // If Qt is used, parameters/hello.conf are parsed in qt/hello.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Hello Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("hello Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  Hellod [options]                     " + _("Start Hello Core Daemon") + "\n";
+                        "  hellod [options]                     " + _("Start hello Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -112,17 +112,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "Hello:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "hello:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in Hellod anymore. Use the Hello-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in hellod anymore. Use the hello-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Hello server starting\n");
+            fprintf(stdout, "hello server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -175,7 +175,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect Hellod signal handlers
+    // Connect hellod signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

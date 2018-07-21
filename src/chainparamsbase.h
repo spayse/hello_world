@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between Hello-cli and Hellod)
- * of a given instance of the Hello system.
+ * CBaseChainParams defines the base parameters (shared between hello-cli and hellod)
+ * of a given instance of the hello system.
  */
 class CBaseChainParams
 {

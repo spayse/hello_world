@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,10 +48,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Hello Core Hello-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("hello Core hello-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  Hello-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded Hello transaction") + "\n" +
-                               "  Hello-tx [options] -create [commands]   " + _("Create hex-encoded Hello transaction") + "\n" +
+                               "  hello-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded hello transaction") + "\n" +
+                               "  hello-tx [options] -create [commands]   " + _("Create hex-encoded hello transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -553,7 +553,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded Hello transaction
+            // param: hex-encoded hello transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

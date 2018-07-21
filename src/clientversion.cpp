@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both Hellod and Hello-qt, to make it harder for attackers to
+ * for both hellod and hello-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Hello Core");
+const std::string CLIENT_NAME("hello Core");
 
 /**
  * Client version number

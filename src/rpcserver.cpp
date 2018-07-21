@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Hello server.");
+            "\nStop hello server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Hello server stopping";
+    return "hello server stopping";
 }
 
 
@@ -319,36 +319,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Hello features */
-        {"Hello", "masternode", &masternode, true, true, false},
-        {"Hello", "listmasternodes", &listmasternodes, true, true, false},
-        {"Hello", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"Hello", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"Hello", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"Hello", "masternodedebug", &masternodedebug, true, true, false},
-        {"Hello", "startmasternode", &startmasternode, true, true, false},
-        {"Hello", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"Hello", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"Hello", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"Hello", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"Hello", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"Hello", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"Hello", "mnbudget", &mnbudget, true, true, false},
-        {"Hello", "preparebudget", &preparebudget, true, true, false},
-        {"Hello", "submitbudget", &submitbudget, true, true, false},
-        {"Hello", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"Hello", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"Hello", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"Hello", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"Hello", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"Hello", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"Hello", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"Hello", "checkbudgets", &checkbudgets, true, true, false},
-        {"Hello", "mnsync", &mnsync, true, true, false},
-        {"Hello", "spork", &spork, true, true, false},
-        {"Hello", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* hello features */
+        {"hello", "masternode", &masternode, true, true, false},
+        {"hello", "listmasternodes", &listmasternodes, true, true, false},
+        {"hello", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"hello", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"hello", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"hello", "masternodedebug", &masternodedebug, true, true, false},
+        {"hello", "startmasternode", &startmasternode, true, true, false},
+        {"hello", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"hello", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"hello", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"hello", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"hello", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"hello", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"hello", "mnbudget", &mnbudget, true, true, false},
+        {"hello", "preparebudget", &preparebudget, true, true, false},
+        {"hello", "submitbudget", &submitbudget, true, true, false},
+        {"hello", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"hello", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"hello", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"hello", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"hello", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"hello", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"hello", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"hello", "checkbudgets", &checkbudgets, true, true, false},
+        {"hello", "mnsync", &mnsync, true, true, false},
+        {"hello", "spork", &spork, true, true, false},
+        {"hello", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"Hello", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"hello", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -627,16 +627,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use Hellod, or the -server option to Hello-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use hellod, or the -server option to hello-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=Hellorpc\n"
+                                               "rpcuser=hellorpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Hello Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"hello Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1087,7 +1087,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> Hello-cli " + methodname + " " + args + "\n";
+    return "> hello-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

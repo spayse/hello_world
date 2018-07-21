@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Hello"
-            VALUE "FileDescription",    "Hellod (OSS daemon/client for Hello)"
+            VALUE "CompanyName",        "hello"
+            VALUE "FileDescription",    "hellod (OSS daemon/client for hello)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Hellod"
+            VALUE "InternalName",       "hellod"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Hellod.exe"
-            VALUE "ProductName",        "Hellod"
+            VALUE "OriginalFilename",   "hellod.exe"
+            VALUE "ProductName",        "hellod"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

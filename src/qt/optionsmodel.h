@@ -45,7 +45,7 @@ public:
         SpendZeroConfChange, // bool
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
-        AnonymizeHelloAmount, //int
+        AnonymizehelloAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         OptionIDRowCount,
@@ -92,7 +92,7 @@ signals:
     void displayUnitChanged(int unit);
     void zeromintPercentageChanged(int);
     void preferredDenomChanged(int);
-    void anonymizeHelloAmountChanged(int);
+    void anonymizehelloAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 

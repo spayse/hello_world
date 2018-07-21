@@ -1,8 +1,8 @@
-// Copyright (c) 2017 The Hello developers
+// Copyright (c) 2017 The hello developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef Hello_ACCUMULATORMAP_H
-#define Hello_ACCUMULATORMAP_H
+#ifndef hello_ACCUMULATORMAP_H
+#define hello_ACCUMULATORMAP_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -20,4 +20,4 @@ public:
     uint256 GetCheckpoint();
     void Reset();
 };
-#endif //Hello_ACCUMULATORMAP_H
+#endif //hello_ACCUMULATORMAP_H

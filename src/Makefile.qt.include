@@ -1,34 +1,34 @@
-bin_PROGRAMS += qt/Hello-qt
+bin_PROGRAMS += qt/hello-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# Hello qt core #
+# hello qt core #
 QT_TS = \
-  qt/locale/Hello_bg.ts \
-  qt/locale/Hello_ca.ts \
-  qt/locale/Hello_cs.ts \
-  qt/locale/Hello_da.ts \
-  qt/locale/Hello_de.ts \
-  qt/locale/Hello_en.ts \
-  qt/locale/Hello_en_US.ts \
-  qt/locale/Hello_es.ts \
-  qt/locale/Hello_fi.ts \
-  qt/locale/Hello_fr_FR.ts \
-  qt/locale/Hello_hr.ts \
-  qt/locale/Hello_it.ts \
-  qt/locale/Hello_ja.ts \
-  qt/locale/Hello_ko_KR.ts \
-  qt/locale/Hello_nl.ts \
-  qt/locale/Hello_pl.ts \
-  qt/locale/Hello_pt.ts \
-  qt/locale/Hello_pt_BR.ts \
-  qt/locale/Hello_ro_RO.ts \
-  qt/locale/Hello_ru.ts \
-  qt/locale/Hello_sk.ts \
-  qt/locale/Hello_sv.ts \
-  qt/locale/Hello_tr.ts \
-  qt/locale/Hello_uk.ts \
-  qt/locale/Hello_zh_CN.ts \
-  qt/locale/Hello_zh_TW.ts
+  qt/locale/hello_bg.ts \
+  qt/locale/hello_ca.ts \
+  qt/locale/hello_cs.ts \
+  qt/locale/hello_da.ts \
+  qt/locale/hello_de.ts \
+  qt/locale/hello_en.ts \
+  qt/locale/hello_en_US.ts \
+  qt/locale/hello_es.ts \
+  qt/locale/hello_fi.ts \
+  qt/locale/hello_fr_FR.ts \
+  qt/locale/hello_hr.ts \
+  qt/locale/hello_it.ts \
+  qt/locale/hello_ja.ts \
+  qt/locale/hello_ko_KR.ts \
+  qt/locale/hello_nl.ts \
+  qt/locale/hello_pl.ts \
+  qt/locale/hello_pt.ts \
+  qt/locale/hello_pt_BR.ts \
+  qt/locale/hello_ro_RO.ts \
+  qt/locale/hello_ru.ts \
+  qt/locale/hello_sk.ts \
+  qt/locale/hello_sv.ts \
+  qt/locale/hello_tr.ts \
+  qt/locale/hello_uk.ts \
+  qt/locale/hello_zh_CN.ts \
+  qt/locale/hello_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -114,16 +114,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/Hello.moc \
+  qt/hello.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_Hello.cpp
-QT_QRC = qt/Hello.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_Hello_locale.cpp
-QT_QRC_LOCALE = qt/Hello_locale.qrc
+QT_QRC_CPP = qt/qrc_hello.cpp
+QT_QRC = qt/hello.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_hello_locale.cpp
+QT_QRC_LOCALE = qt/hello_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -241,12 +241,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_Hello.png \
-  qt/res/icons/unit_mHello.png \
-  qt/res/icons/unit_uHello.png \
-  qt/res/icons/unit_tHello.png \
-  qt/res/icons/unit_tmHello.png \
-  qt/res/icons/unit_tuHello.png
+  qt/res/icons/unit_hello.png \
+  qt/res/icons/unit_mhello.png \
+  qt/res/icons/unit_uhello.png \
+  qt/res/icons/unit_thello.png \
+  qt/res/icons/unit_tmhello.png \
+  qt/res/icons/unit_tuhello.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -316,7 +316,7 @@ RES_IMAGES = \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
-  qt/res/images/Hello_logo_horizontal.png \
+  qt/res/images/hello_logo_horizontal.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
@@ -332,7 +332,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/Hello-qt-res.rc
+BITCOIN_RC = qt/res/hello-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -352,69 +352,69 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_Hello_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_hello_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# Hello-qt binary #
-qt_Hello_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# hello-qt binary #
+qt_hello_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_Hello_qt_SOURCES = qt/Hello.cpp
+qt_hello_qt_SOURCES = qt/hello.cpp
 if TARGET_DARWIN
-  qt_Hello_qt_SOURCES += $(BITCOIN_MM)
+  qt_hello_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_Hello_qt_SOURCES += $(BITCOIN_RC)
+  qt_hello_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_Hello_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_hello_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_Hello_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_hello_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_Hello_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_hello_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_Hello_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_hello_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_Hello_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_Hello_qt_LIBTOOLFLAGS = --tag CXX
+qt_hello_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_hello_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/Hellostrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/hellostrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/Hellostrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/hellostrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/Hello_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/hello_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Hello_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name hello_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Hello $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name hello $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-Hello_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_Hello_qt_OBJECTS) qt/Hello-qt$(EXEEXT) $(LIBBITCOINQT)
+hello_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_hello_qt_OBJECTS) qt/hello-qt$(EXEEXT) $(LIBBITCOINQT)
 
-Hello_qt : qt/Hello-qt$(EXEEXT)
+hello_qt : qt/hello-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

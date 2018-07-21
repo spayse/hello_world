@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -84,13 +84,13 @@ Value getnewaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getnewaddress ( \"account\" )\n"
-            "\nReturns a new Hello address for receiving payments.\n"
+            "\nReturns a new hello address for receiving payments.\n"
             "If 'account' is specified (recommended), it is added to the address book \n"
             "so payments received with the address will be credited to 'account'.\n"
             "\nArguments:\n"
             "1. \"account\"        (string, optional) The account name for the address to be linked to. if not provided, the default account \"\" is used. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created if there is no account by the given name.\n"
             "\nResult:\n"
-            "\"Helloaddress\"    (string) The new Hello address\n"
+            "\"helloaddress\"    (string) The new hello address\n"
             "\nExamples:\n" +
             HelpExampleCli("getnewaddress", "") + HelpExampleCli("getnewaddress", "\"\"") + HelpExampleCli("getnewaddress", "\"myaccount\"") + HelpExampleRpc("getnewaddress", "\"myaccount\""));
 
@@ -153,11 +153,11 @@ Value getaccountaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "getaccountaddress \"account\"\n"
-            "\nReturns the current Hello address for receiving payments to this account.\n"
+            "\nReturns the current hello address for receiving payments to this account.\n"
             "\nArguments:\n"
             "1. \"account\"       (string, required) The account name for the address. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created and a new address created  if there is no account by the given name.\n"
             "\nResult:\n"
-            "\"Helloaddress\"   (string) The account Hello address\n"
+            "\"helloaddress\"   (string) The account hello address\n"
             "\nExamples:\n" +
             HelpExampleCli("getaccountaddress", "") + HelpExampleCli("getaccountaddress", "\"\"") + HelpExampleCli("getaccountaddress", "\"myaccount\"") + HelpExampleRpc("getaccountaddress", "\"myaccount\""));
 
@@ -177,7 +177,7 @@ Value getrawchangeaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getrawchangeaddress\n"
-            "\nReturns a new Hello address, for receiving change.\n"
+            "\nReturns a new hello address, for receiving change.\n"
             "This is for use with raw transactions, NOT normal use.\n"
             "\nResult:\n"
             "\"address\"    (string) The address\n"
@@ -204,17 +204,17 @@ Value setaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "setaccount \"Helloaddress\" \"account\"\n"
+            "setaccount \"helloaddress\" \"account\"\n"
             "\nSets the account associated with the given address.\n"
             "\nArguments:\n"
-            "1. \"Helloaddress\"  (string, required) The Hello address to be associated with an account.\n"
+            "1. \"helloaddress\"  (string, required) The hello address to be associated with an account.\n"
             "2. \"account\"         (string, required) The account to assign the address to.\n"
             "\nExamples:\n" +
             HelpExampleCli("setaccount", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" \"tabby\"") + HelpExampleRpc("setaccount", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\", \"tabby\""));
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
 
 
     string strAccount;
@@ -241,10 +241,10 @@ Value getaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "getaccount \"Helloaddress\"\n"
+            "getaccount \"helloaddress\"\n"
             "\nReturns the account associated with the given address.\n"
             "\nArguments:\n"
-            "1. \"Helloaddress\"  (string, required) The Hello address for account lookup.\n"
+            "1. \"helloaddress\"  (string, required) The hello address for account lookup.\n"
             "\nResult:\n"
             "\"accountname\"        (string) the account address\n"
             "\nExamples:\n" +
@@ -252,7 +252,7 @@ Value getaccount(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
 
     string strAccount;
     map<CTxDestination, CAddressBookData>::iterator mi = pwalletMain->mapAddressBook.find(address.Get());
@@ -272,7 +272,7 @@ Value getaddressesbyaccount(const Array& params, bool fHelp)
             "1. \"account\"  (string, required) The account name.\n"
             "\nResult:\n"
             "[                     (json array of string)\n"
-            "  \"Helloaddress\"  (string) a Hello address associated with the given account\n"
+            "  \"helloaddress\"  (string) a hello address associated with the given account\n"
             "  ,...\n"
             "]\n"
             "\nExamples:\n" +
@@ -307,7 +307,7 @@ void SendMoney(const CTxDestination& address, CAmount nValue, CWalletTx& wtxNew,
         throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
-    // Parse Hello address
+    // Parse hello address
     CScript scriptPubKey = GetScriptForDestination(address);
 
     // Create and send the transaction
@@ -327,11 +327,11 @@ Value sendtoaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 2 || params.size() > 4)
         throw runtime_error(
-            "sendtoaddress \"Helloaddress\" amount ( \"comment\" \"comment-to\" )\n"
+            "sendtoaddress \"helloaddress\" amount ( \"comment\" \"comment-to\" )\n"
             "\nSend an amount to a given address. The amount is a real and is rounded to the nearest 0.00000001\n" +
             HelpRequiringPassphrase() +
             "\nArguments:\n"
-            "1. \"Helloaddress\"  (string, required) The Hello address to send to.\n"
+            "1. \"helloaddress\"  (string, required) The hello address to send to.\n"
             "2. \"amount\"      (numeric, required) The amount in btc to send. eg 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
@@ -345,7 +345,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -368,11 +368,11 @@ Value sendtoaddressix(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 2 || params.size() > 4)
         throw runtime_error(
-            "sendtoaddressix \"Helloaddress\" amount ( \"comment\" \"comment-to\" )\n"
+            "sendtoaddressix \"helloaddress\" amount ( \"comment\" \"comment-to\" )\n"
             "\nSend an amount to a given address. The amount is a real and is rounded to the nearest 0.00000001\n" +
             HelpRequiringPassphrase() +
             "\nArguments:\n"
-            "1. \"Helloaddress\"  (string, required) The Hello address to send to.\n"
+            "1. \"helloaddress\"  (string, required) The hello address to send to.\n"
             "2. \"amount\"      (numeric, required) The amount in btc to send. eg 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
@@ -386,7 +386,7 @@ Value sendtoaddressix(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -416,7 +416,7 @@ Value listaddressgroupings(const Array& params, bool fHelp)
             "[\n"
             "  [\n"
             "    [\n"
-            "      \"Helloaddress\",     (string) The Hello address\n"
+            "      \"helloaddress\",     (string) The hello address\n"
             "      amount,                 (numeric) The amount in btc\n"
             "      \"account\"             (string, optional) The account\n"
             "    ]\n"
@@ -451,11 +451,11 @@ Value signmessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "signmessage \"Helloaddress\" \"message\"\n"
+            "signmessage \"helloaddress\" \"message\"\n"
             "\nSign a message with the private key of an address" +
             HelpRequiringPassphrase() + "\n"
                                         "\nArguments:\n"
-                                        "1. \"Helloaddress\"  (string, required) The Hello address to use for the private key.\n"
+                                        "1. \"helloaddress\"  (string, required) The hello address to use for the private key.\n"
                                         "2. \"message\"         (string, required) The message to create a signature of.\n"
                                         "\nResult:\n"
                                         "\"signature\"          (string) The signature of the message encoded in base 64\n"
@@ -498,10 +498,10 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "getreceivedbyaddress \"Helloaddress\" ( minconf )\n"
-            "\nReturns the total amount received by the given Helloaddress in transactions with at least minconf confirmations.\n"
+            "getreceivedbyaddress \"helloaddress\" ( minconf )\n"
+            "\nReturns the total amount received by the given helloaddress in transactions with at least minconf confirmations.\n"
             "\nArguments:\n"
-            "1. \"Helloaddress\"  (string, required) The Hello address for transactions.\n"
+            "1. \"helloaddress\"  (string, required) The hello address for transactions.\n"
             "2. minconf             (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
             "amount   (numeric) The total amount in btc received at this address.\n"
@@ -512,10 +512,10 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
             "\nThe amount with at least 6 confirmation, very safe\n" + HelpExampleCli("getreceivedbyaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" 6") +
             "\nAs a json rpc call\n" + HelpExampleRpc("getreceivedbyaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\", 6"));
 
-    // Hello address
+    // hello address
     CBitcoinAddress address = CBitcoinAddress(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
     CScript scriptPubKey = GetScriptForDestination(address.Get());
     if (!IsMine(*pwalletMain, scriptPubKey))
         return (double)0.0;
@@ -762,13 +762,13 @@ Value sendfrom(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 3 || params.size() > 6)
         throw runtime_error(
-            "sendfrom \"fromaccount\" \"toHelloaddress\" amount ( minconf \"comment\" \"comment-to\" )\n"
-            "\nSent an amount from an account to a Hello address.\n"
+            "sendfrom \"fromaccount\" \"tohelloaddress\" amount ( minconf \"comment\" \"comment-to\" )\n"
+            "\nSent an amount from an account to a hello address.\n"
             "The amount is a real and is rounded to the nearest 0.00000001." +
             HelpRequiringPassphrase() + "\n"
                                         "\nArguments:\n"
                                         "1. \"fromaccount\"       (string, required) The name of the account to send funds from. May be the default account using \"\".\n"
-                                        "2. \"toHelloaddress\"  (string, required) The Hello address to send funds to.\n"
+                                        "2. \"tohelloaddress\"  (string, required) The hello address to send funds to.\n"
                                         "3. amount                (numeric, required) The amount in btc. (transaction fee is added on top).\n"
                                         "4. minconf               (numeric, optional, default=1) Only use funds with at least this many confirmations.\n"
                                         "5. \"comment\"           (string, optional) A comment used to store what the transaction is for. \n"
@@ -787,7 +787,7 @@ Value sendfrom(const Array& params, bool fHelp)
     string strAccount = AccountFromValue(params[0]);
     CBitcoinAddress address(params[1].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
     CAmount nAmount = AmountFromValue(params[2]);
     int nMinDepth = 1;
     if (params.size() > 3)
@@ -824,7 +824,7 @@ Value sendmany(const Array& params, bool fHelp)
                                         "1. \"fromaccount\"         (string, required) The account to send the funds from, can be \"\" for the default account\n"
                                         "2. \"amounts\"             (string, required) A json object with addresses and amounts\n"
                                         "    {\n"
-                                        "      \"address\":amount   (numeric) The Hello address is the key, the numeric amount in btc is the value\n"
+                                        "      \"address\":amount   (numeric) The hello address is the key, the numeric amount in btc is the value\n"
                                         "      ,...\n"
                                         "    }\n"
                                         "3. minconf                 (numeric, optional, default=1) Only use the balance confirmed at least this many times.\n"
@@ -856,7 +856,7 @@ Value sendmany(const Array& params, bool fHelp)
     BOOST_FOREACH (const Pair& s, sendTo) {
         CBitcoinAddress address(s.name_);
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid Hello address: ") + s.name_);
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid hello address: ") + s.name_);
 
         if (setAddress.count(address))
             throw JSONRPCError(RPC_INVALID_PARAMETER, string("Invalid parameter, duplicated address: ") + s.name_);
@@ -897,20 +897,20 @@ Value addmultisigaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() < 2 || params.size() > 3) {
         string msg = "addmultisigaddress nrequired [\"key\",...] ( \"account\" )\n"
                      "\nAdd a nrequired-to-sign multisignature address to the wallet.\n"
-                     "Each key is a Hello address or hex-encoded public key.\n"
+                     "Each key is a hello address or hex-encoded public key.\n"
                      "If 'account' is specified, assign address to that account.\n"
 
                      "\nArguments:\n"
                      "1. nrequired        (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-                     "2. \"keysobject\"   (string, required) A json array of Hello addresses or hex-encoded public keys\n"
+                     "2. \"keysobject\"   (string, required) A json array of hello addresses or hex-encoded public keys\n"
                      "     [\n"
-                     "       \"address\"  (string) Hello address or hex-encoded public key\n"
+                     "       \"address\"  (string) hello address or hex-encoded public key\n"
                      "       ...,\n"
                      "     ]\n"
                      "3. \"account\"      (string, optional) An account to assign the addresses to.\n"
 
                      "\nResult:\n"
-                     "\"Helloaddress\"  (string) A Hello address associated with the keys.\n"
+                     "\"helloaddress\"  (string) A hello address associated with the keys.\n"
 
                      "\nExamples:\n"
                      "\nAdd a multisig address from 2 addresses\n" +
@@ -1225,7 +1225,7 @@ Value listtransactions(const Array& params, bool fHelp)
             "  {\n"
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. \n"
             "                                                It will be \"\" for the default account.\n"
-            "    \"address\":\"Helloaddress\",    (string) The Hello address of the transaction. Not present for \n"
+            "    \"address\":\"helloaddress\",    (string) The hello address of the transaction. Not present for \n"
             "                                                move transactions (category = move).\n"
             "    \"category\":\"send|receive|move\", (string) The transaction category. 'move' is a local (off blockchain)\n"
             "                                                transaction between accounts, and not associated with an address,\n"
@@ -1400,7 +1400,7 @@ Value listsinceblock(const Array& params, bool fHelp)
             "{\n"
             "  \"transactions\": [\n"
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. Will be \"\" for the default account.\n"
-            "    \"address\":\"Helloaddress\",    (string) The Hello address of the transaction. Not present for move transactions (category = move).\n"
+            "    \"address\":\"helloaddress\",    (string) The hello address of the transaction. Not present for move transactions (category = move).\n"
             "    \"category\":\"send|receive\",     (string) The transaction category. 'send' has negative amounts, 'receive' has positive amounts.\n"
             "    \"amount\": x.xxx,          (numeric) The amount in btc. This is negative for the 'send' category, and for the 'move' category for moves \n"
             "                                          outbound. It is positive for the 'receive' category, and for the 'move' category for inbound funds.\n"
@@ -1490,7 +1490,7 @@ Value gettransaction(const Array& params, bool fHelp)
             "  \"details\" : [\n"
             "    {\n"
             "      \"account\" : \"accountname\",  (string) The account name involved in the transaction, can be \"\" for the default account.\n"
-            "      \"address\" : \"Helloaddress\",   (string) The Hello address involved in the transaction\n"
+            "      \"address\" : \"helloaddress\",   (string) The hello address involved in the transaction\n"
             "      \"category\" : \"send|receive\",    (string) The category, either 'send' or 'receive'\n"
             "      \"amount\" : x.xxx                  (numeric) The amount in btc\n"
             "      \"vout\" : n,                       (numeric) the vout value\n"
@@ -1739,7 +1739,7 @@ Value encryptwallet(const Array& params, bool fHelp)
             "\nEncrypt you wallet\n" +
             HelpExampleCli("encryptwallet", "\"my pass phrase\"") +
             "\nNow set the passphrase to use the wallet, such as for signing or sending SIRAJs\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
-            "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"Helloaddress\" \"test message\"") +
+            "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"helloaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n" + HelpExampleCli("walletlock", "") +
             "\nAs a json rpc call\n" + HelpExampleRpc("encryptwallet", "\"my pass phrase\""));
 
@@ -1766,7 +1766,7 @@ Value encryptwallet(const Array& params, bool fHelp)
     // slack space in .dat files; that is bad if the old data is
     // unencrypted private keys. So:
     StartShutdown();
-    return "wallet encrypted; Hello server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
+    return "wallet encrypted; hello server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
 }
 
 Value lockunspent(const Array& params, bool fHelp)
@@ -2041,7 +2041,7 @@ Value autocombinerewards(const Array& params, bool fHelp)
     if (fHelp || params.size() < 1 || (fEnable && params.size() != 2) || params.size() > 2)
         throw runtime_error(
             "autocombinerewards true|false ( threshold )\n"
-            "\nWallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same Hello address\n"
+            "\nWallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same hello address\n"
             "When autocombinerewards runs it will create a transaction, and therefore will be subject to transaction fees.\n"
 
             "\nArguments:\n"
@@ -2249,7 +2249,7 @@ Value multisend(const Array& params, bool fHelp)
             "The MultiSend transaction is sent when the staked coins mature (100 confirmations)\n"
             "****************************************************************\n"
             "TO CREATE OR ADD TO THE MULTISEND VECTOR:\n"
-            "multisend <Hello Address> <percent>\n"
+            "multisend <hello Address> <percent>\n"
             "This will add a new address to the MultiSend vector\n"
             "Percent is a whole number 1 to 100.\n"
             "****************************************************************\n"
@@ -2470,7 +2470,7 @@ Value spendzerocoin(const Array& params, bool fHelp)
         // to avoid type confusion from the JSON interpreter
         address = CBitcoinAddress(params[4].get_str());
         if(!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Hello address");
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid hello address");
     }
 
     CWalletTx wtx;

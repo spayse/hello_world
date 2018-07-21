@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "libzerocoin/Params.h"
@@ -96,7 +96,7 @@ public:
         pchMessageStart[3] = 0x3a;
         vAlertPubKey = ParseHex("0453441050da40fd90e8de54be8d31f4378ee78e52682eae03873cd4b31b75348ffeda82432f9e0ec0ccbaf2aaba07965929907394652d0c784e4ff7c8eb6b72f1");
         nDefaultPort = 44544;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Hello starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // hello starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
@@ -164,7 +164,7 @@ public:
         assert(hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
 		
-        vSeeds.push_back(CDNSSeedData("dns1.Hello.network", "dns1.Hello.network"));
+        vSeeds.push_back(CDNSSeedData("dns1.hello.network", "dns1.hello.network"));
 	
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 80);
@@ -228,8 +228,8 @@ public:
         vAlertPubKey = ParseHex("0418e1af0e8366585286ed33d38db4c1ba903826891e4ad10c61467a2a04013d4575c1c84d66f353760a3dcea6fa02834b192acca579cb10b6e96f00ebea5edacd");
         nDefaultPort = 19167;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Hello: 1 minute
-        nTargetSpacing = 1 * 60;  // Hello: 1 minute
+        nTargetTimespan = 1 * 60; // hello: 1 minute
+        nTargetSpacing = 1 * 60;  // hello: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -275,14 +275,14 @@ public:
         //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet Hello addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet Hello script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet hello addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet hello script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet Hello BIP32 pubkeys start with 'DRKV'
+        // Testnet hello BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Hello BIP32 prvkeys start with 'DRKP'
+        // Testnet hello BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Hello BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet hello BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;
@@ -322,8 +322,8 @@ public:
         pchMessageStart[3] = 0xac;
         nSubsidyHalvingInterval = 150;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Hello: 1 day
-        nTargetSpacing = 1 * 60;        // Hello: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // hello: 1 day
+        nTargetSpacing = 1 * 60;        // hello: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1523538002;
         genesis.nBits = 0x207fffff;

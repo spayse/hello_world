@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Hello"
-            VALUE "FileDescription",    "Hello-cli (OSS RPC client for Hello)"
+            VALUE "CompanyName",        "hello"
+            VALUE "FileDescription",    "hello-cli (OSS RPC client for hello)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Hello-cli"
+            VALUE "InternalName",       "hello-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Hello-cli.exe"
-            VALUE "ProductName",        "Hello-cli"
+            VALUE "OriginalFilename",   "hello-cli.exe"
+            VALUE "ProductName",        "hello-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

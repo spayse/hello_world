@@ -93,8 +93,8 @@ case "$TARGET_OS" in
         PORT_FILE=port/port_posix.cc
         ;;
     SunOS)
-        PLATFORM=OS_Hello
-        COMMON_FLAGS="$MEMCMP_FLAG -D_REENTRANT -DOS_Hello"
+        PLATFORM=OS_hello
+        COMMON_FLAGS="$MEMCMP_FLAG -D_REENTRANT -DOS_hello"
         PLATFORM_LIBS="-lpthread -lrt"
         PORT_FILE=port/port_posix.cc
         ;;

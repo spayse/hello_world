@@ -1,8 +1,8 @@
-// Copyright (c) 2017 The Hello developers
+// Copyright (c) 2017 The hello developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef Hello_ZEROCOIN_H
-#define Hello_ZEROCOIN_H
+#ifndef hello_ZEROCOIN_H
+#define hello_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //Hello_ZEROCOIN_H
+#endif //hello_ZEROCOIN_H

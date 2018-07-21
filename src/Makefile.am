@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += Hellod
+  bin_PROGRAMS += hellod
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += Hello-cli Hello-tx
+  bin_PROGRAMS += hello-cli hello-tx
 endif
 
 .PHONY: FORCE
-# Hello core #
+# hello core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between Hellod and Hello-qt
+# server: shared between hellod and hello-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between Hellod and Hello-qt, but only linked
+# wallet: shared between hellod and hello-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -355,7 +355,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between Hellod, and Hello-qt and non-server tools
+# common: shared between hellod, and hello-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -415,7 +415,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between Hello-cli and Hello-qt
+# cli: shared between hello-cli and hello-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -425,7 +425,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-Hellod_LDADD = \
+hellod_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -437,26 +437,26 @@ Hellod_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-Hellod_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+hellod_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-Hellod_LDADD += libbitcoin_wallet.a
+hellod_LDADD += libbitcoin_wallet.a
 endif
-Hellod_SOURCES = Hellod.cpp
+hellod_SOURCES = hellod.cpp
 #
 
 if TARGET_WINDOWS
-Hellod_SOURCES += Hellod-res.rc
+hellod_SOURCES += hellod-res.rc
 endif
 
-Hellod_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-Hellod_CPPFLAGS = $(BITCOIN_INCLUDES)
-Hellod_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+hellod_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+hellod_CPPFLAGS = $(BITCOIN_INCLUDES)
+hellod_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# Hello-cli binary #
-Hello_cli_LDADD = \
+# hello-cli binary #
+hello_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -464,14 +464,14 @@ Hello_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-Hello_cli_SOURCES = \
-  Hello-cli.cpp
+hello_cli_SOURCES = \
+  hello-cli.cpp
 
-Hello_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+hello_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# Hello-tx binary #
-Hello_tx_LDADD = \
+# hello-tx binary #
+hello_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -481,15 +481,15 @@ Hello_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-Hello_tx_SOURCES = Hello-tx.cpp
-Hello_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+hello_tx_SOURCES = hello-tx.cpp
+hello_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-Hello_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+hello_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-Hello_cli_SOURCES += Hello-cli-res.rc
+hello_cli_SOURCES += hello-cli-res.rc
 endif
-Hello_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+hello_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

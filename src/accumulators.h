@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The Hello developers
+// Copyright (c) 2017 The hello developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Hello_ACCUMULATORS_H
-#define Hello_ACCUMULATORS_H
+#ifndef hello_ACCUMULATORS_H
+#define hello_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
@@ -21,4 +21,4 @@ bool EraseAccumulatorValues(const uint256& nCheckpointErase, const uint256& nChe
 uint32_t ParseChecksum(uint256 nChecksum, libzerocoin::CoinDenomination denomination);
 uint32_t GetChecksum(const CBigNum &bnValue);
 
-#endif //Hello_ACCUMULATORS_H
+#endif //hello_ACCUMULATORS_H

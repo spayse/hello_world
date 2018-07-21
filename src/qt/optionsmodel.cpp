@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/Hello-config.h"
+#include "config/hello-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -80,10 +80,10 @@ void OptionsModel::Init()
         settings.setValue("nZeromintPercentage", 10);
     nZeromintPercentage = settings.value("nZeromintPercentage").toLongLong();
 
-    if (!settings.contains("nAnonymizeHelloAmount"))
-        settings.setValue("nAnonymizeHelloAmount", 1000);
+    if (!settings.contains("nAnonymizehelloAmount"))
+        settings.setValue("nAnonymizehelloAmount", 1000);
 
-    nAnonymizeHelloAmount = settings.value("nAnonymizeHelloAmount").toLongLong();
+    nAnonymizehelloAmount = settings.value("nAnonymizehelloAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -152,8 +152,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeHelloAmount"))
-        SoftSetArg("-anonymizeHelloamount", settings.value("nAnonymizeHelloAmount").toString().toStdString());
+    if (settings.contains("nAnonymizehelloAmount"))
+        SoftSetArg("-anonymizehelloamount", settings.value("nAnonymizehelloAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -164,7 +164,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in Hello.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in hello.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -235,8 +235,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeHelloAmount:
-            return QVariant(nAnonymizeHelloAmount);
+        case AnonymizehelloAmount:
+            return QVariant(nAnonymizehelloAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -351,10 +351,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit preferredDenomChanged(nPreferredDenom);
             break;
 
-        case AnonymizeHelloAmount:
-            nAnonymizeHelloAmount = value.toInt();
-            settings.setValue("nAnonymizeHelloAmount", nAnonymizeHelloAmount);
-            emit anonymizeHelloAmountChanged(nAnonymizeHelloAmount);
+        case AnonymizehelloAmount:
+            nAnonymizehelloAmount = value.toInt();
+            settings.setValue("nAnonymizehelloAmount", nAnonymizehelloAmount);
+            emit anonymizehelloAmountChanged(nAnonymizehelloAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

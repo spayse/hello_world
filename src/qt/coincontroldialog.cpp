@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Hello developers
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -817,7 +817,7 @@ void CoinControlDialog::updateView()
             if (ExtractDestination(out.tx->vout[out.i].scriptPubKey, outputAddress)) {
                 sAddress = QString::fromStdString(CBitcoinAddress(outputAddress).ToString());
 
-                // if listMode or change => show Hello address. In tree mode, address is not shown again for direct wallet address outputs
+                // if listMode or change => show hello address. In tree mode, address is not shown again for direct wallet address outputs
                 if (!treeMode || (!(sAddress == sWalletAddress)))
                     itemOutput->setText(COLUMN_ADDRESS, sAddress);
 

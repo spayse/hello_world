@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zSIRAJ</source>
+        <source>Privacy Actions for zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1953,12 +1953,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1968,12 +1968,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1983,7 +1983,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,23 +2162,23 @@ https://www.transifex.com/hello-project/hello-project-translations</source>
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zSIRAJ</source>
+        <source>Percentage of autominted zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zSIRAJ Denomination</source>
+        <source>Preferred Automint zZND Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2348,7 +2348,7 @@ https://www.transifex.com/hello-project/hello-project-translations</source>
     </message>
     <message>
         <location line="+43"/>
-        <source>SIRAJ Balances</source>
+        <source>ZND Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2449,17 +2449,17 @@ https://www.transifex.com/hello-project/hello-project-translations</source>
     </message>
     <message>
         <location line="+36"/>
-        <source>SIRAJ:</source>
+        <source>ZND:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zSIRAJ:</source>
+        <source>zZND:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zSIRAJ.
+        <source>Current percentage of zZND.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked SIRAJ or Masternode collaterals. These are excluded from zSIRAJ minting.</source>
+        <source>Locked ZND or Masternode collaterals. These are excluded from zZND minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2481,7 +2481,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 SIRAJ</source>
+        <source>0.000 000 00 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked SIRAJs. These can be used for zSIRAJ minting.</source>
+        <source>Unlocked ZNDs. These can be used for zZND minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zSIRAJ are spendable.</source>
+These zZND are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ These zSIRAJ are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zSIRAJ, unconfirmed and immature zSIRAJ included.</source>
+        <source>All available zZND, unconfirmed and immature zZND included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2550,7 +2550,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zSIRAJ.
+        <source>Current percentage of zZND.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2716,12 +2716,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>SIRAJ which were anonymized via Zerocin Protocol</source>
+        <source>ZND which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerohello (zSIRAJ)</source>
+        <source>Zerohello (zZND)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2737,7 +2737,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
+        <source>Enter an amount of ZND to convert to zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2756,7 +2756,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zSIRAJ</source>
+        <source>zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2771,7 +2771,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 SIRAJ</source>
+        <source>0.000 000 00 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2816,12 +2816,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+45"/>
-        <source>zSIRAJ Control</source>
+        <source>zZND Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zSIRAJ Selected:</source>
+        <source>zZND Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,7 +2847,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zSIRAJ for spending</source>
+        <source>Available (mature and spendable) zZND for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2857,15 +2857,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zSIRAJ for spending
+        <source>Available (mature and spendable) zZND for spending
 
-zSIRAJ are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
+zZND are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zSIRAJ</source>
+        <source>0 zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2956,7 +2956,7 @@ zSIRAJ are mature when they have more than 20 confirmations AND more than 3 mint
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zSIRAJ</source>
+        <source>Total Balance including unconfirmed and immature zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3192,7 +3192,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zSIRAJ in </source>
+        <source> zZND in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3304,7 +3304,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>zSIRAJ Spend #: </source>
+        <source>zZND Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3334,7 +3334,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>zSIRAJ Mint</source>
+        <source>zZND Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 SIRAJ</source>
+        <source>0 ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,12 +4253,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSIRAJs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uZNDs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSIRAJs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uZNDs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4324,7 +4324,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized SIRAJ</source>
+        <source>Anonymized ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5270,27 +5270,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted SIRAJ to zSIRAJ</source>
+        <source>Converted ZND to zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zSIRAJ</source>
+        <source>Spent zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received SIRAJ from zSIRAJ</source>
+        <source>Received ZND from zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zSIRAJ from zSIRAJ Spend</source>
+        <source>Minted Change as zZND from zZND Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zSIRAJ to SIRAJ</source>
+        <source>Converted zZND to ZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5300,7 +5300,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+22"/>
-        <source>zSIRAJ Accumulator</source>
+        <source>zZND Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5439,7 +5439,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received SIRAJ from zSIRAJ</source>
+        <source>Received ZND from zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5454,7 +5454,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Zerocoin Spend, Change in zSIRAJ</source>
+        <source>Zerocoin Spend, Change in zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SIRAJ.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ZND.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5664,10 +5664,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
-        <location filename="../forms/zSIRAJcontroldialog.ui" line="+20"/>
-        <source>Select zSIRAJ to Spend</source>
+        <location filename="../forms/zzndcontroldialog.ui" line="+20"/>
+        <source>Select zZND to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5683,7 +5683,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zSIRAJ</source>
+        <source>zZND</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5811,12 +5811,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5966,12 +5966,12 @@ for example: alertnotify=echo %%s | mail -s &quot;hello Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SIRAJ.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ZND.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 SIRAJ.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ZND.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6031,8 +6031,8 @@ for example: alertnotify=echo %%s | mail -s &quot;hello Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>(44544 could be used only on mainnet)</source>
-        <translation type="unfinished">(44544 could be used only on mainnet)</translation>
+        <source>(44545could be used only on mainnet)</source>
+        <translation type="unfinished">(44545could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6046,7 +6046,7 @@ for example: alertnotify=echo %%s | mail -s &quot;hello Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 44544 for mainnet)</source>
+        <source>(must be 44545for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ for example: alertnotify=echo %%s | mail -s &quot;hello Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in SIRAJ/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in ZND/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6538,7 +6538,7 @@ for example: alertnotify=echo %%s | mail -s &quot;hello Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+44"/>
-        <source>Enable automatic wallet backups triggered after each zSIRAJ minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zZND minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

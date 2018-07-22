@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>hello sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SIRAJien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
+        <translation>hello sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella ZNDien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SIRAJisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki ZNDisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1135,11 +1135,11 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
         <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 hello</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
         <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 hello</translation>
     </message>
     <message>
@@ -1147,11 +1147,11 @@ Please check the address and try again.</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SIRAJ anonymoidaksesi 10000 hello</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 ZND anonymoidaksesi 10000 hello</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
         <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 hello anonymoidaksesi 10000 hello</translation>
     </message>
     <message>
@@ -1159,7 +1159,7 @@ Please check the address and try again.</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
         <translation>0.1 per 10000 hello, jotka anonymisoit.</translation>
     </message>
     <message>
@@ -1898,8 +1898,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -2534,7 +2534,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

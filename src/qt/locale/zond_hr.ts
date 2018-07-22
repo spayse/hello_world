@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -783,7 +783,7 @@
     </message>
     </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

@@ -263,7 +263,7 @@
     </message>
     </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     </context>
 <context>
     <name>hello-core</name>

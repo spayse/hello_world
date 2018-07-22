@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>hello는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 SIRAJs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
+        <translation>hello는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 ZNDs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 SIRAJ를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 ZND를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;프라이버시</translation>
     </message>
     <message>
-        <source>Privacy Action for zSIRAJ and Obfuscation</source>
-        <translation>zSIRAJ와 난독화를 위한 프라이버스 작업</translation>
+        <source>Privacy Action for zZND and Obfuscation</source>
+        <translation>zZND와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 SIRAJ 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 ZND 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 SIRAJ 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 ZND 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 SIRAJ 익명화에 약 ~0.025 SIRAJ의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 ZND 익명화에 약 ~0.025 ZND의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 SIRAJ 익명화에 약 0.05 SIRAJ의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 ZND 익명화에 약 0.05 ZND의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
-        <translation>10000 SIRAJ 익명화에 0.1 SIRAJ 가 듭니다.</translation>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
+        <translation>10000 ZND 익명화에 0.1 ZND 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1716,20 +1716,20 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</source>
-        <translation>SIRAJ수신시 자동변환 zSIRAJ 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</source>
+        <translation>ZND수신시 자동변환 zZND 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSIRAJ</source>
-        <translation>자동 변환되는 zSIRAJ 퍼센트</translation>
+        <source>Percentage of autominted zZND</source>
+        <translation>자동 변환되는 zZND 퍼센트</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</source>
-        <translation>이 디노미네이션의 SIRAJ가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</source>
+        <translation>이 디노미네이션의 ZND가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zSIRAJ Denomination</source>
-        <translation>선호하는 자동생성 zSIRAJ 디노미네이션 </translation>
+        <source>Preferred Automint zZND Denomination</source>
+        <translation>선호하는 자동생성 zZND 디노미네이션 </translation>
     </message>
     <message>
         <source>Connect to the hello network through a SOCKS5 proxy.</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Form</translation>
     </message>
     <message>
-        <source>SIRAJ Balances</source>
-        <translation>SIRAJ 잔액</translation>
+        <source>ZND Balances</source>
+        <translation>ZND 잔액</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
     <message>
-        <source>SIRAJ:</source>
-        <translation>SIRAJ:</translation>
+        <source>ZND:</source>
+        <translation>ZND:</translation>
     </message>
     <message>
-        <source>zSIRAJ:</source>
-        <translation>zSIRAJ:</translation>
+        <source>zZND:</source>
+        <translation>zZND:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2064,12 +2064,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SIRAJ which were anonymized via Zerocin Protocol</source>
-        <translation>제로코인 프로토콜을 통해 익명화된 SIRAJ</translation>
+        <source>ZND which were anonymized via Zerocin Protocol</source>
+        <translation>제로코인 프로토콜을 통해 익명화된 ZND</translation>
     </message>
     <message>
-        <source>Zerohello (zSIRAJ)</source>
-        <translation>제로코인 SIRAJ (zSIRAJ)</translation>
+        <source>Zerohello (zZND)</source>
+        <translation>제로코인 ZND (zZND)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2080,8 +2080,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 hello 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
-        <translation>zSIRAJ로 변환할 SIRAJ 수량을 입력하세요.</translation>
+        <source>Enter an amount of ZND to convert to zZND</source>
+        <translation>zZND로 변환할 ZND 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>생성 가능한 수량 :</translation>
     </message>
     <message>
-        <source>0.000 000 00 SIRAJ</source>
-        <translation>0.000 000 00 SIRAJ</translation>
+        <source>0.000 000 00 ZND</source>
+        <translation>0.000 000 00 ZND</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>마지막 발행 이후 상태나 메세지</translation>
     </message>
     <message>
-        <source>zSIRAJ Control</source>
-        <translation>zSIRAJ 설정</translation>
+        <source>zZND Control</source>
+        <translation>zZND 설정</translation>
     </message>
     <message>
-        <source>zSIRAJ Selected:</source>
-        <translation>선택한 zSIRAJ : </translation>
+        <source>zZND Selected:</source>
+        <translation>선택한 zZND : </translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>0 zSIRAJ</source>
-        <translation>0 zSIRAJ</translation>
+        <source>0 zZND</source>
+        <translation>0 zZND</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2181,7 +2181,7 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
     </message>
     <message>
         <source>The hello address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>SIRAJ를 전송할 hello 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>ZND를 전송할 hello 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>성공적으로 발행됨</translation>
     </message>
     <message>
-        <source> zSIRAJ in </source>
-        <translation> zSIRAJ in </translation>
+        <source> zZND in </source>
+        <translation> zZND in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2478,8 +2478,8 @@ Please be patient...</source>
         <translation>제로코인 송금 실패 상태 =</translation>
     </message>
     <message>
-        <source>zSIRAJ Spend #: </source>
-        <translation>zSIRAJ 송금 #: </translation>
+        <source>zZND Spend #: </source>
+        <translation>zZND 송금 #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Please be patient...</source>
         <translation>주소:</translation>
     </message>
     <message>
-        <source>zSIRAJ Mint</source>
-        <translation>zSIRAJ 생성</translation>
+        <source>zZND Mint</source>
+        <translation>zZND 생성</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3132,8 +3132,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3184,12 +3184,12 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSIRAJs로 설정되고,&lt;br /&gt;1000 uSIRAJs 안에는 최소 "킬로바이트당" 250 uSIRAJs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uZNDs로 설정되고,&lt;br /&gt;1000 uZNDs 안에는 최소 "킬로바이트당" 250 uZNDs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "total at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSIRAJs로 설정되고,&lt;br /&gt;1000 uSIRAJs 안에는 전체에서 최소 "킬로바이트당" 250 uSIRAJs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "total at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uZNDs로 설정되고,&lt;br /&gt;1000 uZNDs 안에는 전체에서 최소 "킬로바이트당" 250 uZNDs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for hello transactions than the network can process.</source>
@@ -3240,8 +3240,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized SIRAJ</source>
-        <translation>익명화 SIRAJ</translation>
+        <source>Anonymized ZND</source>
+        <translation>익명화 ZND</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3961,32 +3961,32 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-        <source>Converted SIRAJ to zSIRAJ</source>
-        <translation>zSIRAJ로 변환된 SIRAJ</translation>
+        <source>Converted ZND to zZND</source>
+        <translation>zZND로 변환된 ZND</translation>
     </message>
     <message>
-        <source>Spent zSIRAJ</source>
-        <translation>전송된 zSIRAJ</translation>
+        <source>Spent zZND</source>
+        <translation>전송된 zZND</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>zSIRAJ로 전송받은 SIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>zZND로 전송받은 ZND</translation>
     </message>
     <message>
-        <source>Minted Change as zSIRAJ from zSIRAJ Spend</source>
-        <translation>zSIRAJ 전송후 남은 잔돈 zSIRAJ 생성됨</translation>
+        <source>Minted Change as zZND from zZND Spend</source>
+        <translation>zZND 전송후 남은 잔돈 zZND 생성됨</translation>
     </message>
     <message>
-        <source>Converted zSIRAJ to SIRAJ</source>
-        <translation>zSIRAJ에서 SIRAJ로 변환됨</translation>
+        <source>Converted zZND to ZND</source>
+        <translation>zZND에서 ZND로 변환됨</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>읽기 전용</translation>
     </message>
     <message>
-        <source>zSIRAJ Accumulator</source>
-        <translation>zSIRAJ 누산기</translation>
+        <source>zZND Accumulator</source>
+        <translation>zZND 누산기</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4096,8 +4096,8 @@ Please be patient...</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>zSIRAJ로 전송받은 SIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>zZND로 전송받은 ZND</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4108,8 +4108,8 @@ Please be patient...</source>
         <translation>제로코인 전송</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zSIRAJ</source>
-        <translation>제로코인 전송, 잔돈은 zSIRAJ</translation>
+        <source>Zerocoin Spend, Change in zZND</source>
+        <translation>제로코인 전송, 잔돈은 zZND</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4233,8 +4233,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SIRAJ.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 SIRAJ로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ZND.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 ZND로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4277,10 +4277,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
-        <source>Select zSIRAJ to Spend</source>
-        <translation>전송할 zSIRAJ 선택</translation>
+        <source>Select zZND to Spend</source>
+        <translation>전송할 zZND 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4291,8 +4291,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4394,12 +4394,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (SIRAJ/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (ZND/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (SIRAJ/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (ZND/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4526,12 +4526,12 @@ rpcpassword=%s
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SIRAJ.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 SIRAJ과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ZND.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 ZND과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 SIRAJ.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 SIRAJ와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ZND.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 ZND와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4578,8 +4578,8 @@ rpcpassword=%s
         <translation>환경설정에서 masternodeprivkey를 지정해야 합니다. 도움말을 참조하십시오.</translation>
     </message>
     <message>
-        <source>(44544 could be used only on mainnet)</source>
-        <translation>(44544 은 메인넷에서만 사용될 수 있습니다)</translation>
+        <source>(44545could be used only on mainnet)</source>
+        <translation>(44545은 메인넷에서만 사용될 수 있습니다)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4590,8 +4590,8 @@ rpcpassword=%s
         <translation>(기본값: 1)</translation>
     </message>
     <message>
-        <source>(must be 44544 for mainnet)</source>
-        <translation>(메인넷 일경우 44544)</translation>
+        <source>(must be 44545for mainnet)</source>
+        <translation>(메인넷 일경우 60128)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4834,8 +4834,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in SIRAJ/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (SIRAJ/kB) (기본값: %s)</translation>
+        <source>Fee (in ZND/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (ZND/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

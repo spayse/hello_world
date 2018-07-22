@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
         <translation>hello сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши hello от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ SIRAJ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ ZND&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -610,7 +610,7 @@
         <translation>&amp;Конфиденциальность</translation>
     </message>
     <message>
-        <source>Privacy Action for zSIRAJ and Obfuscation</source>
+        <source>Privacy Action for zZND and Obfuscation</source>
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
@@ -1516,32 +1516,32 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 SIRAJ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 ZND</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 SIRAJ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 ZND</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 SIRAJ для анонимизации 10000 SIRAJ</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 ZND для анонимизации 10000 ZND</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 SIRAJ для анонимизации 10000 SIRAJ</translation>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 ZND для анонимизации 10000 ZND</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
-        <translation>0.1 SIRAJ за 10000 SIRAJ которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
+        <translation>0.1 ZND за 10000 ZND которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1684,16 +1684,16 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих SIRAJ, которые автоматически конвертируются в zSIRAJ благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих ZND, которые автоматически конвертируются в zZND благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSIRAJ</source>
-        <translation>Процент  авточеканненых zSIRAJ</translation>
+        <source>Percentage of autominted zZND</source>
+        <translation>Процент  авточеканненых zZND</translation>
     </message>
     <message>
-        <source>Preferred Automint zSIRAJ Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zSIRAJ</translation>
+        <source>Preferred Automint zZND Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zZND</translation>
     </message>
     <message>
         <source>Connect to the hello network through a SOCKS5 proxy.</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Вид</translation>
     </message>
     <message>
-        <source>SIRAJ Balances</source>
-        <translation>Баланс SIRAJ</translation>
+        <source>ZND Balances</source>
+        <translation>Баланс ZND</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1891,12 +1891,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>SIRAJ:</source>
-        <translation>SIRAJ:</translation>
+        <source>ZND:</source>
+        <translation>ZND:</translation>
     </message>
     <message>
-        <source>zSIRAJ:</source>
-        <translation>zSIRAJ:</translation>
+        <source>zZND:</source>
+        <translation>zZND:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SIRAJ which were anonymized via Zerocin Protocol</source>
-        <translation>SIRAJ, который был анонимно использован через Zerocoin протокол</translation>
+        <source>ZND which were anonymized via Zerocin Protocol</source>
+        <translation>ZND, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2032,8 +2032,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью hello после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
-        <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
-        <translation>Введите сумму в SIRAJ для  конвертации в zSIRAJ</translation>
+        <source>Enter an amount of ZND to convert to zZND</source>
+        <translation>Введите сумму в ZND для  конвертации в zZND</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3198,7 +3198,7 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

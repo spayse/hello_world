@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SIRAJSupply">
+    <widget class="QLabel" name="ZNDSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="SIRAJDemand">
+    <widget class="QLabel" name="ZNDDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuySIRAJ">
+    <widget class="QPushButton" name="BuyZND">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy SIRAJ</string>
+      <string>Buy ZND</string>
      </property>
      <property name="icon">
       <iconset resource="../hello.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>SIRAJ</string>
+      <string>ZND</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>SIRAJ</string>
+      <string>ZND</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputSIRAJ">
+    <widget class="QLineEdit" name="UnitsInputZND">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellSIRAJBTN">
+    <widget class="QPushButton" name="SellZNDBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell SIRAJ</string>
+      <string>Sell ZND</string>
      </property>
      <property name="icon">
       <iconset resource="../hello">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>SIRAJ Available:</string>
+         <string>ZND Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="SIRAJAvailableLabel">
+       <widget class="QLabel" name="ZNDAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelSIRAJ">
+       <widget class="QLabel" name="labelZND">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>SIRAJ</string>
+         <string>ZND</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SIRAJBalanceLabel">
+    <widget class="QLabel" name="ZNDBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>SIRAJ Balance:</string>
+      <string>ZND Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SIRAJAvailableLabel_2">
+    <widget class="QLabel" name="ZNDAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>SIRAJ Available:</string>
+      <string>ZND Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>SIRAJ Pending:</string>
+      <string>ZND Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SIRAJPendingLabel">
+    <widget class="QLabel" name="ZNDPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex SIRAJ Deposit Address:</string>
+      <string>Bittrex ZND Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">

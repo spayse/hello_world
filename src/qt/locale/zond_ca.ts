@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>hello es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus SIRAJ de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
+        <translation>hello es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus ZND de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES SIRAJS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES ZNDS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 SIRAJ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 ZND</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 SIRAJ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 ZND</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 SIRAJ per anonimitzar 10000 SIRAJ</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 ZND per anonimitzar 10000 ZND</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 SIRAJ per anonimitzar 10000 SIRAJ</translation>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 ZND per anonimitzar 10000 ZND</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1271,12 +1271,12 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>SIRAJ:</source>
-        <translation>SIRAJ:</translation>
+        <source>ZND:</source>
+        <translation>ZND:</translation>
     </message>
     <message>
-        <source>zSIRAJ:</source>
-        <translation>zSIRAJ:</translation>
+        <source>zZND:</source>
+        <translation>zZND:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,20 +1304,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerohello (zSIRAJ)</source>
-        <translation>Zerohello (zSIRAJ)</translation>
+        <source>Zerohello (zZND)</source>
+        <translation>Zerohello (zZND)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
-        <source>0.000 000 00 SIRAJ</source>
-        <translation>0.000 000 00 SIRAJ</translation>
+        <source>0.000 000 00 ZND</source>
+        <translation>0.000 000 00 ZND</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zSIRAJ</source>
-        <translation>0 zSIRAJ</translation>
+        <source>0 zZND</source>
+        <translation>0 zZND</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1969,7 +1969,7 @@
     </message>
     </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>
@@ -1979,8 +1979,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     </context>
 <context>

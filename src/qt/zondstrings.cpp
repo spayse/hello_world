@@ -56,7 +56,7 @@ QT_TRANSLATE_NOOP("hello-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
 QT_TRANSLATE_NOOP("hello-core", ""
-"Enable automatic wallet backups triggered after each zSIRAJ minting (0-1, "
+"Enable automatic wallet backups triggered after each zZND minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("hello-core", ""
 "Enable spork administration functionality with the appropriate private key."),
@@ -90,10 +90,10 @@ QT_TRANSLATE_NOOP("hello-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("hello-core", ""
-"Fees (in SIRAJ/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in ZND/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("hello-core", ""
-"Fees (in SIRAJ/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in ZND/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("hello-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -188,10 +188,10 @@ QT_TRANSLATE_NOOP("hello-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("hello-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 SIRAJ."),
+"transaction that are not equal 10000 ZND."),
 QT_TRANSLATE_NOOP("hello-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"SIRAJ."),
+"ZND."),
 QT_TRANSLATE_NOOP("hello-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("hello-core", ""
 QT_TRANSLATE_NOOP("hello-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("hello-core", "(44544 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("hello-core", "(44545could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("hello-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("hello-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("hello-core", "(must be 44544 for mainnet)"),
+QT_TRANSLATE_NOOP("hello-core", "(must be 44545for mainnet)"),
 QT_TRANSLATE_NOOP("hello-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("hello-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("hello-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
@@ -304,7 +304,7 @@ QT_TRANSLATE_NOOP("hello-core", "Failed to listen on any port. Use -listen=0 if 
 QT_TRANSLATE_NOOP("hello-core", "Failed to read block index"),
 QT_TRANSLATE_NOOP("hello-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("hello-core", "Failed to write block index"),
-QT_TRANSLATE_NOOP("hello-core", "Fee (in SIRAJ/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("hello-core", "Fee (in ZND/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("hello-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("hello-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("hello-core", "Found enough users, signing ( waiting %s )"),

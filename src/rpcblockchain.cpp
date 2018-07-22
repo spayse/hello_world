@@ -91,12 +91,12 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    Object zSIRAJObj;
+    Object zzndObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zSIRAJObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zzndObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zSIRAJObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.emplace_back(Pair("zSIRAJsupply", zSIRAJObj));
+    zzndObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.emplace_back(Pair("zZNDsupply", zzndObj));
 
     return result;
 }
@@ -279,17 +279,17 @@ Value getblock(const Array& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zSIRAJsupply\" :\n"
+            "  \"zZNDsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zSIRAJ denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zSIRAJ denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zSIRAJ denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zSIRAJ denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zSIRAJ denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zSIRAJ denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zSIRAJ denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zSIRAJ denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zSIRAJ denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zZND denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zZND denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zZND denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zZND denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zZND denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zZND denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zZND denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zZND denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zZND denominations\n"
             "  }\n"
             "}\n"
             "\nResult (for verbose=false):\n"

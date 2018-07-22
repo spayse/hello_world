@@ -842,31 +842,31 @@ CAmount CBudgetManager::GetTotalBudget(int nHeight)
     //get block value and calculate from that
     CAmount nSubsidy = 0;
     if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 210240) {
-        nSubsidy = 0.2 * COIN;
+        nSubsidy = 0 * COIN;
 	} else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight < 210240) {
-		nSubsidy = 0.2 * COIN;
+		nSubsidy = 0 * COIN;
     } else if (nHeight <= 682559 && nHeight > Params().LAST_POW_BLOCK()) {
-        nSubsidy = 0.1 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 734399 && nHeight >= 682560) {
-        nSubsidy = 0.095 * COIN;
+        nSubsidy = 0.* COIN;
     } else if (nHeight <= 786239 && nHeight >= 734400) {
-        nSubsidy = 0.09 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 838079 && nHeight >= 786240) {
-        nSubsidy = 0.085 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 889919 && nHeight >= 838080) {
-        nSubsidy = 0.08 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 941759 && nHeight >= 889920) {
-        nSubsidy = 0.075 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 993599 && nHeight >= 941760) {
-        nSubsidy = 0.07 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 1045439 && nHeight >= 993600) {
-        nSubsidy = 0.075 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight <= 1097279 && nHeight >= 1045440) {
-        nSubsidy = 0.07 * COIN;
+        nSubsidy = 0 * COIN;
 	} else if (nHeight <= 1149119 && nHeight >= 1097280) {
-        nSubsidy = 0.05 * COIN;
+        nSubsidy = 0 * COIN;
     } else if (nHeight >= 1149120) {
-        nSubsidy = 0.025 * COIN;
+        nSubsidy = 0 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }

@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>hello se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus SIRAJs no sean robados mediante malware de su ordenador.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
+        <translation>hello se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus ZNDs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS SIRAJ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS ZND&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacidad</translation>
     </message>
     <message>
-        <source>Privacy Action for zSIRAJ and Obfuscation</source>
-        <translation>Privacidad con zSIRAJ y Ofuscación</translation>
+        <source>Privacy Action for zZND and Obfuscation</source>
+        <translation>Privacidad con zZND y Ofuscación</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 SIRAJ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 ZND</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 SIRAJ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 ZND</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 SIRAJ para anonimizar 10000 SIRAJ</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 ZND para anonimizar 10000 ZND</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 SIRAJ para anonimizar 10000 SIRAJ.</translation>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 ZND para anonimizar 10000 ZND.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
-        <translation>0.1 SIRAJ por 10000 SIRAJ que anonimizas.</translation>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
+        <translation>0.1 ZND por 10000 ZND que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1716,20 +1716,20 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de SIRAJs entrantes que serán automáticamente convertidos a zSIRAJ a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de ZNDs entrantes que serán automáticamente convertidos a zZND a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSIRAJ</source>
-        <translation>Porcentaje de zSIRAJ autogenerados</translation>
+        <source>Percentage of autominted zZND</source>
+        <translation>Porcentaje de zZND autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes SIRAJ disponibles para este tamaño de billete</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes ZND disponibles para este tamaño de billete</translation>
     </message>
     <message>
-        <source>Preferred Automint zSIRAJ Denomination</source>
-        <translation>Tamaño de billete zSIRAJ preferido en la creación automática de dinero</translation>
+        <source>Preferred Automint zZND Denomination</source>
+        <translation>Tamaño de billete zZND preferido en la creación automática de dinero</translation>
     </message>
     <message>
         <source>Connect to the hello network through a SOCKS5 proxy.</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>SIRAJ Balances</source>
-        <translation>Balances SIRAJ</translation>
+        <source>ZND Balances</source>
+        <translation>Balances ZND</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Balances Combinados (incluyendo monedas inmaduras)</translation>
     </message>
     <message>
-        <source>SIRAJ:</source>
-        <translation>SIRAJ:</translation>
+        <source>ZND:</source>
+        <translation>ZND:</translation>
     </message>
     <message>
-        <source>zSIRAJ:</source>
-        <translation>zSIRAJ:</translation>
+        <source>zZND:</source>
+        <translation>zZND:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2064,12 +2064,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SIRAJ which were anonymized via Zerocin Protocol</source>
-        <translation>SIRAJ que fueron anonimizados mediante Protocolo Zerocoin</translation>
+        <source>ZND which were anonymized via Zerocin Protocol</source>
+        <translation>ZND que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerohello (zSIRAJ)</source>
-        <translation>Zerohello (zSIRAJ)</translation>
+        <source>Zerohello (zZND)</source>
+        <translation>Zerohello (zZND)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2080,8 +2080,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red hello después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
-        <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
-        <translation>Introduzca la cantidad de SIRAJ que desea convertir a zSIRAJ</translation>
+        <source>Enter an amount of ZND to convert to zZND</source>
+        <translation>Introduzca la cantidad de ZND que desea convertir a zZND</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Disponible para Creación de moneda:</translation>
     </message>
     <message>
-        <source>0.000 000 00 SIRAJ</source>
-        <translation>0.000 000 00 SIRAJ</translation>
+        <source>0.000 000 00 ZND</source>
+        <translation>0.000 000 00 ZND</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Estado y/o Mensajes de la última Acción de Creación de moneda.</translation>
     </message>
     <message>
-        <source>zSIRAJ Control</source>
-        <translation>Control zSIRAJ</translation>
+        <source>zZND Control</source>
+        <translation>Control zZND</translation>
     </message>
     <message>
-        <source>zSIRAJ Selected:</source>
-        <translation>zSIRAJ Seleccionados:</translation>
+        <source>zZND Selected:</source>
+        <translation>zZND Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Balance disponible:</translation>
     </message>
     <message>
-        <source>0 zSIRAJ</source>
-        <translation>0 zSIRAJ</translation>
+        <source>0 zZND</source>
+        <translation>0 zZND</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Monedas creadas correctamente</translation>
     </message>
     <message>
-        <source> zSIRAJ in </source>
-        <translation>zSIRAJ en</translation>
+        <source> zZND in </source>
+        <translation>zZND en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2478,8 +2478,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gastar Zerocoin falló con estado =</translation>
     </message>
     <message>
-        <source>zSIRAJ Spend #: </source>
-        <translation>Gastar zSIRAJ #:</translation>
+        <source>zZND Spend #: </source>
+        <translation>Gastar zZND #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Por favor tenga paciencia...</translation>
         <translation>dirección:</translation>
     </message>
     <message>
-        <source>zSIRAJ Mint</source>
-        <translation>Creación de zSIRAJ</translation>
+        <source>zZND Mint</source>
+        <translation>Creación de zZND</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3131,8 +3131,8 @@ Por favor tenga paciencia...</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3183,12 +3183,12 @@ Por favor tenga paciencia...</translation>
         <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uSIRAJs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSIRAJs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSIRAJs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uZNDs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uZNDs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uZNDs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "total at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uSIRAJs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSIRAJs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSIRAJs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "total at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uZNDs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uZNDs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uZNDs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for hello transactions than the network can process.</source>
@@ -3239,8 +3239,8 @@ Por favor tenga paciencia...</translation>
         <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
-        <source>Anonymized SIRAJ</source>
-        <translation>SIRAJ anonimizados</translation>
+        <source>Anonymized ZND</source>
+        <translation>ZND anonimizados</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3959,32 +3959,32 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
-        <source>Converted SIRAJ to zSIRAJ</source>
-        <translation>SIRAJ convertidos a zSIRAJ</translation>
+        <source>Converted ZND to zZND</source>
+        <translation>ZND convertidos a zZND</translation>
     </message>
     <message>
-        <source>Spent zSIRAJ</source>
-        <translation>zSIRAJ Gastados</translation>
+        <source>Spent zZND</source>
+        <translation>zZND Gastados</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>SIRAJ recibidos desde zSIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>ZND recibidos desde zZND</translation>
     </message>
     <message>
-        <source>Minted Change as zSIRAJ from zSIRAJ Spend</source>
-        <translation>Cambio Creado en zSIRAJ por un Gasto zSIRAJ</translation>
+        <source>Minted Change as zZND from zZND Spend</source>
+        <translation>Cambio Creado en zZND por un Gasto zZND</translation>
     </message>
     <message>
-        <source>Converted zSIRAJ to SIRAJ</source>
-        <translation>zSIRAJ convertidos en SIRAJ</translation>
+        <source>Converted zZND to ZND</source>
+        <translation>zZND convertidos en ZND</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
     </message>
     <message>
-        <source>zSIRAJ Accumulator</source>
-        <translation>Acumulador zSIRAJ</translation>
+        <source>zZND Accumulator</source>
+        <translation>Acumulador zZND</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4094,8 +4094,8 @@ Por favor tenga paciencia...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>SIRAJ recibidos desde zSIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>ZND recibidos desde zZND</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4106,8 +4106,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gasto de Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zSIRAJ</source>
-        <translation>Gasto de Zerocoin, Cambio en zSIRAJ</translation>
+        <source>Zerocoin Spend, Change in zZND</source>
+        <translation>Gasto de Zerocoin, Cambio en zZND</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4231,8 +4231,8 @@ Por favor tenga paciencia...</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SIRAJ.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 SIRAJ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ZND.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 ZND.</translation>
     </message>
 </context>
 <context>
@@ -4275,10 +4275,10 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
-        <source>Select zSIRAJ to Spend</source>
-        <translation>Seleccione zSIRAJ a Gastar</translation>
+        <source>Select zZND to Spend</source>
+        <translation>Seleccione zZND a Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4289,8 +4289,8 @@ Por favor tenga paciencia...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4392,12 +4392,12 @@ Por favor tenga paciencia...</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en SIRAJ/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en ZND/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en SIRAJ/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en ZND/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4528,12 +4528,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SIRAJ.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 SIRAJ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ZND.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 ZND.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 SIRAJ.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 SIRAJ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ZND.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 ZND.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4580,8 +4580,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
-        <source>(44544 could be used only on mainnet)</source>
-        <translation>(44544 puede ser utilizado solo en mainnet)</translation>
+        <source>(44545could be used only on mainnet)</source>
+        <translation>(44545puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4592,8 +4592,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>(predeterminado: 1)</translation>
     </message>
     <message>
-        <source>(must be 44544 for mainnet)</source>
-        <translation>(debe ser 44544 para un mainnet)</translation>
+        <source>(must be 44545for mainnet)</source>
+        <translation>(debe ser 44545para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4836,8 +4836,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in SIRAJ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en SIRAJ/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in ZND/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en ZND/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

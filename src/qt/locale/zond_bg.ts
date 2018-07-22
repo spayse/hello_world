@@ -176,7 +176,7 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
         <translation>hello сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия hello от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ SIRAJ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ ZND&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zSIRAJ and Obfuscation</source>
-        <translation>Поверителни действия за zSIRAJ и Обфускация</translation>
+        <source>Privacy Action for zZND and Obfuscation</source>
+        <translation>Поверителни действия за zZND и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 SIRAJ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 ZND</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 SIRAJ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 ZND</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 SIRAJ за да скриете 10000 SIRAJ</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 ZND за да скриете 10000 ZND</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 SIRAJ за да скриете 10000 SIRAJ</translation>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 ZND за да скриете 10000 ZND</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на SIRAJ. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на ZND. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
-        <translation>0.1 SIRAJ за 10000 скрити SIRAJ</translation>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
+        <translation>0.1 ZND за 10000 скрити ZND</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1712,20 +1712,20 @@ https://www.transifex.com/hello-project/hello-project-translations</source>
 https://www.transifex.com/hello-project/hello-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите SIRAJ, който автоматично да се конвертира в zSIRAJ посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите ZND, който автоматично да се конвертира в zZND посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSIRAJ</source>
-        <translation>Процент автоматично сечени zSIRAJ</translation>
+        <source>Percentage of autominted zZND</source>
+        <translation>Процент автоматично сечени zZND</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zSIRAJ докато не се съберат достатъчно SIRAJ за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zZND докато не се съберат достатъчно ZND за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zSIRAJ Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zSIRAJ</translation>
+        <source>Preferred Automint zZND Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zZND</translation>
     </message>
     <message>
         <source>Connect to the hello network through a SOCKS5 proxy.</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>От</translation>
     </message>
     <message>
-        <source>SIRAJ Balances</source>
-        <translation>SIRAJ Баланс</translation>
+        <source>ZND Balances</source>
+        <translation>ZND Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>SIRAJ:</source>
-        <translation>SIRAJ:</translation>
+        <source>ZND:</source>
+        <translation>ZND:</translation>
     </message>
     <message>
-        <source>zSIRAJ:</source>
-        <translation>zSIRAJ:</translation>
+        <source>zZND:</source>
+        <translation>zZND:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2060,12 +2060,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SIRAJ which were anonymized via Zerocin Protocol</source>
-        <translation>SIRAJ скрити посредством Зерокойн протокола</translation>
+        <source>ZND which were anonymized via Zerocin Protocol</source>
+        <translation>ZND скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerohello (zSIRAJ)</source>
-        <translation>Zerohello (zSIRAJ)</translation>
+        <source>Zerohello (zZND)</source>
+        <translation>Zerohello (zZND)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2076,8 +2076,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с hello мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
-        <translation>Въведете колко SIRAJ  да се конвертират в zSIRAJ</translation>
+        <source>Enter an amount of ZND to convert to zZND</source>
+        <translation>Въведете колко ZND  да се конвертират в zZND</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 SIRAJ</source>
-        <translation>0.000 000 00 SIRAJ</translation>
+        <source>0.000 000 00 ZND</source>
+        <translation>0.000 000 00 ZND</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2132,12 +2132,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zSIRAJ Control</source>
-        <translation>zSIRAJ Контрол</translation>
+        <source>zZND Control</source>
+        <translation>zZND Контрол</translation>
     </message>
     <message>
-        <source>zSIRAJ Selected:</source>
-        <translation>Избрани zSIRAJ:</translation>
+        <source>zZND Selected:</source>
+        <translation>Избрани zZND:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zSIRAJ</source>
-        <translation>0 zSIRAJ</translation>
+        <source>0 zZND</source>
+        <translation>0 zZND</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zSIRAJ от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zZND от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zSIRAJ in </source>
-        <translation>zSIRAJ в</translation>
+        <source> zZND in </source>
+        <translation>zZND в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2474,8 +2474,8 @@ Please be patient...</source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
     </message>
     <message>
-        <source>zSIRAJ Spend #: </source>
-        <translation>zSIRAJ Похарчени #:</translation>
+        <source>zZND Spend #: </source>
+        <translation>zZND Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2498,8 +2498,8 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zSIRAJ Mint</source>
-        <translation>Сечене на zSIRAJ</translation>
+        <source>zZND Mint</source>
+        <translation>Сечене на zZND</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,12 +3179,12 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uSIRAJ и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uSIRAJ входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uSIRAJ. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uZND и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uZND входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uZND. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "total at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uSIRAJ и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uSIRAJ входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uSIRAJ. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "total at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uZND и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uZND входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uZND. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for hello transactions than the network can process.</source>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized SIRAJ</source>
-        <translation>Анонимизиран SIRAJ</translation>
+        <source>Anonymized ZND</source>
+        <translation>Анонимизиран ZND</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3296,7 +3296,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Invalid hello address</source>
-        <translation>Предупреждение: Невалиден SIRAJ адрес</translation>
+        <translation>Предупреждение: Невалиден ZND адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3955,32 +3955,32 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted SIRAJ to zSIRAJ</source>
-        <translation>Конвертиран SIRAJ във zSIRAJ</translation>
+        <source>Converted ZND to zZND</source>
+        <translation>Конвертиран ZND във zZND</translation>
     </message>
     <message>
-        <source>Spent zSIRAJ</source>
-        <translation>Похарчени zSIRAJ</translation>
+        <source>Spent zZND</source>
+        <translation>Похарчени zZND</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>Получен SIRAJ от zSIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>Получен ZND от zZND</translation>
     </message>
     <message>
-        <source>Minted Change as zSIRAJ from zSIRAJ Spend</source>
-        <translation>Исечено ресто като zSIRAJ от похарчените zSIRAJ</translation>
+        <source>Minted Change as zZND from zZND Spend</source>
+        <translation>Исечено ресто като zZND от похарчените zZND</translation>
     </message>
     <message>
-        <source>Converted zSIRAJ to SIRAJ</source>
-        <translation>Конвертирани zSIRAJ в SIRAJ</translation>
+        <source>Converted zZND to ZND</source>
+        <translation>Конвертирани zZND в ZND</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>наблюдение само</translation>
     </message>
     <message>
-        <source>zSIRAJ Accumulator</source>
-        <translation>zSIRAJ Акумулатор</translation>
+        <source>zZND Accumulator</source>
+        <translation>zZND Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4086,8 +4086,8 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>Получен SIRAJ от zSIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>Получен ZND от zZND</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4098,8 +4098,8 @@ Please be patient...</source>
         <translation>Харчене на Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zSIRAJ</source>
-        <translation>Харчене на Zerocoin, Ресто в zSIRAJ</translation>
+        <source>Zerocoin Spend, Change in zZND</source>
+        <translation>Харчене на Zerocoin, Ресто в zZND</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SIRAJ.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 SIRAJ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ZND.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 ZND.</translation>
     </message>
 </context>
 <context>
@@ -4259,10 +4259,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
-        <source>Select zSIRAJ to Spend</source>
-        <translation>Изберете zSIRAJ за Изпращане</translation>
+        <source>Select zZND to Spend</source>
+        <translation>Изберете zZND за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4273,8 +4273,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в SIRAJ/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в ZND/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в SIRAJ/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в ZND/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

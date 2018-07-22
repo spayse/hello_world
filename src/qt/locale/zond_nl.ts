@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>hello zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SIRAJs stelen.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZNDs from being stolen by malware infecting your computer.</source>
+        <translation>hello zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw ZNDs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIRAJ&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW SIRAJ VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZND&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW ZND VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacy</translation>
     </message>
     <message>
-        <source>Privacy Action for zSIRAJ and Obfuscation</source>
-        <translation>Privacy Actie voor zSIRAJ en verduistering</translation>
+        <source>Privacy Action for zZND and Obfuscation</source>
+        <translation>Privacy Actie voor zZND en verduistering</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1531,32 +1531,32 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Selecteer de privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 SIRAJ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 ZND</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 SIRAJ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ZND</source>
+        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 ZND</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Gebruik 16 aparte masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 SIRAJ om 10000 SIRAJ te anonimiseren</translation>
+        <source>This option is the quickest and will cost about ~0.025 ZND to anonymize 10000 ZND</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0,025 ZND om 10000 ZND te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 SIRAJ om 10000 SIRAJ te anonimiseren</translation>
+        <source>This option is moderately fast and will cost about 0.05 ZND to anonymize 10000 ZND</source>
+        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 ZND om 10000 ZND te anonimiseren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
     </message>
     <message>
-        <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
-        <translation>je anonimiseert 0,1 SIRAJ per 10000 SIRAJ.</translation>
+        <source>0.1 ZND per 10000 ZND you anonymize.</source>
+        <translation>je anonimiseert 0,1 ZND per 10000 ZND.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1699,20 +1699,20 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende SIRAJ die automatisch wordt omgezet naar zSIRAJ via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende ZND die automatisch wordt omgezet naar zZND via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSIRAJ</source>
-        <translation>Percentage autominted zSIRAJ</translation>
+        <source>Percentage of autominted zZND</source>
+        <translation>Percentage autominted zZND</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg SIRAJ voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg ZND voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zSIRAJ Denomination</source>
-        <translation>Gewenste Automint zSIRAJ denominatie</translation>
+        <source>Preferred Automint zZND Denomination</source>
+        <translation>Gewenste Automint zZND denominatie</translation>
     </message>
     <message>
         <source>Connect to the hello network through a SOCKS5 proxy.</source>
@@ -1846,8 +1846,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>SIRAJ Balances</source>
-        <translation>SIRAJ Saldi</translation>
+        <source>ZND Balances</source>
+        <translation>ZND Saldi</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1914,12 +1914,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Gecombineerde Saldi (inclusief onvolwassen munten)</translation>
     </message>
     <message>
-        <source>SIRAJ:</source>
-        <translation>SIRAJ:</translation>
+        <source>ZND:</source>
+        <translation>ZND:</translation>
     </message>
     <message>
-        <source>zSIRAJ:</source>
-        <translation>zSIRAJ:</translation>
+        <source>zZND:</source>
+        <translation>zZND:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2047,12 +2047,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SIRAJ which were anonymized via Zerocin Protocol</source>
-        <translation>SIRAJ die via het Zerocin Protocol geanonimiseerd werden</translation>
+        <source>ZND which were anonymized via Zerocin Protocol</source>
+        <translation>ZND die via het Zerocin Protocol geanonimiseerd werden</translation>
     </message>
     <message>
-        <source>Zerohello (zSIRAJ)</source>
-        <translation>Zerohello (zSIRAJ)</translation>
+        <source>Zerohello (zZND)</source>
+        <translation>Zerohello (zZND)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2063,8 +2063,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het hello netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
-        <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
-        <translation>Vul de hoeveleheid in om SIRAJ te converteren naar zSIRAJ</translation>
+        <source>Enter an amount of ZND to convert to zZND</source>
+        <translation>Vul de hoeveleheid in om ZND te converteren naar zZND</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2075,16 +2075,16 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Beschikbaar voor minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 SIRAJ</source>
-        <translation>0.000 000 00 SIRAJ</translation>
+        <source>0.000 000 00 ZND</source>
+        <translation>0.000 000 00 ZND</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2119,12 +2119,12 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Status en/of Berichten van de laatste mint actie.</translation>
     </message>
     <message>
-        <source>zSIRAJ Control</source>
-        <translation>zSIRAJ controle</translation>
+        <source>zZND Control</source>
+        <translation>zZND controle</translation>
     </message>
     <message>
-        <source>zSIRAJ Selected:</source>
-        <translation>zSIRAJ geselecteerd:</translation>
+        <source>zZND Selected:</source>
+        <translation>zZND geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2143,8 +2143,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>0 zSIRAJ</source>
-        <translation>0 zSIRAJ</translation>
+        <source>0 zZND</source>
+        <translation>0 zZND</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2383,8 +2383,8 @@ https://www.transifex.com/hello-project/hello-project-translations</translation>
         <translation>Succesvol gemint</translation>
     </message>
     <message>
-        <source> zSIRAJ in </source>
-        <translation> zSIRAJ in </translation>
+        <source> zZND in </source>
+        <translation> zZND in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2462,8 +2462,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bestede Zerocoin mislukt met status =</translation>
     </message>
     <message>
-        <source>zSIRAJ Spend #: </source>
-        <translation>zSIRAJ besteed #: </translation>
+        <source>zZND Spend #: </source>
+        <translation>zZND besteed #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2486,8 +2486,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>adres:</translation>
     </message>
     <message>
-        <source>zSIRAJ Mint</source>
-        <translation>zSIRAJ Mint</translation>
+        <source>zZND Mint</source>
+        <translation>zZND Mint</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3115,8 +3115,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 SIRAJ</source>
-        <translation>0 SIRAJ</translation>
+        <source>0 ZND</source>
+        <translation>0 ZND</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3167,12 +3167,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uSIRAJs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uSIRAJ's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uSIRAJ's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uZNDs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uZND's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uZND's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSIRAJs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSIRAJs in fee,&lt;br /&gt;while "total at least" pays 1000 uSIRAJs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uSIRAJs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uSIRAJ's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uSIRAJ's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uZNDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uZNDs in fee,&lt;br /&gt;while "total at least" pays 1000 uZNDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uZNDs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uZND's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uZND's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for hello transactions than the network can process.</source>
@@ -3223,8 +3223,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized SIRAJ</source>
-        <translation>Geanonimiseerde SIRAJ</translation>
+        <source>Anonymized ZND</source>
+        <translation>Geanonimiseerde ZND</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3939,32 +3939,32 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verduisterd</translation>
     </message>
     <message>
-        <source>Converted SIRAJ to zSIRAJ</source>
-        <translation>Geconverteerde SIRAJ naar zSIRAJ</translation>
+        <source>Converted ZND to zZND</source>
+        <translation>Geconverteerde ZND naar zZND</translation>
     </message>
     <message>
-        <source>Spent zSIRAJ</source>
-        <translation>Uitgegeven zSIRAJ</translation>
+        <source>Spent zZND</source>
+        <translation>Uitgegeven zZND</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>Verkregen SIRAJ van zSIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>Verkregen ZND van zZND</translation>
     </message>
     <message>
-        <source>Minted Change as zSIRAJ from zSIRAJ Spend</source>
-        <translation>Minted wisselgeld als zSIRAJ van uitgegeven zSIRAJ</translation>
+        <source>Minted Change as zZND from zZND Spend</source>
+        <translation>Minted wisselgeld als zZND van uitgegeven zZND</translation>
     </message>
     <message>
-        <source>Converted zSIRAJ to SIRAJ</source>
-        <translation>Geconverteerde zSIRAJ naar SIRAJ</translation>
+        <source>Converted zZND to ZND</source>
+        <translation>Geconverteerde zZND naar ZND</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>watch-only</translation>
     </message>
     <message>
-        <source>zSIRAJ Accumulator</source>
-        <translation>zSIRAJ Accumulator</translation>
+        <source>zZND Accumulator</source>
+        <translation>zZND Accumulator</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4074,8 +4074,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Masternode beloning</translation>
     </message>
     <message>
-        <source>Received SIRAJ from zSIRAJ</source>
-        <translation>Verkregen SIRAJ van zSIRAJ</translation>
+        <source>Received ZND from zZND</source>
+        <translation>Verkregen ZND van zZND</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4086,8 +4086,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Zerocoin uitgegeven</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zSIRAJ</source>
-        <translation>Zerocoin uitgegeven, wisselgeld in zSIRAJ</translation>
+        <source>Zerocoin Spend, Change in zZND</source>
+        <translation>Zerocoin uitgegeven, wisselgeld in zZND</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4211,8 +4211,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SIRAJ.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 SIRAJ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ZND.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 ZND.</translation>
     </message>
 </context>
 <context>
@@ -4255,10 +4255,10 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>ZSIRAJControlDialog</name>
+    <name>ZZNDControlDialog</name>
     <message>
-        <source>Select zSIRAJ to Spend</source>
-        <translation>Selecteer zSIRAJ om te spenderen</translation>
+        <source>Select zZND to Spend</source>
+        <translation>Selecteer zZND om te spenderen</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4269,8 +4269,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSIRAJ</source>
-        <translation>zSIRAJ</translation>
+        <source>zZND</source>
+        <translation>zZND</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4372,12 +4372,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in SIRAJ/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in ZND/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in SIRAJ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in SIRAJ/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in ZND/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in ZND/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4508,12 +4508,12 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SIRAJ.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 SIRAJ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ZND.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 ZND.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 SIRAJ.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 SIRAJ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ZND.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 ZND.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4560,8 +4560,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
     </message>
     <message>
-        <source>(44544 could be used only on mainnet)</source>
-        <translation>(44544 kan alleen op mainnet worden gebruikt)</translation>
+        <source>(44545could be used only on mainnet)</source>
+        <translation>(44545kan alleen op mainnet worden gebruikt)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4572,8 +4572,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>(standaard: 1)</translation>
     </message>
     <message>
-        <source>(must be 44544 for mainnet)</source>
-        <translation>(moet 44544 voor mainnet zijn)</translation>
+        <source>(must be 44545for mainnet)</source>
+        <translation>(moet 44545voor mainnet zijn)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4816,8 +4816,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "hello Alert" admin@foo.com
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in SIRAJ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in SIRAJ/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in ZND/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in ZND/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

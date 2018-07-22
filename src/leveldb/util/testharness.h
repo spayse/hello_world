@@ -19,9 +19,9 @@ namespace test {
 // environment variable "LEVELDB_TESTS" is not set, runs all tests.
 // Otherwise, runs only the tests whose name contains the value of
 // "LEVELDB_TESTS" as a substring.  E.g., suppose the tests are:
-//    TEST(Foo, hello) { ... }
+//    TEST(Foo, Hello) { ... }
 //    TEST(Foo, World) { ... }
-// LEVELDB_TESTS=hello will run the first test
+// LEVELDB_TESTS=Hello will run the first test
 // LEVELDB_TESTS=o     will run both tests
 // LEVELDB_TESTS=Junk  will run no tests
 //

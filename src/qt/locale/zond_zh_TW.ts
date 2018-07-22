@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出Hello幣的位址</translation>
+        <translation>選擇要匯出hello幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收Hello幣的位址</translation>
+        <translation>選擇要接收hello幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 Hello 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 hello 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 Hello 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 hello 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>Hello 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SIRAJ 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <translation>hello 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SIRAJ 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 Hello 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 hello 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>對訊息簽名的 Hello 位址</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>對訊息簽名的 hello 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>使用簽章來證明你是該  Hello 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>使用簽章來證明你是該  hello 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>此訊息之 Hello 位址已簽章於</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>此訊息之 hello 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>驗證訊息以確保該  Hello 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>驗證訊息以確保該  hello 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>送出錢幣到 Hello 地址</translation>
+        <source>Send coins to a hello address</source>
+        <translation>送出錢幣到 hello 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Hello: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 Hello 位址)</translation>
+        <source>Request payments (generates QR codes and hello: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 hello 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Hello Core</source>
-        <translation>&amp;關於 Hello Core</translation>
+        <source>&amp;About hello Core</source>
+        <translation>&amp;關於 hello Core</translation>
     </message>
     <message>
-        <source>Show information about Hello Core</source>
-        <translation>顯示 Hello Core 相關資訊</translation>
+        <source>Show information about hello Core</source>
+        <translation>顯示 hello Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>修改 Hello 設定</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>修改 hello 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
-        <translation>使用你的 Hello 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your hello addresses to prove you own them</source>
+        <translation>使用你的 hello 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>驗證訊息簽章與 Hello 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>驗證訊息簽章與 hello 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a Hello: URI or payment request</source>
-        <translation>打開Hello: 位址或付款請求 </translation>
+        <source>Open a hello: URI or payment request</source>
+        <translation>打開hello: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Hello Core help message to get a list with possible Hello command-line options</source>
-        <translation>顯示 Hello Core 幫助訊息以取得 Hello 命令列表選項</translation>
+        <source>Show the hello Core help message to get a list with possible hello command-line options</source>
+        <translation>顯示 hello Core 幫助訊息以取得 hello 命令列表選項</translation>
     </message>
     <message>
-        <source>Hello Core client</source>
-        <translation>Hello Core 客戶端</translation>
+        <source>hello Core client</source>
+        <translation>hello Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     </context>
 <context>
@@ -836,8 +836,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>對訊息簽名的 Hello 位址</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>對訊息簽名的 hello 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -860,16 +860,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>使用簽章來證明你是該  Hello 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>使用簽章來證明你是該  hello 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>此訊息之 Hello 位址已簽章於</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>此訊息之 hello 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>驗證訊息以確保該  Hello 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>驗證訊息以確保該  hello 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -907,8 +907,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     </context>
 <context>
@@ -974,6 +974,6 @@
     <name>ZSIRAJControlDialog</name>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     </context>
 </TS>

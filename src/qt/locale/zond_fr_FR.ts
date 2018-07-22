@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>Hello va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SIRAJs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <translation>hello va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SIRAJs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Hello que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse hello que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>L'adresse Hello avec laquelle signer le message</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>L'adresse hello avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Hello</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse hello</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>L'adresse Hello avec laquelle le message a été signé</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>L'adresse hello avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Hello renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse hello renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>Envoyer des pièces à une adresse Hello</translation>
+        <source>Send coins to a hello address</source>
+        <translation>Envoyer des pièces à une adresse hello</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>Modifier les options de configuration pour Hello</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>Modifier les options de configuration pour hello</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Hello pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your hello addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse hello pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Hello spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse hello spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Hello.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (Hello.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (hello.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (hello.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Hello address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Hello valide</translation>
+        <source>The entered address "%1" is not a valid hello address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse hello valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1524,8 +1524,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Hello address to send the payment to</source>
-        <translation>L'adresse Hello à laquelle envoyer le paiement</translation>
+        <source>The hello address to send the payment to</source>
+        <translation>L'adresse hello à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1570,8 +1570,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>L'adresse Hello avec laquelle signer le message</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>L'adresse hello avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1598,16 +1598,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Hello</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse hello</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>L'adresse Hello avec laquelle le message a été signé</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>L'adresse hello avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Hello renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse hello renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1808,7 +1808,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

@@ -848,12 +848,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Hello Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Hello Contents */
+/* About hello Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About hello Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Hello text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About hello text */
 margin-right:10px;
 }
 
@@ -1213,7 +1213,7 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:50px;
-background-image: url(':/images/Hello_logo_horizontal');
+background-image: url(':/images/hello_logo_horizontal');
 background-repeat:none;
 }
 

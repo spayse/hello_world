@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Hello osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun hello osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Hello osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun hello osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>Hello sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SIRAJien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <translation>hello sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SIRAJien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,8 +235,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Hello osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä hello osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Hello osoitteen</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän hello osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Hello osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla hello osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Ydin</translation>
+        <source>hello Core</source>
+        <translation>hello Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>Lähetä kolikkoja Hello osoitteeseen</translation>
+        <source>Send coins to a hello address</source>
+        <translation>Lähetä kolikkoja hello osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Hello: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja Hello: URIja)</translation>
+        <source>Request payments (generates QR codes and hello: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja hello: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Hello Core</source>
-        <translation>Hello Core &amp;ytimestä</translation>
+        <source>&amp;About hello Core</source>
+        <translation>hello Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Hello Core</source>
-        <translation>Näytä tietoja Hello Ytimestä</translation>
+        <source>Show information about hello Core</source>
+        <translation>Näytä tietoja hello Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Hello:lle</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja hello:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
+        <source>Sign messages with your hello addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Hello osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä hello osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Hello: URI or payment request</source>
-        <translation>Avaa Hello: URI tai pyydä maksua</translation>
+        <source>Open a hello: URI or payment request</source>
+        <translation>Avaa hello: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Hello Core help message to get a list with possible Hello command-line options</source>
-        <translation>Näytä Hello Ydin apuviesti saadaksesi lista mahdollisista Hello komentolinja komennoista.</translation>
+        <source>Show the hello Core help message to get a list with possible hello command-line options</source>
+        <translation>Näytä hello Ydin apuviesti saadaksesi lista mahdollisista hello komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Hello Core client</source>
-        <translation>Hello Ydin asiakasohjelma</translation>
+        <source>hello Core client</source>
+        <translation>hello Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Ydin</translation>
+        <source>hello Core</source>
+        <translation>hello Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Hello Core.</source>
-        <translation>Tervetuloa Hello Ytimeen.</translation>
+        <source>Welcome to hello Core.</source>
+        <translation>Tervetuloa hello Ytimeen.</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Ydin</translation>
+        <source>hello Core</source>
+        <translation>hello Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1136,11 +1136,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Hello</translation>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 hello</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 SIRAJ</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Hello</translation>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 hello</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1148,11 +1148,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SIRAJ anonymoidaksesi 10000 Hello</translation>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SIRAJ anonymoidaksesi 10000 hello</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 SIRAJ to anonymize 10000 SIRAJ</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Hello anonymoidaksesi 10000 Hello</translation>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 hello anonymoidaksesi 10000 hello</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1160,7 +1160,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>0.1 SIRAJ per 10000 SIRAJ you anonymize.</source>
-        <translation>0.1 per 10000 Hello, jotka anonymisoit.</translation>
+        <translation>0.1 per 10000 hello, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1209,12 +1209,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Hello after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Hello kun kirjaudut sisään.</translation>
+        <source>Automatically start hello after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä hello kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Hello on system login</source>
-        <translation>&amp;Aloita Hello järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start hello on system login</source>
+        <translation>&amp;Aloita hello järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1233,12 +1233,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Hello.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting hello.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Hello network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Hello verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the hello network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä hello verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1542,8 +1542,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Hello debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Hello debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the hello debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa hello debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1654,8 +1654,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Hello RPC console.</source>
-        <translation>Tervetuloa Hello RPC konsoliin.</translation>
+        <source>Welcome to the hello RPC console.</source>
+        <translation>Tervetuloa hello RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1697,12 +1697,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Hello network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Hello verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the hello network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana hello verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Hello network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Hello  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the hello network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana hello  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1982,8 +1982,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid Hello address</source>
-        <translation>Varoitus: Virheellinen Hello osoite</translation>
+        <source>Warning: Invalid hello address</source>
+        <translation>Varoitus: Virheellinen hello osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2029,8 +2029,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Hello address to send the payment to</source>
-        <translation>Hello osoite johon maksu lähetetään</translation>
+        <source>The hello address to send the payment to</source>
+        <translation>hello osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2072,8 +2072,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Hello Core is shutting down...</source>
-        <translation>Hello core sammuu...</translation>
+        <source>hello Core is shutting down...</source>
+        <translation>hello core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2091,8 +2091,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2123,16 +2123,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Hello osoitteen</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän hello osoitteen</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Hello osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla hello osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2214,8 +2214,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Ydin</translation>
+        <source>hello Core</source>
+        <translation>hello Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2230,8 +2230,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Hello Core developers</source>
-        <translation>Hello core kehittäjät</translation>
+        <source>The hello Core developers</source>
+        <translation>hello core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2541,7 +2541,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2591,8 +2591,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Hello Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Hello Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of hello Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version hello Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

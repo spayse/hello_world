@@ -1,25 +1,25 @@
-# /etc/conf.d/Hellod: config file for /etc/init.d/Hellod
+# /etc/conf.d/hellod: config file for /etc/init.d/hellod
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/Hello/Hello.conf"
+#BITCOIND_CONFIGFILE="/etc/hello/hello.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/Hellod"
+#BITCOIND_PIDDIR="/var/run/hellod"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Hellod.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/hellod.pid"
 
-# Where to write Hellod data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/Hellod"
+# Where to write hellod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/hellod"
 
-# User and group to own Hellod process
-#BITCOIND_USER="Hello"
-#BITCOIND_GROUP="Hello"
+# User and group to own hellod process
+#BITCOIND_USER="hello"
+#BITCOIND_GROUP="hello"
 
-# Path to Hellod executable
-#BITCOIND_BIN="/usr/bin/Hellod"
+# Path to hellod executable
+#BITCOIND_BIN="/usr/bin/hellod"
 
-# Nice value to run Hellod under
+# Nice value to run hellod under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

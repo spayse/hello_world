@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Hello per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi hello per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Hello per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi hello per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>Hello verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SIRAJ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <translation>hello verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SIRAJ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Hello che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo hello che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>L'indirizzo Hello per firmare il messaggio con</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>L'indirizzo hello per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Hello</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo hello</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>L'indirizzo Hello con cui è stato firmato il messaggio</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>L'indirizzo hello con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Hello specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo hello specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>Invia monete all' indirizzo Hello</translation>
+        <source>Send coins to a hello address</source>
+        <translation>Invia monete all' indirizzo hello</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Hello: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e Hello: URIs)</translation>
+        <source>Request payments (generates QR codes and hello: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e hello: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Hello Core</source>
-        <translation>&amp;Informazioni Hello Core</translation>
+        <source>&amp;About hello Core</source>
+        <translation>&amp;Informazioni hello Core</translation>
     </message>
     <message>
-        <source>Show information about Hello Core</source>
-        <translation>Visualizza informazioni su Hello Core</translation>
+        <source>Show information about hello Core</source>
+        <translation>Visualizza informazioni su hello Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>Modifica le opzioni di configurazione per Hello</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>Modifica le opzioni di configurazione per hello</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Hello per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your hello addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi hello per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Hello specifici</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi hello specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Hello: URI or payment request</source>
-        <translation>Apri un Hello: URI o richiesta di pagamento</translation>
+        <source>Open a hello: URI or payment request</source>
+        <translation>Apri un hello: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Hello Core help message to get a list with possible Hello command-line options</source>
-        <translation>Mostra il messaggio di aiuto Hello Core per ottenere un elenco con le possibili opzioni di riga di comando Hello</translation>
+        <source>Show the hello Core help message to get a list with possible hello command-line options</source>
+        <translation>Mostra il messaggio di aiuto hello Core per ottenere un elenco con le possibili opzioni di riga di comando hello</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Hello.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (Hello.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (hello.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (hello.conf)</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +915,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>L'indirizzo Hello per firmare il messaggio con</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>L'indirizzo hello per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Hello</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo hello</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>L'indirizzo Hello con cui è stato firmato il messaggio</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>L'indirizzo hello con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Hello specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo hello specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1215,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     </context>
 <context>
@@ -1314,7 +1314,7 @@ MultiSend: %1</translation>
     <name>ZSIRAJControlDialog</name>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

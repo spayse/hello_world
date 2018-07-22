@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Hello
-Comment=Hello P2P Cryptocurrency
-Comment[fr]=Hello, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Hello, eşten eşe kriptografik sanal para birimi
-Exec=Hello-qt %u
+Name=hello
+Comment=hello P2P Cryptocurrency
+Comment[fr]=hello, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=hello, eşten eşe kriptografik sanal para birimi
+Exec=hello-qt %u
 Terminal=false
 Type=Application
-Icon=Hello128
-MimeType=x-scheme-handler/Hello;
+Icon=hello128
+MimeType=x-scheme-handler/hello;
 Categories=Office;Finance;

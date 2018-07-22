@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Hello adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše hello adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Hello adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše hello adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>Hello se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SIRAJy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <translation>hello se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SIRAJy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Hello adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte hello adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello adresa pro podepsání zprávy</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Hello adresu</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto hello adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello adresa zprávy byla podpsána</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Hello adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou hello adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>Odeslat platbuna Hello adresu</translation>
+        <source>Send coins to a hello address</source>
+        <translation>Odeslat platbuna hello adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Hello: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a Hello: URIs)</translation>
+        <source>Request payments (generates QR codes and hello: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a hello: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Hello Core</source>
-        <translation>&amp;O Hello Core</translation>
+        <source>&amp;About hello Core</source>
+        <translation>&amp;O hello Core</translation>
     </message>
     <message>
-        <source>Show information about Hello Core</source>
-        <translation>Zobraz informace o Hello Core</translation>
+        <source>Show information about hello Core</source>
+        <translation>Zobraz informace o hello Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>Upravit možnosti konfigurace pro Hello</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>Upravit možnosti konfigurace pro hello</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Hello adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your hello addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší hello adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Hello adresami</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými hello adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Hello: URI or payment request</source>
-        <translation>Otevřít Hello: URI nebo platební žádost</translation>
+        <source>Open a hello: URI or payment request</source>
+        <translation>Otevřít hello: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Hello Core help message to get a list with possible Hello command-line options</source>
-        <translation>Zobrazit Hello Core pomocnou zpráv pro získání seznamu možných parametrů Hello pro příkazy do příkazové řádky</translation>
+        <source>Show the hello Core help message to get a list with possible hello command-line options</source>
+        <translation>Zobrazit hello Core pomocnou zpráv pro získání seznamu možných parametrů hello pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Hello Core client</source>
-        <translation>Hello Core klient</translation>
+        <source>hello Core client</source>
+        <translation>hello Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Hello.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (Hello.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (hello.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (hello.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Hello address.</source>
-        <translation>Zadaná adresa "%1" není validní Hello adresa.</translation>
+        <source>The entered address "%1" is not a valid hello address.</source>
+        <translation>Zadaná adresa "%1" není validní hello adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,12 +1112,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
-        <source>About Hello Core</source>
-        <translation>O Hello Core</translation>
+        <source>About hello Core</source>
+        <translation>O hello Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1151,16 +1151,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Hello Core.</source>
-        <translation>Vítejte v Hello Core.</translation>
+        <source>Welcome to hello Core.</source>
+        <translation>Vítejte v hello Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Hello Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Hello Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where hello Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude hello Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Hello Core will download and store a copy of the Hello block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Hello Core stáhne a uloží kopii Hello blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>hello Core will download and store a copy of the hello block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>hello Core stáhne a uloží kopii hello blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1171,8 +1171,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1520,12 +1520,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Hello after logging in to the system.</source>
-        <translation>Automaticky spustit Hello po přihlášení do systému</translation>
+        <source>Automatically start hello after logging in to the system.</source>
+        <translation>Automaticky spustit hello po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Hello on system login</source>
-        <translation>&amp;Spusti Hello při přihlášení do systému</translation>
+        <source>&amp;Start hello on system login</source>
+        <translation>&amp;Spusti hello při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2186,8 +2186,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello adresa pro podepsání zprávy</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2214,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Hello adresu</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto hello adresu</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello adresa zprávy byla podpsána</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Hello adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou hello adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2265,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     </context>
 <context>
@@ -2376,7 +2376,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

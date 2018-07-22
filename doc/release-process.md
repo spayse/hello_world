@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/Hellocoin/Hello/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/hellocoin/hello/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,12 +24,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/Hellocoin/gitian.sigs.git
-    git clone https://github.com/Hellocoin/Hello-detached-sigs.git
+    git clone https://github.com/hellocoin/gitian.sigs.git
+    git clone https://github.com/hellocoin/hello-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/Hellocoin/Hello.git
+    git clone https://github.com/hellocoin/hello.git
 
-### Hello maintainers/release engineers, suggestion for writing release notes
+### hello maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./Hello
+    pushd ./hello
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../Hello/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../hello/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,55 +92,55 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url Hello=/path/to/Hello,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url hello=/path/to/hello,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Hello Core for Linux, Windows, and OS X:
+### Build and sign hello Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit Hello=v${VERSION} ../Hello/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../Hello/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/Hello-*.tar.gz build/out/src/Hello-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit hello=v${VERSION} ../hello/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../hello/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/hello-*.tar.gz build/out/src/hello-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit Hello=v${VERSION} ../Hello/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../Hello/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/Hello-*-win-unsigned.tar.gz inputs/Hello-win-unsigned.tar.gz
-    mv build/out/Hello-*.zip build/out/Hello-*.exe ../
+    ./bin/gbuild --memory 3000 --commit hello=v${VERSION} ../hello/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../hello/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/hello-*-win-unsigned.tar.gz inputs/hello-win-unsigned.tar.gz
+    mv build/out/hello-*.zip build/out/hello-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit Hello=v${VERSION} ../Hello/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../Hello/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/Hello-*-osx-unsigned.tar.gz inputs/Hello-osx-unsigned.tar.gz
-    mv build/out/Hello-*.tar.gz build/out/Hello-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit hello=v${VERSION} ../hello/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../hello/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/hello-*-osx-unsigned.tar.gz inputs/hello-osx-unsigned.tar.gz
+    mv build/out/hello-*.tar.gz build/out/hello-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit Hello=v${VERSION} ../Hello/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../Hello/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/Hello-*.tar.gz build/out/src/Hello-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit hello=v${VERSION} ../hello/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../hello/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/hello-*.tar.gz build/out/src/hello-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`Hello-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`Hello-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`Hello-${VERSION}-win[32|64]-setup-unsigned.exe`, `Hello-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`Hello-${VERSION}-osx-unsigned.dmg`, `Hello-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`hello-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`hello-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`hello-${VERSION}-win[32|64]-setup-unsigned.exe`, `hello-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`hello-${VERSION}-osx-unsigned.dmg`, `hello-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import Hello/contrib/gitian-keys/*.pgp
+    gpg --import hello/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../Hello/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../Hello/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../Hello/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../Hello/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../hello/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../hello/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../hello/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../hello/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer Hello-osx-unsigned.tar.gz to osx for signing
-    tar xf Hello-osx-unsigned.tar.gz
+    transfer hello-osx-unsigned.tar.gz to osx for signing
+    tar xf hello-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf Hello-win-unsigned.tar.gz
+    tar xf hello-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/Hello-detached-sigs
+    cd ~/hello-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [Hello-detached-sigs](https://github.com/Hellocoin/Hello-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [hello-detached-sigs](https://github.com/hellocoin/hello-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../Hello/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../Hello/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../Hello/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/Hello-osx-signed.dmg ../Hello-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../hello/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../hello/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../hello/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/hello-osx-signed.dmg ../hello-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../Hello/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../Hello/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../Hello/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/Hello-*win64-setup.exe ../Hello-${VERSION}-win64-setup.exe
-    mv build/out/Hello-*win32-setup.exe ../Hello-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../hello/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../hello/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../hello/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/hello-*win64-setup.exe ../hello-${VERSION}-win64-setup.exe
+    mv build/out/hello-*win32-setup.exe ../hello-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,23 +230,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-Hello-${VERSION}-aarch64-linux-gnu.tar.gz
-Hello-${VERSION}-arm-linux-gnueabihf.tar.gz
-Hello-${VERSION}-i686-pc-linux-gnu.tar.gz
-Hello-${VERSION}-x86_64-linux-gnu.tar.gz
-Hello-${VERSION}-osx64.tar.gz
-Hello-${VERSION}-osx.dmg
-Hello-${VERSION}.tar.gz
-Hello-${VERSION}-win32-setup.exe
-Hello-${VERSION}-win32.zip
-Hello-${VERSION}-win64-setup.exe
-Hello-${VERSION}-win64.zip
+hello-${VERSION}-aarch64-linux-gnu.tar.gz
+hello-${VERSION}-arm-linux-gnueabihf.tar.gz
+hello-${VERSION}-i686-pc-linux-gnu.tar.gz
+hello-${VERSION}-x86_64-linux-gnu.tar.gz
+hello-${VERSION}-osx64.tar.gz
+hello-${VERSION}-osx.dmg
+hello-${VERSION}.tar.gz
+hello-${VERSION}-win32-setup.exe
+hello-${VERSION}-win32.zip
+hello-${VERSION}-win64-setup.exe
+hello-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the Hello.org server*.
+space *do not upload these to the hello.org server*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -262,10 +262,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/Hello, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/hello, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/Hellocoin/Hello/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/hellocoin/hello/releases/new) with a link to the archived release notes.
 
   - Celebrate

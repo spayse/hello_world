@@ -1,19 +1,19 @@
 [Unit]
-Description=Hello's distributed currency daemon
+Description=hello's distributed currency daemon
 After=network.target
 
 [Service]
-User=Hello
-Group=Hello
+User=hello
+Group=hello
 
 Type=forking
-PIDFile=/var/lib/Hellod/Hellod.pid
+PIDFile=/var/lib/hellod/hellod.pid
 
-ExecStart=/usr/bin/Hellod -daemon -pid=/var/lib/Hellod/Hellod.pid \
-          -conf=/etc/Hello/Hello.conf -datadir=/var/lib/Hellod
+ExecStart=/usr/bin/hellod -daemon -pid=/var/lib/hellod/hellod.pid \
+          -conf=/etc/hello/hello.conf -datadir=/var/lib/hellod
 
-ExecStop=-/usr/bin/Hello-cli -conf=/etc/Hello/Hello.conf \
-         -datadir=/var/lib/Hellod stop
+ExecStop=-/usr/bin/hello-cli -conf=/etc/hello/hello.conf \
+         -datadir=/var/lib/hellod stop
 
 Restart=always
 PrivateTmp=true

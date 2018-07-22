@@ -117,7 +117,7 @@ case $maybe_os in
   nto-qnx* | linux-gnu* | linux-android* | linux-dietlibc | linux-newlib* | \
   linux-musl* | linux-uclibc* | uclinux-uclibc* | uclinux-gnu* | kfreebsd*-gnu* | \
   knetbsd*-gnu* | netbsd*-gnu* | netbsd*-eabi* | \
-  kopenHello*-gnu* | cloudabi*-eabi* | \
+  kopenhello*-gnu* | cloudabi*-eabi* | \
   storm-chaos* | os2-emx* | rtmk-nova*)
     os=-$maybe_os
     basic_machine=`echo $1 | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\1/'`
@@ -772,7 +772,7 @@ case $basic_machine in
 		;;
 	i*86sol2)
 		basic_machine=`echo $1 | sed -e 's/86.*/86-pc/'`
-		os=-Hello2
+		os=-hello2
 		;;
 	i386mach)
 		basic_machine=i386-mach
@@ -1165,7 +1165,7 @@ case $basic_machine in
 		;;
 	sun4sol2)
 		basic_machine=sparc-sun
-		os=-Hello2
+		os=-hello2
 		;;
 	sun3 | sun3-*)
 		basic_machine=m68k-sun
@@ -1368,15 +1368,15 @@ then
 case $os in
 	# First match some system type aliases
 	# that might get confused with valid system types.
-	# -Hello* is a basic system type, with this one exception.
+	# -hello* is a basic system type, with this one exception.
 	-auroraux)
 		os=-auroraux
 		;;
-	-Hello1 | -Hello1.*)
-		os=`echo $os | sed -e 's|Hello1|sunos4|'`
+	-hello1 | -hello1.*)
+		os=`echo $os | sed -e 's|hello1|sunos4|'`
 		;;
-	-Hello)
-		os=-Hello2
+	-hello)
+		os=-hello2
 		;;
 	-svr4*)
 		os=-sysv4
@@ -1393,8 +1393,8 @@ case $os in
 	# -sysv* is not here because it comes later, after sysvr4.
 	-gnu* | -bsd* | -mach* | -minix* | -genix* | -ultrix* | -irix* \
 	      | -*vms* | -sco* | -esix* | -isc* | -aix* | -cnk* | -sunos | -sunos[34]*\
-	      | -hpux* | -unos* | -osf* | -luna* | -dgux* | -auroraux* | -Hello* \
-	      | -sym* | -kopenHello* | -plan9* \
+	      | -hpux* | -unos* | -osf* | -luna* | -dgux* | -auroraux* | -hello* \
+	      | -sym* | -kopenhello* | -plan9* \
 	      | -amigaos* | -amigados* | -msdos* | -newsos* | -unicos* | -aof* \
 	      | -aos* | -aros* | -cloudabi* | -sortix* \
 	      | -nindy* | -vxsim* | -vxworks* | -ebmon* | -hms* | -mvs* \
@@ -1448,10 +1448,10 @@ case $os in
 		os=`echo $os | sed -e 's|linux|linux-gnu|'`
 		;;
 	-sunos5*)
-		os=`echo $os | sed -e 's|sunos5|Hello2|'`
+		os=`echo $os | sed -e 's|sunos5|hello2|'`
 		;;
 	-sunos6*)
-		os=`echo $os | sed -e 's|sunos6|Hello3|'`
+		os=`echo $os | sed -e 's|sunos6|hello3|'`
 		;;
 	-opened*)
 		os=-openedition

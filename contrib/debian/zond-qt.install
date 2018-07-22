@@ -1,6 +1,6 @@
-usr/local/bin/Hello-qt usr/bin
+usr/local/bin/hello-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/Hello-qt.desktop usr/share/applications
-debian/Hello-qt.protocol usr/share/kde4/services/
+debian/hello-qt.desktop usr/share/applications
+debian/hello-qt.protocol usr/share/kde4/services/

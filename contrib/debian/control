@@ -1,4 +1,4 @@
-Source: Hello
+Source: hello
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -22,15 +22,15 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.Hello.network
-Vcs-Git: git://github.com/Hello-Project/Hello.git
-Vcs-Browser: http://github.com/Hello-Project/Hello
+Homepage: http://www.hello.network
+Vcs-Git: git://github.com/hello-Project/hello.git
+Vcs-Browser: http://github.com/hello-Project/hello
 
-Package: Hellod
+Package: hellod
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Hello is a free open source peer-to-peer electronic cash system that
+ hello is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -39,14 +39,14 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides the daemon, Hellod, and the CLI tool
- Hello-cli to interact with the daemon.
+ This package provides the daemon, hellod, and the CLI tool
+ hello-cli to interact with the daemon.
 
-Package: Hello-qt
+Package: hello-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Hello is a free open source peer-to-peer electronic cash system that
+ hello is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides Hello-Qt, a GUI for Hello based on Qt.
+ This package provides hello-Qt, a GUI for hello based on Qt.

@@ -10,7 +10,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/Hellostrings.cpp"
+OUT_CPP="qt/hellostrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
@@ -74,10 +74,10 @@ f.write("""
 #define UNUSED
 #endif
 """)
-f.write('static const char UNUSED *Hello_strings[] = {\n')
+f.write('static const char UNUSED *hello_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("Hello-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("hello-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

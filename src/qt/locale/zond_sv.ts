@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Hello adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina hello adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Hello adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina hello adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
-        <translation>Hello kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SIRAJs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <translation>hello kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SIRAJs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Hello adress som du vill kryptera med BIP 38.
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en hello adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello adressen för signera meddelandet med</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Hello adress</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna hello adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello adressen meddelandet blev signerat med</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Hello adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika hello adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Kärna</translation>
+        <source>hello Core</source>
+        <translation>hello Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>Skicka mynt till en Hello adress</translation>
+        <source>Send coins to a hello address</source>
+        <translation>Skicka mynt till en hello adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Hello: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och Hello: URls)</translation>
+        <source>Request payments (generates QR codes and hello: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och hello: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Hello Core</source>
-        <translation>Om Hello Kärnan</translation>
+        <source>&amp;About hello Core</source>
+        <translation>Om hello Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Hello Core</source>
-        <translation>Visa information om Hello Kärnan</translation>
+        <source>Show information about hello Core</source>
+        <translation>Visa information om hello Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>Ändra konfigurationsval för Hello</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>Ändra konfigurationsval för hello</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Hello adress för att visa att du äger dem</translation>
+        <source>Sign messages with your hello addresses to prove you own them</source>
+        <translation>Signera meddelanden med din hello adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Hello adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika hello adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Hello Core client</source>
-        <translation>Hello kärn klient</translation>
+        <source>hello Core client</source>
+        <translation>hello kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Kärna</translation>
+        <source>hello Core</source>
+        <translation>hello Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Kärna</translation>
+        <source>hello Core</source>
+        <translation>hello Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello adressen för signera meddelandet med</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Hello adress</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna hello adress</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello adressen meddelandet blev signerat med</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Hello adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika hello adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Kärna</translation>
+        <source>hello Core</source>
+        <translation>hello Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZSIRAJControlDialog</name>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

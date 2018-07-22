@@ -1,6 +1,6 @@
 [Protocol]
-exec=Hello-qt '%u'
-protocol=Hello
+exec=hello-qt '%u'
+protocol=hello
 input=none
 output=none
 helper=true

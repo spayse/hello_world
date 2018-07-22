@@ -1,6 +1,6 @@
-<h2><strong>Hello Repository</strong></h2>
+<h2><strong>hello Repository</strong></h2>
 <p>More information at 
-<br><p><strong><span style="color: #800080;"><em>http://Hello.network</em></span></strong></p>
+<br><p><strong><span style="color: #800080;"><em>http://hello.network</em></span></strong></p>
 <p><strong><span style="color: #800080;"><em>https://bitcointalk.org/</em></span></strong></p>
 <h3><strong>Coin specs:</strong></h3>
 <p><strong><span style="color: #800080;"><em>Algo:</em></span></strong></p>

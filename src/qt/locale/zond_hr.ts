@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello adresa s kojom je potpisana poruka</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Hello Core client</source>
-        <translation>Hello Core klijent</translation>
+        <source>hello Core client</source>
+        <translation>hello Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Hello Core is shutting down...</source>
-        <translation>Hello Core se gasi...</translation>
+        <source>hello Core is shutting down...</source>
+        <translation>hello Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Hello adresa s kojom je potpisana poruka</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>hello adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

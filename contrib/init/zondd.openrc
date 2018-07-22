@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/Hello/.Hello" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/Hello/.Hello"
+if [ -d "/var/lib/hello/.hello" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/hello/.hello"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/Hellod"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/hellod"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/Hello/Hello.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/Hellod}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/Hellod.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/hello/hello.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/hellod}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/hellod.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-Hello}
-BITCOIND_GROUP=${BITCOIND_GROUP:-Hello}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/Hellod}
+BITCOIND_USER=${BITCOIND_USER:-hello}
+BITCOIND_GROUP=${BITCOIND_GROUP:-hello}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/hellod}
 
-name="Hello Core Daemon"
-description="Hello crypto-currency p2p network daemon"
+name="hello Core Daemon"
+description="hello crypto-currency p2p network daemon"
 
-command="/usr/bin/Hellod"
+command="/usr/bin/hellod"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run Hellod."
+		eerror "ERROR: You must set a secure rpcpassword to run hellod."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Hello Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"hello Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

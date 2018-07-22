@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: Hellod.service
-Upstart: Hellod.conf
-OpenRC:  Hellod.openrc
-         Hellod.openrcconf
-CentOS:  Hellod.init
+SystemD: hellod.service
+Upstart: hellod.conf
+OpenRC:  hellod.openrc
+         hellod.openrcconf
+CentOS:  hellod.init
 
 have been made available to assist packagers in creating node packages here.
 

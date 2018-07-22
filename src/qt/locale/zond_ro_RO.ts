@@ -186,6 +186,6 @@
     <name>ZSIRAJControlDialog</name>
     </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     </context>
 </TS>

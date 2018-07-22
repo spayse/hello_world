@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie Hello überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie hello überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie Hello empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie hello empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre Hello-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Hello überweisen.</translation>
+        <source>These are your hello addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre hello-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie hello überweisen.</translation>
     </message>
     <message>
-        <source>These are your Hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre Hello-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your hello addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre hello-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
+        <source>hello will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SIRAJs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer SIRAJs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a Hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine Hello Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a hello Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine hello Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Hello Adresse besitzt</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese hello Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Die Hello Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>Die hello Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Hello-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen hello-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
-        <source>Send coins to a Hello address</source>
-        <translation>An eine Hello-Adresse überweisen</translation>
+        <source>Send coins to a hello address</source>
+        <translation>An eine hello-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Hello: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und Hello: URIs)</translation>
+        <source>Request payments (generates QR codes and hello: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und hello: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -630,24 +630,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About Hello Core</source>
-        <translation>Über.Hello Core</translation>
+        <source>&amp;About hello Core</source>
+        <translation>Über.hello Core</translation>
     </message>
     <message>
-        <source>Show information about Hello Core</source>
-        <translation>Zeigt Informationen über Hello Core</translation>
+        <source>Show information about hello Core</source>
+        <translation>Zeigt Informationen über hello Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Hello</source>
-        <translation>Konfiguration von Hello verändern</translation>
+        <source>Modify configuration options for hello</source>
+        <translation>Konfiguration von hello verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your Hello addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer Hello-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your hello addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer hello-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Hello addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten Hello-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified hello addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten hello-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a Hello: URI or payment request</source>
-        <translation>Öffne eine Hello: URI or Zahlungsanfrage</translation>
+        <source>Open a hello: URI or payment request</source>
+        <translation>Öffne eine hello: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Blockchain Betrachter Fenster</translation>
     </message>
     <message>
-        <source>Show the Hello Core help message to get a list with possible Hello command-line options</source>
-        <translation>Zeige die Hello-Core Hilfe, um mögliche Hello Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <source>Show the hello Core help message to get a list with possible hello command-line options</source>
+        <translation>Zeige die hello-Core Hilfe, um mögliche hello Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
-        <source>Hello Core client</source>
-        <translation>Hello Core Client</translation>
+        <source>hello Core client</source>
+        <translation>hello Core Client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Hello network</source>
-        <translation><numerusform>%n aktive Verbindung zum Hello Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Hello Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to hello network</source>
+        <translation><numerusform>%n aktive Verbindung zum hello Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum hello Netzwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -848,8 +848,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Hello.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "Hello.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (hello.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "hello.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -1137,8 +1137,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Hello address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige Hello-Adresse.</translation>
+        <source>The entered address "%1" is not a valid hello address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige hello-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1183,16 +1183,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About Hello Core</source>
-        <translation>Über Hello Core</translation>
+        <source>About hello Core</source>
+        <translation>Über hello Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1238,16 +1238,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to Hello Core.</source>
-        <translation>Willkommen zu Hello Core.</translation>
+        <source>Welcome to hello Core.</source>
+        <translation>Willkommen zu hello Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Hello Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Hello Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where hello Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie hello Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>Hello Core will download and store a copy of the Hello block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Hello Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>hello Core will download and store a copy of the hello block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>hello Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1258,8 +1258,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1396,12 +1396,12 @@ Adresse: %4</translation>
         <translation>Zieladresse eingeben</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Hello addresses after it matures.
-To Add: enter percentage to give and Hello address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hello addresses after it matures.
+To Add: enter percentage to give and hello address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen Hello-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die Hello-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen hello-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die hello-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1571,16 +1571,16 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Verschleierungskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Hello's configuration screen.</source>
-        <translation>Verschleierung erfolgreich auf normal gesetzt (%1 und 2 Runden). Sie können dies jederzeit in den Hellos Konfigurationen ändern.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening hello's configuration screen.</source>
+        <translation>Verschleierung erfolgreich auf normal gesetzt (%1 und 2 Runden). Sie können dies jederzeit in den hellos Konfigurationen ändern.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Hello's configuration screen.</source>
-        <translation>Verschleierung erfolgreich auf hohen gesetzt (%1 und 8 Runden). Sie können dies jederzeit in den Hellos Konfigurationen ändern.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening hello's configuration screen.</source>
+        <translation>Verschleierung erfolgreich auf hohen gesetzt (%1 und 8 Runden). Sie können dies jederzeit in den hellos Konfigurationen ändern.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Hello's configuration screen.</source>
-        <translation>Verschleierung erfolgreich auf maximal gesetzt (%1 und 16 Runden). Sie können dies jederzeit in den Hellos Konfigurationen ändern.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening hello's configuration screen.</source>
+        <translation>Verschleierung erfolgreich auf maximal gesetzt (%1 und 16 Runden). Sie können dies jederzeit in den hellos Konfigurationen ändern.</translation>
     </message>
 </context>
 <context>
@@ -1641,8 +1641,8 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Wenn Sie das Ausgeben von unbestätigten Wechselgeld deaktivieren, so kann das Wechselgeld von einer Transaktion &lt;br/&gt;nicht verwendet werden, bis mindestens eine Bestätigung vorliegt.&lt;br/&gt;Dies hat auch Auswirkungen auf ihre Bilanzberechnung.</translation>
     </message>
     <message>
-        <source>Automatically open the Hello client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisches öffnen des Hello-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
+        <source>Automatically open the hello client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisches öffnen des hello-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1661,12 +1661,12 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Experte</translation>
     </message>
     <message>
-        <source>Automatically start Hello after logging in to the system.</source>
-        <translation>Hello automatisch nach dem Login starten.</translation>
+        <source>Automatically start hello after logging in to the system.</source>
+        <translation>hello automatisch nach dem Login starten.</translation>
     </message>
     <message>
-        <source>&amp;Start Hello on system login</source>
-        <translation>Hello automatisch beim System Login &amp;starten.</translation>
+        <source>&amp;Start hello on system login</source>
+        <translation>hello automatisch beim System Login &amp;starten.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1693,14 +1693,14 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>&amp;Netzwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Hello.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting hello.</source>
         <translation>Die Sprache der Benutzeroberfläche kann hier festgelegt werden. Diese Einstellung wird nach einem Neustart realisiert.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/Hello-project/Hello-project-translations</source>
+https://www.transifex.com/hello-project/hello-project-translations</source>
         <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung bei unter:
-https://www.transifex.com/Hello-project/Hello-project-translations</translation>
+https://www.transifex.com/hello-project/hello-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1723,8 +1723,8 @@ https://www.transifex.com/Hello-project/Hello-project-translations</translation>
         <translation>Bevorzugte automatisierte zSIRAJ Stückelung </translation>
     </message>
     <message>
-        <source>Connect to the Hello network through a SOCKS5 proxy.</source>
-        <translation>Durch einen SOCKS5 Proxy mit dem Hello Netzwerk verbinden.</translation>
+        <source>Connect to the hello network through a SOCKS5 proxy.</source>
+        <translation>Durch einen SOCKS5 Proxy mit dem hello Netzwerk verbinden.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1882,8 +1882,8 @@ https://www.transifex.com/Hello-project/Hello-project-translations</translation>
         <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Hello network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Hello-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the hello network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem hello-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1969,12 +1969,12 @@ https://www.transifex.com/Hello-project/Hello-project-translations</translation>
         <translation>Zahlungsaufforderungadresse %1</translation>
     </message>
     <message>
-        <source>Cannot start Hello: click-to-pay handler</source>
-        <translation>Kann Hello nicht starten: click-to-pay Handler</translation>
+        <source>Cannot start hello: click-to-pay handler</source>
+        <translation>Kann hello nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Hello address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige Hello-Adresse oder fehlerhafte URI-Parameter verursacht worden sein.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid hello address or malformed URI parameters.</source>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige hello-Adresse oder fehlerhafte URI-Parameter verursacht worden sein.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2059,16 +2059,16 @@ https://www.transifex.com/Hello-project/Hello-project-translations</translation>
         <translation>SIRAJ, die über das Zerocoin-Protokoll anonymisiert wurden</translation>
     </message>
     <message>
-        <source>ZeroHello (zSIRAJ)</source>
-        <translation>ZeroHello (zSIRAJ)</translation>
+        <source>Zerohello (zSIRAJ)</source>
+        <translation>Zerohello (zSIRAJ)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Aktionen:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Hello network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Hello-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the hello network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem hello-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Enter an amount of SIRAJ to convert to zSIRAJ</source>
@@ -2171,8 +2171,8 @@ https://www.transifex.com/Hello-project/Hello-project-translations</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The Hello address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Die Hello-Adresse, an die die Zahlung gesendet wird. Erstellt eine lokale Zahlung an Sie selbst, wenn die Zeile leer ist.</translation>
+        <source>The hello address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Die hello-Adresse, an die die Zahlung gesendet wird. Erstellt eine lokale Zahlung an Sie selbst, wenn die Zeile leer ist.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2371,8 +2371,8 @@ https://www.transifex.com/Hello-project/Hello-project-translations</translation>
         <translation>Betrag kopieren</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Hello network yet.</source>
-        <translation>Die Zerocoin Funktionalität ist im Hello Netzwerk im Moment nicht freigeschaltet.</translation>
+        <source>Zerocoin functionality is not enabled on the hello network yet.</source>
+        <translation>Die Zerocoin Funktionalität ist im hello Netzwerk im Moment nicht freigeschaltet.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2425,8 +2425,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Keine "Pay To"-Adresse zur Verfügung. Erstelle lokale Zahlung</translation>
     </message>
     <message>
-        <source>Invalid Hello Address</source>
-        <translation>Ungültige Hello-Adresse </translation>
+        <source>Invalid hello Address</source>
+        <translation>Ungültige hello-Adresse </translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2516,8 +2516,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a Hello address (e.g. %1)</source>
-        <translation>Hello-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a hello address (e.g. %1)</source>
+        <translation>hello-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2654,8 +2654,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Hello debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffne Hello-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the hello debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffne hello-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2822,8 +2822,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Hello RPC console.</source>
-        <translation>Willkommen in der Hello RPC-Konsole.</translation>
+        <source>Welcome to the hello RPC console.</source>
+        <translation>Willkommen in der hello RPC-Konsole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2893,12 +2893,12 @@ Bitte haben Sie Geduld...</translation>
         <translation>Ein optionales Etikett, das mit der neuen Empfangsadresse verknüpft werden soll.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Hello network.</source>
-        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das Hello-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the hello network.</source>
+        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das hello-Netzwerk gesendet.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Hello network.</source>
-        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das Hello-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the hello network.</source>
+        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das hello-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3182,8 +3182,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Wenn die kundenspezifische Gebühr auf 1000 uSIRAJs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uSIRAJs an Gebühren,&lt;br /&gt;während man "insgesamt mindestens" 1000 uSIRAJs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Hello transactions than the network can process.</source>
-        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken gibt.&lt;br /&gt;Aber seien Sie sich bewusst, dass dies in einer niemals bestätigende Transaktion enden kann, sobald die Nachfrage nach Hello-Transaktionen höher ist, als was das Netzwerk verarbeiten kann.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for hello transactions than the network can process.</source>
+        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken gibt.&lt;br /&gt;Aber seien Sie sich bewusst, dass dies in einer niemals bestätigende Transaktion enden kann, sobald die Nachfrage nach hello-Transaktionen höher ist, als was das Netzwerk verarbeiten kann.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3290,8 +3290,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>anonyme Mittel</translation>
     </message>
     <message>
-        <source>Warning: Invalid Hello address</source>
-        <translation>Warnung: Ungültige Hello-Adresse</translation>
+        <source>Warning: Invalid hello address</source>
+        <translation>Warnung: Ungültige hello-Adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3397,8 +3397,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The Hello address to send the payment to</source>
-        <translation>Hello-Adresse, an die überwiesen werden soll</translation>
+        <source>The hello address to send the payment to</source>
+        <translation>hello-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3437,8 +3437,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Hello: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Hello network.</source>
-        <translation>Eine an die Hello-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Hello-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the hello: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the hello network.</source>
+        <translation>Eine an die hello-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das hello-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3464,8 +3464,8 @@ Bitte haben Sie Geduld...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Hello Core is shutting down...</source>
-        <translation>Hello Core wird beendet...</translation>
+        <source>hello Core is shutting down...</source>
+        <translation>hello Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3487,8 +3487,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Sie können Nachrichten mit Ihren Adressen signieren, um zu beweisen, dass Sie diese besitzen. Seien Sie vorsichtig nichts fragwürdiges zu unterschreiben, da Phishing-Angriffe versuchen können, Sie dazu zu bringen, Ihre Identität zu überschreiben. Unterschreiben Sie nur ganz detaillierte Aussagen, denen Sie zustimmen.</translation>
     </message>
     <message>
-        <source>The Hello address to sign the message with</source>
-        <translation>Hello Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The hello address to sign the message with</source>
+        <translation>hello Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3519,16 +3519,16 @@ Bitte haben Sie Geduld...</translation>
         <translation>Kopiert die aktuelle Signatur in die Zwischenablage</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Hello address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Hello Adresse besitzt</translation>
+        <source>Sign the message to prove you own this hello address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese hello Adresse besitzt</translation>
     </message>
     <message>
-        <source>The Hello address the message was signed with</source>
-        <translation>Die Hello Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The hello address the message was signed with</source>
+        <translation>Die hello Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Hello address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Hello-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified hello address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen hello-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3614,8 +3614,8 @@ Bitte haben Sie Geduld...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Hello Core</source>
-        <translation>Hello Core</translation>
+        <source>hello Core</source>
+        <translation>hello Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3630,8 +3630,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The Hello Core developers</source>
-        <translation>Die Hello Core Entwickler</translation>
+        <source>The hello Core developers</source>
+        <translation>Die hello Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4293,7 +4293,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>Hello-core</name>
+    <name>hello-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>
@@ -4311,8 +4311,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Der berechnete Akkumulator-Checkpoint stimmt nicht mit dem vom Blockindex aufgezeichneten überein</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Hello Core is probably already running.</source>
-        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. Hello Core läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s. hello Core is probably already running.</source>
+        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. hello Core läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -4323,8 +4323,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Lösche alle Wallet-Transaktionen und stelle nur diese Teile der Blockchain  beim Start durch -neuscan wieder her</translation>
     </message>
     <message>
-        <source>Disable all Hello specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktiviere alle Hello-spezifischen Funktionen (Masternodes, Verschleierung, SwiftTX, Budgetplanung) (0-1, default: %u)</translation>
+        <source>Disable all hello specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Deaktiviere alle hello-spezifischen Funktionen (Masternodes, Verschleierung, SwiftTX, Budgetplanung) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4463,27 +4463,27 @@ Bitte haben Sie Geduld...</translation>
         <translation>Dieses Produkt beinhaltet Software, die vom OpenSSL Projekt für die Nutzung im OpenSSL Toolkit &lt;https://www.openssl.org/&gt; entwickelt wurde. Desweiteren kryptografische Software , die von Eric Young, und UPnP Software, die von Thomas Bernard, geschrieben wurde.</translation>
     </message>
     <message>
-        <source>To use Hellod, or the -server option to Hello-qt, you must set an rpcpassword in the configuration file:
+        <source>To use hellod, or the -server option to hello-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Hellorpc
+rpcuser=hellorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "hello Alert" admin@foo.com
 </source>
-        <translation>Um Hellod oder die -server option in Hello-qt zu nutzen, muss ein RPC-Passwort mittels rpcpassword in der Konfigurationsdatei gestzt werden:
+        <translation>Um hellod oder die -server option in hello-qt zu nutzen, muss ein RPC-Passwort mittels rpcpassword in der Konfigurationsdatei gestzt werden:
 %s
 Es wird empfohlen das folgende zufällige Passwort zu nutzen:
-rpcuser=Hellorpc
+rpcuser=hellorpc
 rpcpassword=%s
 (Sie müssen sich das Passwort nicht merken)
 User-Name und Passwort MÜSSEN NICHT die oben genannten sein.
 Falls die Datei bisher nicht existiert, erstellen Sie diese mit der eingeschränkten Berechtigung das nur der Besitzer diese lesen darf.
 Des weiteren wird empfohlen das Argument alertnotify zu setzen, damit Sie bei ggf. auftretenden Problemen benachrichtigt werden.
-Beispiel: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
+Beispiel: alertnotify=echo %%s | mail -s "hello Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -4503,8 +4503,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
         <translation>Warnung: -paytxfee ist sehr hoch eingestellt! Diese Transaktionsgebühr werden Ihnen abgebucht, falls Sie die Transaktion überweisen.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hello Core will not work properly.</source>
-        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Hello Core nicht korrekt funktionieren.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong hello Core will not work properly.</source>
+        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird hello Core nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4639,8 +4639,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Hello Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Hello Core Developers</translation>
+        <source>Copyright (C) 2015-%i The hello Core Developers</source>
+        <translation>Copyright (C) 2015-%i The hello Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4707,8 +4707,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
         <translation>Fehler beim Laden von wallet.dat : Wallet beschädigt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Hello Core</source>
-        <translation>Fehler beim Laden der wallet.dat: Neuere Hello Core Version benötigt</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of hello Core</source>
+        <translation>Fehler beim Laden der wallet.dat: Neuere hello Core Version benötigt</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4811,8 +4811,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Hello Core is shutting down.</source>
-        <translation>Initialisierung Sanity-Check fehlgeschlagen. Hello Core schaltet ab.</translation>
+        <source>Initialization sanity check failed. hello Core is shutting down.</source>
+        <translation>Initialisierung Sanity-Check fehlgeschlagen. hello Core schaltet ab.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5407,8 +5407,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Hello Alert" admin@foo.com
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Hello Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte Hello Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart hello Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte hello Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

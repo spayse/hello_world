@@ -1,39 +1,39 @@
-Hello Core
+hello Core
 =====================
 
 Setup
 ---------------------
-[Hello Core](http://Hello.network/wallet) is the original Hello client and it builds the backbone of the network. However, it downloads and stores the entire history of Hello transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[hello Core](http://hello.network/wallet) is the original hello client and it builds the backbone of the network. However, it downloads and stores the entire history of hello transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Hello on your native platform.
+The following are some helpful notes on how to run hello on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/Hello-qt (GUI, 32-bit) or bin/32/Hellod (headless, 32-bit)
-- bin/64/Hello-qt (GUI, 64-bit) or bin/64/Hellod (headless, 64-bit)
+- bin/32/hello-qt (GUI, 32-bit) or bin/32/hellod (headless, 32-bit)
+- bin/64/hello-qt (GUI, 64-bit) or bin/64/hellod (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run Hello-qt.exe.
+Unpack the files into a directory, and then run hello-qt.exe.
 
 ### OSX
 
-Drag Hello-Qt to your applications folder, and then run Hello-Qt.
+Drag hello-Qt to your applications folder, and then run hello-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Hello Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [hello Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk]() or on the [Hello](http://Hello.network/).
-* Join one of our Discord groups [Hello Discord Groups](https://discord.gg/UFhfxVv).
+* Ask for help on [BitcoinTalk]() or on the [hello](http://hello.network/).
+* Join one of our Discord groups [hello Discord Groups](https://discord.gg/UFhfxVv).
 
 Building
 ---------------------
-The following are developer notes on how to build Hello on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build hello on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Hello on your native platform.
 
 Development
 ---------------------
-The Hello repo's [root README](https://github.com/Hellocoin/Hello/blob/master/README.md) contains relevant information on the development process and automated testing.
+The hello repo's [root README](https://github.com/hellocoin/hello/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,7 +55,7 @@ The Hello repo's [root README](https://github.com/Hellocoin/Hello/blob/master/RE
 
 ### Resources
 
-* [BitcoinTalk]() or the [Hello](http://Hello.network/)
+* [BitcoinTalk]() or the [hello](http://hello.network/)
 * 
 
 ### Miscellaneous

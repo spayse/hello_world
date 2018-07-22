@@ -38,12 +38,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_Hello">res/icons/unit_Hello.png</file>
-        <file alias="unit_mHello">res/icons/unit_mHello.png</file>
-        <file alias="unit_uHello">res/icons/unit_uHello.png</file>
-        <file alias="unit_tHello">res/icons/unit_tHello.png</file>
-        <file alias="unit_tmHello">res/icons/unit_tmHello.png</file>
-        <file alias="unit_tuHello">res/icons/unit_tuHello.png</file>
+        <file alias="unit_hello">res/icons/unit_hello.png</file>
+        <file alias="unit_mhello">res/icons/unit_mhello.png</file>
+        <file alias="unit_uhello">res/icons/unit_uhello.png</file>
+        <file alias="unit_thello">res/icons/unit_thello.png</file>
+        <file alias="unit_tmhello">res/icons/unit_tmhello.png</file>
+        <file alias="unit_tuhello">res/icons/unit_tuhello.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -59,7 +59,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="Hello_logo_horizontal">res/images/Hello_logo_horizontal.png</file>
+        <file alias="hello_logo_horizontal">res/images/hello_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

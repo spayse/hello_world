@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/Hello-config.h \
+           src/hello-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/Hello-config.h \
+           src/config/hello-config.h \
            src/crypto/common.h \
 		   src/crypto/scrypt.h \
            src/crypto/hmac_sha256.h \
@@ -339,7 +339,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/Hello.moc \
+           src/qt/hello.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -380,9 +380,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/Hello-cli.cpp \
-           src/Hello-tx.cpp \
-           src/Hello.cpp \
+           src/hello-cli.cpp \
+           src/hello-tx.cpp \
+           src/hello.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -485,8 +485,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/Hello.cpp \
-           src/qt/Hellostrings.cpp \
+           src/qt/hello.cpp \
+           src/qt/hellostrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -564,7 +564,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_Hello.cpp \
+           src/test/test_hello.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -655,21 +655,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/Hello.qrc src/qt/Hello_locale.qrc
+RESOURCES += src/qt/hello.qrc src/qt/hello_locale.qrc
 
-TRANSLATIONS += src/qt/locale/Hello_bg.ts \
-                src/qt/locale/Hello_de.ts \
-                src/qt/locale/Hello_en.ts \
-                src/qt/locale/Hello_es.ts \
-                src/qt/locale/Hello_fi.ts \
-                src/qt/locale/Hello_fr.ts \
-                src/qt/locale/Hello_it.ts \
-                src/qt/locale/Hello_ja.ts \
-                src/qt/locale/Hello_pl.ts \
-                src/qt/locale/Hello_pt.ts \
-                src/qt/locale/Hello_ru.ts \
-                src/qt/locale/Hello_sk.ts \
-                src/qt/locale/Hello_sv.ts \
-                src/qt/locale/Hello_vi.ts \
-                src/qt/locale/Hello_zh_CN.ts \
-                src/qt/locale/Hello_zh_TW.ts
+TRANSLATIONS += src/qt/locale/hello_bg.ts \
+                src/qt/locale/hello_de.ts \
+                src/qt/locale/hello_en.ts \
+                src/qt/locale/hello_es.ts \
+                src/qt/locale/hello_fi.ts \
+                src/qt/locale/hello_fr.ts \
+                src/qt/locale/hello_it.ts \
+                src/qt/locale/hello_ja.ts \
+                src/qt/locale/hello_pl.ts \
+                src/qt/locale/hello_pt.ts \
+                src/qt/locale/hello_ru.ts \
+                src/qt/locale/hello_sk.ts \
+                src/qt/locale/hello_sv.ts \
+                src/qt/locale/hello_vi.ts \
+                src/qt/locale/hello_zh_CN.ts \
+                src/qt/locale/hello_zh_TW.ts

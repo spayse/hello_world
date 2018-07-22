@@ -45,7 +45,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x000008b12e1723cf0345e366e3d59ed3ab9ee9b6c4c03e3270a43bdc6ebd7c9b"));
+	(0, uint256("0x"));
 	
 
 static const Checkpoints::CCheckpointData data = {
@@ -55,20 +55,6 @@ static const Checkpoints::CCheckpointData data = {
                 //   (the tx=... number in the SetBestChain debug.log lines)
     576        // * estimated number of transactions per day after checkpoint
 };
-static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x001"));
-static const Checkpoints::CCheckpointData dataTestnet = {
-    &mapCheckpointsTestnet,
-    1523538001,
-    0,
-    250};
-static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x001"));
-static const Checkpoints::CCheckpointData dataRegtest = {
-    &mapCheckpointsRegtest,
-    1523538002,
-    0,
-    100};
 
 libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
 {
@@ -97,13 +83,13 @@ public:
         vAlertPubKey = ParseHex("0453441050da40fd90e8de54be8d31f4378ee78e52682eae03873cd4b31b75348ffeda82432f9e0ec0ccbaf2aaba07965929907394652d0c784e4ff7c8eb6b72f1");
         nDefaultPort = 44544;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // hello starting difficulty is 1 / 2^12
-        nSubsidyHalvingInterval = 210000;
+        nSubsidyHalvingInterval = 0;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 2.5 * 60; // every block
+        nTargetTimespan = 2 * 60; // every block
         nTargetSpacing = 2 * 60;  // 120 seconds
         nMaturity = 101;
-		nMaxMoneyOut = 10000000 * COIN;
+		nMaxMoneyOut = 500000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 15000; // about 20 days 
         nModifierUpdateBlock = 1;

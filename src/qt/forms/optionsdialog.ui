@@ -135,10 +135,10 @@
          <item>
           <widget class="QLabel" name="percentage_label">
            <property name="toolTip">
-            <string>Percentage of incoming ZND which get automatically converted to zZND via Zerocoin Protocol (min: 10%)</string>
+            <string>Percentage of incoming SIRAJ which get automatically converted to zSIRAJ via Zerocoin Protocol (min: 10%)</string>
            </property>
            <property name="text">
-            <string>Percentage of autominted zZND</string>
+            <string>Percentage of autominted zSIRAJ</string>
            </property>
           </widget>
          </item>
@@ -168,10 +168,10 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</string>
+            <string>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</string>
            </property>
            <property name="text">
-            <string>Preferred Automint zZND Denomination</string>
+            <string>Preferred Automint zSIRAJ Denomination</string>
            </property>
           </widget>
          </item>
@@ -184,7 +184,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Wait with automatic conversion to Zerocoin until enough ZND for this denomination is available</string>
+            <string>Wait with automatic conversion to Zerocoin until enough SIRAJ for this denomination is available</string>
            </property>
            <property name="maxVisibleItems">
             <number>9</number>

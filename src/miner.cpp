@@ -319,7 +319,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             if (!view.HaveInputs(tx))
                 continue;
 
-            // double check that there are no double spent zZND spends in this block or tx
+            // double check that there are no double spent zSIRAJ spends in this block or tx
             if (tx.IsZerocoinSpend()) {
                 int nHeightTx = 0;
                 if (IsTransactionInChain(tx.GetHash(), nHeightTx))
@@ -340,7 +340,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                         vTxSerials.emplace_back(spend.getCoinSerialNumber());
                     }
                 }
-                //This zZND serial has already been included in the block, do not add this tx.
+                //This zSIRAJ serial has already been included in the block, do not add this tx.
                 if (fDoubleSerial)
                     continue;
             }

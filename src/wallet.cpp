@@ -1939,13 +1939,13 @@ bool CWallet::SelectCoins(const CAmount& nTargetValue, set<pair<const CWalletTx*
         return (nValueRet >= nTargetValue);
     }
 
-    //if we're doing only denominated, we need to round up to the nearest .1 ZND
+    //if we're doing only denominated, we need to round up to the nearest .1 SIRAJ
     if (coin_type == ONLY_DENOMINATED) {
         // Make outputs by looping through denominations, from large to small
         BOOST_FOREACH (CAmount v, obfuScationDenominations) {
             BOOST_FOREACH (const COutput& out, vCoins) {
                 if (out.tx->vout[out.i].nValue == v                                               //make sure it's the denom we're looking for
-                    && nValueRet + out.tx->vout[out.i].nValue < nTargetValue + (0.1 * COIN) + 100 //round the amount up to .1 ZND over
+                    && nValueRet + out.tx->vout[out.i].nValue < nTargetValue + (0.1 * COIN) + 100 //round the amount up to .1 SIRAJ over
                     ) {
                     CTxIn vin = CTxIn(out.tx->GetHash(), out.i);
                     int rounds = GetInputObfuscationRounds(vin);
@@ -2006,12 +2006,12 @@ bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount 
 
             // Function returns as follows:
             //
-            // bit 0 - 10000 ZND+1 ( bit on if present )
-            // bit 1 - 1000 ZND+1
-            // bit 2 - 100 ZND+1
-            // bit 3 - 10 ZND+1
-            // bit 4 - 1 ZND+1
-            // bit 5 - .1 ZND+1
+            // bit 0 - 10000 SIRAJ+1 ( bit on if present )
+            // bit 1 - 1000 SIRAJ+1
+            // bit 2 - 100 SIRAJ+1
+            // bit 3 - 10 SIRAJ+1
+            // bit 4 - 1 SIRAJ+1
+            // bit 5 - .1 SIRAJ+1
 
             CTxIn vin = CTxIn(out.tx->GetHash(), out.i);
 
@@ -2370,9 +2370,9 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                     if (coin_type == ALL_COINS) {
                         strFailReason = _("Insufficient funds.");
                     } else if (coin_type == ONLY_NOT10000IFMN) {
-                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 10000 ZND.");
+                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 10000 SIRAJ.");
                     } else if (coin_type == ONLY_NONDENOMINATED_NOT10000IFMN) {
-                        strFailReason = _("Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ZND.");
+                        strFailReason = _("Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SIRAJ.");
                     } else {
                         strFailReason = _("Unable to locate enough Obfuscation denominated funds for this transaction.");
                         strFailReason += " " + _("Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.");
@@ -3549,32 +3549,32 @@ void CWallet::AutoZeromint()
     CAmount nMintAmount = 0;
     CAmount nToMintAmount = 0;
 
-    // zZND are integers > 0, so we can't mint 10% of 9 ZND
+    // zSIRAJ are integers > 0, so we can't mint 10% of 9 SIRAJ
     if (nBalance < 10){
-        LogPrint("zero", "CWallet::AutoZeromint(): available balance (%ld) too small for minting zZND\n", nBalance);
+        LogPrint("zero", "CWallet::AutoZeromint(): available balance (%ld) too small for minting zSIRAJ\n", nBalance);
         return;
     }
 
-    // Percentage of zZND we already have
+    // Percentage of zSIRAJ we already have
     double dPercentage = 100 * (double)nZerocoinBalance / (double)(nZerocoinBalance + nBalance);
 
     // Check if minting is actually needed
     if(dPercentage >= nZeromintPercentage){
-        LogPrint("zero", "CWallet::AutoZeromint() @block %ld: percentage of existing zZND (%lf%%) already >= configured percentage (%d%%). No minting needed...\n",
+        LogPrint("zero", "CWallet::AutoZeromint() @block %ld: percentage of existing zSIRAJ (%lf%%) already >= configured percentage (%d%%). No minting needed...\n",
                   chainActive.Tip()->nHeight, dPercentage, nZeromintPercentage);
         return;
     }
 
-    // zZND amount needed for the target percentage
+    // zSIRAJ amount needed for the target percentage
     nToMintAmount = ((nZerocoinBalance + nBalance) * nZeromintPercentage / 100);
 
-    // zZND amount missing from target (must be minted)
+    // zSIRAJ amount missing from target (must be minted)
     nToMintAmount = (nToMintAmount - nZerocoinBalance) / COIN;
 
-    // Use the biggest denomination smaller than the needed zZND We'll only mint exact denomination to make minting faster.
+    // Use the biggest denomination smaller than the needed zSIRAJ We'll only mint exact denomination to make minting faster.
     // Exception: for big amounts use 6666 (6666 = 1*5000 + 1*1000 + 1*500 + 1*100 + 1*50 + 1*10 + 1*5 + 1) to create all
     // possible denominations to avoid having 5000 denominations only.
-    // If a preferred denomination is used (means nPreferredDenom != 0) do nothing until we have enough ZND to mint this denomination
+    // If a preferred denomination is used (means nPreferredDenom != 0) do nothing until we have enough SIRAJ to mint this denomination
 
     if (nPreferredDenom > 0){
         if (nToMintAmount >= nPreferredDenom)
@@ -3618,7 +3618,7 @@ void CWallet::AutoZeromint()
         nZerocoinBalance = GetZerocoinBalance(false);
         nBalance = GetUnlockedCoins();
         dPercentage = 100 * (double)nZerocoinBalance / (double)(nZerocoinBalance + nBalance);
-        LogPrintf("CWallet::AutoZeromint() @ block %ld: successfully minted %ld zZND. Current percentage of zZND: %lf%%\n",
+        LogPrintf("CWallet::AutoZeromint() @ block %ld: successfully minted %ld zSIRAJ. Current percentage of zSIRAJ: %lf%%\n",
                   chainActive.Tip()->nHeight, nMintAmount, dPercentage);
         // Re-adjust startup time to delay next Automint for 5 minutes
         nStartupTime = GetAdjustedTime();
@@ -4021,7 +4021,7 @@ bool CWallet::CreateZerocoinMintTransaction(const CAmount nValue, CMutableTransa
     }
 
     //any change that is less than 0.0100000 will be ignored and given as an extra fee
-    //also assume that a zerocoinspend that is minting the change will not have any change that goes to ZND
+    //also assume that a zerocoinspend that is minting the change will not have any change that goes to SIRAJ
     CAmount nChange = nValueIn - nTotalValue; // Fee already accounted for in nTotalValue
     if (nChange > 1 * CENT && !isZCSpendChange) {
         // Fill a vout to ourself
@@ -4045,7 +4045,7 @@ bool CWallet::CreateZerocoinMintTransaction(const CAmount nValue, CMutableTransa
             reservekey->ReturnKey();
     }
 
-    // Sign if these are hello outputs - NOTE that zZND outputs are signed later in SoK
+    // Sign if these are hello outputs - NOTE that zSIRAJ outputs are signed later in SoK
     if (!isZCSpendChange) {
         int nIn = 0;
         for (const std::pair<const CWalletTx*, unsigned int>& coin : setCoins) {
@@ -4062,14 +4062,14 @@ bool CWallet::CreateZerocoinMintTransaction(const CAmount nValue, CMutableTransa
 bool CWallet::MintToTxIn(CZerocoinMint zerocoinSelected, int nSecurityLevel, const uint256& hashTxOut, CTxIn& newTxIn, CZerocoinSpendReceipt& receipt)
 {
     // Default error status if not changed below
-    receipt.SetStatus("Transaction Mint Started", ZZND_TXMINT_GENERAL);
+    receipt.SetStatus("Transaction Mint Started", ZSIRAJ_TXMINT_GENERAL);
 
     libzerocoin::CoinDenomination denomination = zerocoinSelected.GetDenomination();
     // 2. Get pubcoin from the private coin
     libzerocoin::PublicCoin pubCoinSelected(Params().Zerocoin_Params(), zerocoinSelected.GetValue(), denomination);
     LogPrintf("%s : pubCoinSelected:\n denom=%d\n value%s\n", __func__, denomination, pubCoinSelected.getValue().GetHex());
     if (!pubCoinSelected.validate()) {
-        receipt.SetStatus("the selected mint coin is an invalid coin", ZZND_INVALID_COIN);
+        receipt.SetStatus("the selected mint coin is an invalid coin", ZSIRAJ_INVALID_COIN);
         return false;
     }
 
@@ -4079,7 +4079,7 @@ bool CWallet::MintToTxIn(CZerocoinMint zerocoinSelected, int nSecurityLevel, con
     string strFailReason = "";
     int nMintsAdded = 0;
     if (!GenerateAccumulatorWitness(pubCoinSelected, accumulator, witness, nSecurityLevel, nMintsAdded, strFailReason)) {
-        receipt.SetStatus("Try to spend with a higher security level to include more coins", ZZND_FAILED_ACCUMULATOR_INITIALIZATION);
+        receipt.SetStatus("Try to spend with a higher security level to include more coins", ZSIRAJ_FAILED_ACCUMULATOR_INITIALIZATION);
         LogPrintf("%s : %s \n", __func__, receipt.GetStatusMessage());
         return false;
     }
@@ -4095,7 +4095,7 @@ bool CWallet::MintToTxIn(CZerocoinMint zerocoinSelected, int nSecurityLevel, con
         libzerocoin::CoinSpend spend(Params().Zerocoin_Params(), privateCoin, accumulator, nChecksum, witness, hashTxOut);
 
         if (!spend.Verify(accumulator)) {
-            receipt.SetStatus("the new spend coin transaction did not verify", ZZND_INVALID_WITNESS);
+            receipt.SetStatus("the new spend coin transaction did not verify", ZSIRAJ_INVALID_WITNESS);
             return false;
         }
 
@@ -4119,26 +4119,26 @@ bool CWallet::MintToTxIn(CZerocoinMint zerocoinSelected, int nSecurityLevel, con
             serializedCoinSpendChecking << spend;
         }
         catch (...) {
-            receipt.SetStatus("failed to deserialize", ZZND_BAD_SERIALIZATION);
+            receipt.SetStatus("failed to deserialize", ZSIRAJ_BAD_SERIALIZATION);
             return false;
         }
 
         libzerocoin::CoinSpend newSpendChecking(Params().Zerocoin_Params(), serializedCoinSpendChecking);
         if (!newSpendChecking.Verify(accumulator)) {
-            receipt.SetStatus("the transaction did not verify", ZZND_BAD_SERIALIZATION);
+            receipt.SetStatus("the transaction did not verify", ZSIRAJ_BAD_SERIALIZATION);
             return false;
         }
 
         std::list<CBigNum> listCoinSpendSerial = CWalletDB(strWalletFile).ListSpentCoinsSerial();
         for (const CBigNum& item : listCoinSpendSerial) {
             if (spend.getCoinSerialNumber() == item) {
-                //Tried to spend an already spent zZND
+                //Tried to spend an already spent zSIRAJ
                 zerocoinSelected.SetUsed(true);
                 if (!CWalletDB(strWalletFile).WriteZerocoinMint(zerocoinSelected))
                     LogPrintf("%s failed to write zerocoinmint\n", __func__);
 
                 pwalletMain->NotifyZerocoinChanged(pwalletMain, zerocoinSelected.GetValue().GetHex(), "Used", CT_UPDATED);
-                receipt.SetStatus("the coin spend has been used", ZZND_SPENT_USED_ZZND);
+                receipt.SetStatus("the coin spend has been used", ZSIRAJ_SPENT_USED_ZSIRAJ);
                 return false;
             }
         }
@@ -4149,11 +4149,11 @@ bool CWallet::MintToTxIn(CZerocoinMint zerocoinSelected, int nSecurityLevel, con
         receipt.AddSpend(zcSpend);
     }
     catch (const std::exception&) {
-        receipt.SetStatus("CoinSpend: Accumulator witness does not verify", ZZND_INVALID_WITNESS);
+        receipt.SetStatus("CoinSpend: Accumulator witness does not verify", ZSIRAJ_INVALID_WITNESS);
         return false;
     }
 
-    receipt.SetStatus("Spend Valid", ZZND_SPEND_OKAY); // Everything okay
+    receipt.SetStatus("Spend Valid", ZSIRAJ_SPEND_OKAY); // Everything okay
 
     return true;
 }
@@ -4161,19 +4161,19 @@ bool CWallet::MintToTxIn(CZerocoinMint zerocoinSelected, int nSecurityLevel, con
 bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel, CWalletTx& wtxNew, CReserveKey& reserveKey, CZerocoinSpendReceipt& receipt, vector<CZerocoinMint>& vSelectedMints, vector<CZerocoinMint>& vNewMints, bool fMintChange,  bool fMinimizeChange, CBitcoinAddress* address)
 {
     // Check available funds
-    int nStatus = ZZND_TRX_FUNDS_PROBLEMS;
+    int nStatus = ZSIRAJ_TRX_FUNDS_PROBLEMS;
     if (nValue > GetZerocoinBalance(true)) {
         receipt.SetStatus("You don't have enough Zerocoins in your wallet", nStatus);
         return false;
     }
 
     if (nValue < 1) {
-        receipt.SetStatus("Value is below the the smallest available denomination (= 1) of zZND", nStatus);
+        receipt.SetStatus("Value is below the the smallest available denomination (= 1) of zSIRAJ", nStatus);
         return false;
     }
 
     // Create transaction
-    nStatus = ZZND_TRX_CREATE;
+    nStatus = ZSIRAJ_TRX_CREATE;
 
     // If not already given pre-selected mints, then select mints from the wallet
     CWalletDB walletdb(pwalletMain->strWalletFile);
@@ -4181,7 +4181,7 @@ bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel,
     CAmount nValueSelected = 0;
     int nCoinsReturned = 0; // Number of coins returned in change from function below (for debug)
     int nNeededSpends = 0;  // Number of spends which would be needed if selection failed
-    const int nMaxSpends = Params().Zerocoin_MaxSpendsPerTransaction(); // Maximum possible spends for one zZND transaction
+    const int nMaxSpends = Params().Zerocoin_MaxSpendsPerTransaction(); // Maximum possible spends for one zSIRAJ transaction
     if (vSelectedMints.empty()) {
         listMints = walletdb.ListMintedCoins(true, true, true); // need to find mints to spend
         if(listMints.empty()) {
@@ -4196,7 +4196,7 @@ bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel,
         if(!fWholeNumber)
             nValueToSelect = static_cast<CAmount>(ceil(dValue) * COIN);
 
-        // Select the zZND mints to use in this spend
+        // Select the zSIRAJ mints to use in this spend
         std::map<libzerocoin::CoinDenomination, CAmount> DenomMap = GetMyZerocoinDistribution();
         vSelectedMints = SelectMintsFromList(nValueToSelect, nValueSelected, nMaxSpends, fMinimizeChange,
                                              nCoinsReturned, listMints, DenomMap, nNeededSpends);
@@ -4257,7 +4257,7 @@ bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel,
     }
 
     // Create change if needed
-    nStatus = ZZND_TRX_CHANGE;
+    nStatus = ZSIRAJ_TRX_CHANGE;
 
     CMutableTransaction txNew;
     wtxNew.BindWallet(this);
@@ -4339,7 +4339,7 @@ bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel,
         }
     }
 
-    receipt.SetStatus("Transaction Created", ZZND_SPEND_OKAY); // Everything okay
+    receipt.SetStatus("Transaction Created", ZSIRAJ_SPEND_OKAY); // Everything okay
 
     return true;
 }
@@ -4444,21 +4444,21 @@ void CWallet::ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored)
 }
 
 
-void CWallet::ZZNDBackupWallet()
+void CWallet::ZSIRAJBackupWallet()
 {
     filesystem::path backupDir = GetDataDir() / "backups";
     filesystem::path backupPath;
     string strNewBackupName;
 
     for (int i = 0; i < 10; i++) {
-        strNewBackupName = strprintf("wallet-autozzndbackup-%d.dat", i);
+        strNewBackupName = strprintf("wallet-autozSIRAJbackup-%d.dat", i);
         backupPath = backupDir / strNewBackupName;
 
         if (filesystem::exists(backupPath)) {
             //Keep up to 10 backups
             if (i <= 8) {
                 //If the next file backup exists and is newer, then iterate
-                filesystem::path nextBackupPath = backupDir / strprintf("wallet-autozzndbackup-%d.dat", i + 1);
+                filesystem::path nextBackupPath = backupDir / strprintf("wallet-autozSIRAJbackup-%d.dat", i + 1);
                 if (filesystem::exists(nextBackupPath)) {
                     time_t timeThis = filesystem::last_write_time(backupPath);
                     time_t timeNext = filesystem::last_write_time(nextBackupPath);
@@ -4473,7 +4473,7 @@ void CWallet::ZZNDBackupWallet()
                 continue;
             }
             //reset to 0 because name with 9 already used
-            strNewBackupName = strprintf("wallet-autozzndbackup-%d.dat", 0);
+            strNewBackupName = strprintf("wallet-autozSIRAJbackup-%d.dat", 0);
             backupPath = backupDir / strNewBackupName;
             break;
         }
@@ -4529,7 +4529,7 @@ string CWallet::MintZerocoin(CAmount nValue, CWalletTx& wtxNew, vector<CZerocoin
 
     //Create a backup of the wallet
     if (fBackupMints)
-        ZZNDBackupWallet();
+        ZSIRAJBackupWallet();
 
     return "";
 }
@@ -4537,10 +4537,10 @@ string CWallet::MintZerocoin(CAmount nValue, CWalletTx& wtxNew, vector<CZerocoin
 bool CWallet::SpendZerocoin(CAmount nAmount, int nSecurityLevel, CWalletTx& wtxNew, CZerocoinSpendReceipt& receipt, vector<CZerocoinMint>& vMintsSelected, bool fMintChange, bool fMinimizeChange, CBitcoinAddress* addressTo)
 {
     // Default: assume something goes wrong. Depending on the problem this gets more specific below
-    int nStatus = ZZND_SPEND_ERROR;
+    int nStatus = ZSIRAJ_SPEND_ERROR;
 
     if (IsLocked()) {
-        receipt.SetStatus("Error: Wallet locked, unable to create transaction!", ZZND_WALLET_LOCKED);
+        receipt.SetStatus("Error: Wallet locked, unable to create transaction!", ZSIRAJ_WALLET_LOCKED);
         return false;
     }
 
@@ -4551,12 +4551,12 @@ bool CWallet::SpendZerocoin(CAmount nAmount, int nSecurityLevel, CWalletTx& wtxN
     }
 
     if (fMintChange && fBackupMints)
-        ZZNDBackupWallet();
+        ZSIRAJBackupWallet();
 
     CWalletDB walletdb(pwalletMain->strWalletFile);
     if (!CommitTransaction(wtxNew, reserveKey)) {
         LogPrintf("%s: failed to commit\n", __func__);
-        nStatus = ZZND_COMMIT_FAILED;
+        nStatus = ZSIRAJ_COMMIT_FAILED;
 
         //reset all mints
         for (CZerocoinMint mint : vMintsSelected) {
@@ -4568,7 +4568,7 @@ bool CWallet::SpendZerocoin(CAmount nAmount, int nSecurityLevel, CWalletTx& wtxN
         //erase spends
         for (CZerocoinSpend spend : receipt.GetSpends()) {
             if (!walletdb.EraseZerocoinSpendSerialEntry(spend.GetSerial())) {
-                receipt.SetStatus("Error: It cannot delete coin serial number in wallet", ZZND_ERASE_SPENDS_FAILED);
+                receipt.SetStatus("Error: It cannot delete coin serial number in wallet", ZSIRAJ_ERASE_SPENDS_FAILED);
             }
 
             //Remove from public zerocoinDB
@@ -4578,7 +4578,7 @@ bool CWallet::SpendZerocoin(CAmount nAmount, int nSecurityLevel, CWalletTx& wtxN
         // erase new mints
         for (auto& mint : vNewMints) {
             if (!walletdb.EraseZerocoinMint(mint)) {
-                receipt.SetStatus("Error: Unable to cannot delete zerocoin mint in wallet", ZZND_ERASE_NEW_MINTS_FAILED);
+                receipt.SetStatus("Error: Unable to cannot delete zerocoin mint in wallet", ZSIRAJ_ERASE_NEW_MINTS_FAILED);
             }
         }
 
@@ -4611,7 +4611,7 @@ bool CWallet::SpendZerocoin(CAmount nAmount, int nSecurityLevel, CWalletTx& wtxN
         walletdb.WriteZerocoinMint(mint);
     }
 
-    receipt.SetStatus("Spend Successful", ZZND_SPEND_OKAY);  // When we reach this point spending zZND was successful
+    receipt.SetStatus("Spend Successful", ZSIRAJ_SPEND_OKAY);  // When we reach this point spending zSIRAJ was successful
 
     return true;
 }

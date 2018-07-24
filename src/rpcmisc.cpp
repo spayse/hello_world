@@ -66,17 +66,17 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zZNDsupply\" :\n"
+            "  \"zSIRAJsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zZND denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zZND denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zZND denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zZND denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zZND denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zZND denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zZND denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zZND denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zZND denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zSIRAJ denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zSIRAJ denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zSIRAJ denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zSIRAJ denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zSIRAJ denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zSIRAJ denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zSIRAJ denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zSIRAJ denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zSIRAJ denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -109,12 +109,12 @@ Value getinfo(const Array& params, bool fHelp)
     obj.push_back(Pair("difficulty", (double)GetDifficulty()));
     obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
     obj.push_back(Pair("moneysupply",ValueFromAmount(chainActive.Tip()->nMoneySupply)));
-    Object zzndObj;
+    Object zSIRAJObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zzndObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zSIRAJObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zzndObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.emplace_back(Pair("zZNDsupply", zzndObj));
+    zSIRAJObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
+    obj.emplace_back(Pair("zSIRAJsupply", zSIRAJObj));
     
 #ifdef ENABLE_WALLET
     if (pwalletMain) {

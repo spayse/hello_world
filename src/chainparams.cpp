@@ -45,7 +45,8 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x"));
+	(0, uint256("0x0000067d628f3b576ae87e8d248c35e652ac09be921de19c9346611d24804146"));
+//(1, uint256("0x00000050e327e23ef9b6cd8a60e94637231b90a972ec4c2d6cf6027ea1b49312d"));
 	
 
 static const Checkpoints::CCheckpointData data = {
@@ -53,8 +54,22 @@ static const Checkpoints::CCheckpointData data = {
     1523538000, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    576        // * estimated number of transactions per day after checkpoint
+    720        // * estimated number of transactions per day after checkpoint
 };
+static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
+    boost::assign::map_list_of(0, uint256("0x001"));
+static const Checkpoints::CCheckpointData dataTestnet = {
+    &mapCheckpointsTestnet,
+    1523538001,
+    0,
+    250};
+static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
+    boost::assign::map_list_of(0, uint256("0x001"));
+static const Checkpoints::CCheckpointData dataRegtest = {
+    &mapCheckpointsRegtest,
+    1523538002,
+    0,
+    100};
 
 libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
 {
@@ -89,16 +104,16 @@ public:
         nTargetTimespan = 2 * 60; // every block
         nTargetSpacing = 2 * 60;  // 120 seconds
         nMaturity = 101;
-		nMaxMoneyOut = 500000 * COIN;
+		nMaxMoneyOut = 10500000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 15000; // about 20 days 
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; // Enforce serial range starting this block
-        nZerocoinStartTime = 0; // Friday 25 May 2018 00:00:00 UTC
+        nZerocoinStartTime = 1534550400; //
 		nZerocoinStartHeight = 12000;
 		
-		const char* pszTimestamp = "The legacy of Prof Stephen Hawking will live forever";
+		const char* pszTimestamp = "The worlds first p2p exchange";
 		
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -113,10 +128,10 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1532199180;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 2148696;
         
         
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
                        {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -147,13 +162,13 @@ public:
                        }
         hashGenesisBlock = genesis.GetHash();
 		
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x0000067d628f3b576ae87e8d248c35e652ac09be921de19c9346611d24804146"));
+        assert(genesis.hashMerkleRoot == uint256("0xb3ebf1ffd893894fa639e8376a084779a5926335e4094ab06e65d1ac7220e826"));
 		
         vSeeds.push_back(CDNSSeedData("dns1.hello.network", "dns1.hello.network"));
 	
 		
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 80);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 32);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();

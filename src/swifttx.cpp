@@ -29,7 +29,7 @@ int nCompleteTXLocks;
 
 //txlock - Locks transaction
 //
-//step 1.) Broadcast intention to lock transaction inputs, "tzndeg", CTransaction
+//step 1.) Broadcast intention to lock transaction inputs, "tSIRAJeg", CTransaction
 //step 2.) Top SWIFTTX_SIGNATURES_TOTAL masternodes, open connect to top 1 masternode.
 //         Send "txvote", CTransaction, Signature, Approve
 //step 3.) Top 1 masternode, waits for SWIFTTX_SIGNATURES_REQUIRED messages. Upon success, sends "txlock'

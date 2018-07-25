@@ -1,8 +1,8 @@
 package=zeromq
-$(package)_version=4.2.5
+$(package)_version=4.2.2
 $(package)_download_path=https://github.com/zeromq/libzmq/releases/download/v$($(package)_version)/
 $(package)_file_name=$(package)-$($(package)_version).tar.gz
-$(package)_sha256_hash=cc9090ba35713d59bb2f7d7965f877036c49c5558ea0c290b0dcc6f2a17e489f
+$(package)_sha256_hash=5b23f4ca9ef545d5bd3af55d305765e3ee06b986263b31967435d285a3e6df6b
 $(package)_patches=0001-fix-build-with-older-mingw64.patch
 
 define $(package)_set_vars
@@ -12,7 +12,7 @@ define $(package)_set_vars
 endef
 
 define $(package)_preprocess_cmds
-  patch -p1 < $($(package)_patch_dir)/0001-fix-build-with-older-mingw64.patch && \
+   patch -p1 < $($(package)_patch_dir)/0001-fix-build-with-older-mingw64.patch && \
   ./autogen.sh
 endef
 

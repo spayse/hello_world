@@ -2,7 +2,7 @@
 # Attempt to guess a canonical system name.
 #   Copyright 1992-2017 Free Software Foundation, Inc.
 
-timestamp='2018-03-31'
+timestamp='2017-03-05'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -370,13 +370,13 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 	    sparc) echo sparc-icl-nx7; exit ;;
 	esac ;;
     s390x:SunOS:*:*)
-	echo ${UNAME_MACHINE}-ibm-hello2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
+	echo ${UNAME_MACHINE}-ibm-solaris2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit ;;
     sun4H:SunOS:5.*:*)
-	echo sparc-hal-hello2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
+	echo sparc-hal-solaris2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit ;;
     sun4*:SunOS:5.*:* | tadpole*:SunOS:5.*:*)
-	echo sparc-sun-hello2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
+	echo sparc-sun-solaris2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit ;;
     i86pc:AuroraUX:5.*:* | i86xen:AuroraUX:5.*:*)
 	echo i386-pc-auroraux${UNAME_RELEASE}
@@ -395,13 +395,13 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 		SUN_ARCH=x86_64
 	    fi
 	fi
-	echo ${SUN_ARCH}-pc-hello2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
+	echo ${SUN_ARCH}-pc-solaris2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit ;;
     sun4*:SunOS:6*:*)
 	# According to config.sub, this is the proper way to canonicalize
 	# SunOS6.  Hard to guess exactly what SunOS6 will be like, but
-	# it's likely to be more like hello than SunOS4.
-	echo sparc-sun-hello3`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
+	# it's likely to be more like Solaris than SunOS4.
+	echo sparc-sun-solaris3`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit ;;
     sun4*:SunOS:*:*)
 	case "`/usr/bin/arch -k`" in
@@ -838,7 +838,7 @@ EOF
 	case ${UNAME_PROCESSOR} in
 	    amd64)
 		UNAME_PROCESSOR=x86_64 ;;
-		i386)
+	    i386)
 		UNAME_PROCESSOR=i586 ;;
 	esac
 	echo ${UNAME_PROCESSOR}-unknown-freebsd`echo ${UNAME_RELEASE}|sed -e 's/[-(].*//'`
@@ -896,7 +896,7 @@ EOF
 	echo powerpcle-unknown-cygwin
 	exit ;;
     prep*:SunOS:5.*:*)
-	echo powerpcle-unknown-hello2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
+	echo powerpcle-unknown-solaris2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit ;;
     *:GNU:*:*)
 	# the GNU system
@@ -1344,7 +1344,7 @@ EOF
     NSR-?:NONSTOP_KERNEL:*:*)
 	echo nsr-tandem-nsk${UNAME_RELEASE}
 	exit ;;
-	NSX-?:NONSTOP_KERNEL:*:*)
+    NSX-?:NONSTOP_KERNEL:*:*)
 	echo nsx-tandem-nsk${UNAME_RELEASE}
 	exit ;;
     *:NonStop-UX:*:*)

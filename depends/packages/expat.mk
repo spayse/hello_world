@@ -1,8 +1,8 @@
 package=expat
-$(package)_version=2.2.3
+$(package)_version=2.2.1
 $(package)_download_path=https://downloads.sourceforge.net/project/expat/expat/$($(package)_version)
 $(package)_file_name=$(package)-$($(package)_version).tar.bz2
-$(package)_sha256_hash=b31890fb02f85c002a67491923f89bda5028a880fd6c374f707193ad81aace5f
+$(package)_sha256_hash=1868cadae4c82a018e361e2b2091de103cd820aaacb0d6cfa49bd2cd83978885
 
 define $(package)_set_vars
 $(package)_config_opts=--disable-static

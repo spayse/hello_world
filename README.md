@@ -10,12 +10,12 @@
 <hr style="width: 75%; color: rgb(151, 7, 11);">
 <p><strong><span style="color: #800080;"><em>Block Time:</em></span></strong></p>
 <ul>
-<li>150 Seconds with Retargeting every Block</li>
+<li>120 Seconds with Retargeting every Block</li>
 </ul>
 <hr style="width: 75%; color: rgb(151, 7, 11);">
 <p><strong><span style="color: #800080;"><em>Max Coin Supply:</em></span></strong></p>
 <ul>
-<li>ALL Phase: 10.000.000</li>
+<li>pow Phase: 25.000.000</li>
 </ul>
 <hr style="width: 75%; color: rgb(151, 7, 11);">
 <p><strong><span style="color: #800080;"><em>PoW Phase 1:</em></span></strong></p>

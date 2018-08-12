@@ -1,8 +1,6 @@
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-//copyright 2817 colx
-// copyright 2017 zond
-// Copyright (c) in perpetuity SpayseMcG
+// Copyright (c) 2017-2018 The hello developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -441,6 +439,73 @@ bool CActiveMasternode::GetVinFromOutput(COutput out, CTxIn& vin, CPubKey& pubke
     return true;
 }
 
+
+float dynamNC(int nHeight){
+
+int baseC = 65000;
+float iLevel= 1.0000;
+bool iLActive{
+    if(nHeight >= 23000){ return iLActive true}};
+
+    
+    if (iLActive ){
+float isPrime(int nHeight, iLevel){
+        
+        int n = nHeight 
+        
+          for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0)
+      {
+          iLevel+=iLevel/133;
+          break;
+      }
+  } return iLevel;
+        
+    };
+
+float isPerfectSquare(int nHeight, float iLevel)
+{
+    int s = sqrt(nHeight);
+    if (s*s == nHeight){iLevel+=iLevel/200};
+    return iLevel;
+}
+    
+    float isFibonacci(int nHeight, float iLevel)
+{
+        if (isPerfectSquare(5*nHeight*nHeight + 4) ||
+           isPerfectSquare(5*nHeight*nHeight - 4)){iLevel+=iLevel/70};
+        
+  return iLevel;
+    }
+    
+    float golden(int nHeight, float iLevel,bool isFibonacci(bool isPerfectSquare ),bool isPrime )
+    {
+      if (nHeight = isPrime && nHeight = isFibonacci)  {iLevel+=iLevel * 0.666}
+        return iLevel
+    }
+        
+        return iLevel * baseC
+        
+        
+    
+    }else (!iLactive){return iLevel}
+    
+};
+int colatBase = 65000 * COIN;   // base MNcolat 
+float dynamNC(iLevel,colatBase,nHeight){
+    dynamNC = colatBase;
+    
+    if(iLActive=true){
+        dynamNC == colatBase * iLevel
+    }
+    
+ return dynamNC;
+    
+    
+};
+
+
 // get all possible outputs for running Masternode
 vector<COutput> CActiveMasternode::SelectCoinsMasternode()
 {
@@ -464,43 +529,8 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
         }
     }
 
-    
-//this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
-
-int iLevel(nHeight){       // the infinite level 
-   bool iLActive(nHeight){
-      if (nHeight >= 23098) {
-          return true
-      }
-       
-   }
-    if(nHeight % 1618 = 0 && iLActive = true){     // golden ratio
-        iLevel += 0.1618
-    }else(iLActive = false){
-        iLevel=1;
-    }
-    
-    return iLevel;
-}
-//  returns the current iLevel
-
-int colatBase = 65000 * COIN;   // base MNcolat 
-int dynamNC(iLevel,colatBase,nHeight){
-    dynamNC = colatBase;
-    
-    if(iLActive=true){
-        dynamNC == colatBase * iLevel
-    }
-    
- return dynamNC;
-}
-    //copyright 2018 SpayseMcG    
-    
-    
-    
-    
     // Retrieve all possible outputs
-    pwalletMain->AvailableCoins(vCoins, dynamNC);
+    pwalletMain->AvailableCoins(vCoins);
 
     // Lock MN coins from masternode.conf back if they where temporary unlocked
     if (!confLockedCoins.empty()) {
@@ -510,7 +540,7 @@ int dynamNC(iLevel,colatBase,nHeight){
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-        if (out.tx->vout[out.i].nValue == dynamNC ) { //exactly
+        if (out.tx->vout[out.i].nValue == dynamNC * COIN) { //exactly
             filteredCoins.push_back(out);
         }
     }

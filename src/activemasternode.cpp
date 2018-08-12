@@ -467,7 +467,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     
 //this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
 
-float iLevel(nHeight){       // the infinite level 
+float iLevel(int nHeight){       // the infinite level 
    bool iLActive(nHeight){
       if (nHeight >= 23098) {
           return true

@@ -2173,7 +2173,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 // Begin economic modifications (McG)
 
 
-float iLevel(nHeight){       // the infinite level 
+float iLevel(int nHeight){       // the infinite level 
    bool iLActive(nHeight){
       if (nHeight >= 23098) {
           return true

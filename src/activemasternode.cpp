@@ -467,16 +467,60 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     
 //this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
 
-int iLevel(nHeight){       // the infinite level 
+float iLevel(nHeight){       // the infinite level 
    bool iLActive(nHeight){
       if (nHeight >= 23098) {
           return true
       }
        
-   }
-    if(nHeight % 1618 = 0 && iLActive = true){     // golden ratio
-        iLevel += 0.1618
-    }else(iLActive = false){
+   }  // lets see if we got a unique number
+    
+    bool isPerfectSquare(nHeight)
+{
+    int s = sqrt(nHeight);
+    return (s*s == nHeight);
+}
+    
+    bool isFibonacci(nHeight)
+{
+  
+    return isPerfectSquare(5*nHeight*nHeight + 4) ||
+           isPerfectSquare(5*nHeight*nHeight - 4);
+}
+   
+    
+    bool isPrime(nHeight){
+        
+        int n = nHeight 
+        
+          for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0)
+      {
+          isPrime = false;
+          break;
+      }
+  }
+        
+    }
+    
+    if(iLActive = true){     // lets do some nerd shit(mcg)
+        
+        switch(nHeight){
+                
+            case isPrime = true: iLevel += iLevel/3;   
+                
+                                    break;
+            case isPerfectSquare = true :iLevel+=iLevel/20; 
+                                    break;
+            case  isFibonacci = true : iLevel += iLevel/7;
+                                    break;
+            case isPrime = true &&  isFibonacci = true: iLevel+=iLevel * 0.666;
+                break;
+        }
+        
+        
+         }else(iLActive = false){
         iLevel=1;
     }
     
@@ -485,7 +529,7 @@ int iLevel(nHeight){       // the infinite level
 //  returns the current iLevel
 
 int colatBase = 65000 * COIN;   // base MNcolat 
-int dynamNC(iLevel,colatBase,nHeight){
+float dynamNC(iLevel,colatBase,nHeight){
     dynamNC = colatBase;
     
     if(iLActive=true){
@@ -493,11 +537,8 @@ int dynamNC(iLevel,colatBase,nHeight){
     }
     
  return dynamNC;
-}
-    //copyright 2018 SpayseMcG    
     
-    
-    
+    // iLevels by SpayseMcG
     
     // Retrieve all possible outputs
     pwalletMain->AvailableCoins(vCoins, dynamNC);

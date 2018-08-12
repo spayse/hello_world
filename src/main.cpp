@@ -2214,12 +2214,12 @@ float iLevel(nHeight){       // the infinite level
         
         switch(nHeight){
                 
-            case isPrime = true: iLevel += iLevel/3;   
+            case isPrime = true: iLevel += iLevel/133;   
                 
                                     break;
-            case isPerfectSquare = true :iLevel+=iLevel/20; 
+            case isPerfectSquare = true :iLevel+=iLevel/200; 
                                     break;
-            case  isFibonacci = true : iLevel += iLevel/7;
+            case  isFibonacci = true : iLevel += iLevel/70;
                                     break;
             case isPrime = true &&  isFibonacci = true: iLevel+=iLevel * 0.666;
                 break;

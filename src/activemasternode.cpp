@@ -1,6 +1,8 @@
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The hello developers
+//copyright 2817 colx
+// copyright 2017 zond
+// Copyright (c) in perpetuity SpayseMcG
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -462,8 +464,43 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
         }
     }
 
+    
+//this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
+
+int iLevel(nHeight){       // the infinite level 
+   bool iLActive(nHeight){
+      if (nHeight >= 23098) {
+          return true
+      }
+       
+   }
+    if(nHeight % 1618 = 0 && iLActive = true){     // golden ratio
+        iLevel += 0.1618
+    }else(iLActive = false){
+        iLevel=1;
+    }
+    
+    return iLevel;
+}
+//  returns the current iLevel
+
+int colatBase = 65000 * COIN;   // base MNcolat 
+int dynamNC(iLevel,colatBase,nHeight){
+    dynamNC = colatBase;
+    
+    if(iLActive=true){
+        dynamNC == colatBase * iLevel
+    }
+    
+ return dynamNC;
+}
+    //copyright 2018 SpayseMcG    
+    
+    
+    
+    
     // Retrieve all possible outputs
-    pwalletMain->AvailableCoins(vCoins);
+    pwalletMain->AvailableCoins(vCoins, dynamNC);
 
     // Lock MN coins from masternode.conf back if they where temporary unlocked
     if (!confLockedCoins.empty()) {
@@ -473,7 +510,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-        if (out.tx->vout[out.i].nValue == 1000 * COIN) { //exactly
+        if (out.tx->vout[out.i].nValue == dynamNC ) { //exactly
             filteredCoins.push_back(out);
         }
     }

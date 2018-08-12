@@ -2170,6 +2170,36 @@ double ConvertBitsToDouble(unsigned int nBits)
 }
 
 
+int iLevel(nHeight){       // the infinite level 
+   bool iLActive(nHeight){
+      if (nHeight >= 23098) {
+          return true
+      }
+       
+   }
+    if(nHeight % 1618 = 0 && iLActive = true){     // golden ratio
+        iLevel += 0.1618
+    }else(iLActive = false){
+        iLevel=1;
+    }
+    
+    return iLevel;
+}
+//  returns the current iLevel
+
+int colatBase = 65000 * COIN;   // base MNcolat 
+int dynamNC(iLevel,colatBase,nHeight){
+    dynamNC = colatBase;
+    
+    if(iLActive=true){
+        dynamNC == colatBase * iLevel
+    }
+    
+ return dynamNC;
+    
+    
+};
+
 int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
@@ -2179,11 +2209,11 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight < 15000 && nHeight > 0) {
         nSubsidy = 1000 * COIN; // 20 days -- Emissions: 207.356, Cumulative: 507.356
     } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 15000 ) {
-        nSubsidy = 1000 * COIN; // 2 years -- Emissions: 2.522.880, Cumulative: 4.297.436
+        nSubsidy = 250 * COIN; // 2 years -- Emissions: 2.522.880, Cumulative: 4.297.436
     }else if (nHeight < 300000 && nHeight > 262980) {
-        nSubsidy = 500 * COIN;
-    }else {
         nSubsidy = 100 * COIN;
+    }else {
+        nSubsidy = 50 * COIN;
     }
     return nSubsidy;
 }
@@ -2202,13 +2232,17 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	
     if (nHeight >= 2500 && nHeight <= 1499) {
         ret = blockValue * 0.75;
-    } else if (nHeight > Params().LAST_POW_BLOCK()) {
+    } else if (nHeight >= 12500 && nHeight <= 15000){
+         ret = blockValue * 0.75;
+        
+    }
+    else if(nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = mnodeman.size() * 10000 * COIN;
+        int64_t mNodeCoins = mnodeman.size() * dynamNC;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)
-            mNodeCoins = nMasternodeCount * 10000 * COIN;
+            mNodeCoins = nMasternodeCount * dynamNC;
 
         if (fDebug)
             LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),

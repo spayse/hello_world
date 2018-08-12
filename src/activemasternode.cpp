@@ -467,29 +467,16 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     
 //this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
 
-float iLevel(int nHeight){       // the infinite level 
-   bool iLActive(nHeight){
-      if (nHeight >= 23098) {
-          return true
-      }
-       
-   }  // lets see if we got a unique number
+int64_t dynamNC(int nHeight){
+
+int baseC = 65000;
+float iLevel= 1.0000;
+bool iLActive{
+    if(nHeight >= 23000){ return iLActive true}};
+
     
-    bool isPerfectSquare(nHeight)
-{
-    int s = sqrt(nHeight);
-    return (s*s == nHeight);
-}
-    
-    bool isFibonacci(nHeight)
-{
-  
-    return isPerfectSquare(5*nHeight*nHeight + 4) ||
-           isPerfectSquare(5*nHeight*nHeight - 4);
-}
-   
-    
-    bool isPrime(nHeight){
+    if (iLActive ){
+float isPrime(int nHeight, iLevel){
         
         int n = nHeight 
         
@@ -497,46 +484,39 @@ float iLevel(int nHeight){       // the infinite level
   {
       if(n % i == 0)
       {
-          isPrime = false;
+          iLevel+=iLevel/133;
           break;
       }
-  }
+  } return iLevel;
         
-    }
-    
-    if(iLActive = true){     // lets do some nerd shit(mcg)
-        
-        switch(nHeight){
-                
-            case isPrime = true: iLevel += iLevel/133;   
-                
-                                    break;
-            case isPerfectSquare = true :iLevel+=iLevel/200; 
-                                    break;
-            case  isFibonacci = true : iLevel += iLevel/70;
-                                    break;
-            case isPrime = true &&  isFibonacci = true: iLevel+=iLevel * 0.666;
-                break;
-        }
-        
-        
-         }else(iLActive = false){
-        iLevel=1;
-    }
-    
+    };
+
+float isPerfectSquare(int nHeight, float iLevel)
+{
+    int s = sqrt(nHeight);
+    if (s*s == nHeight){iLevel+=iLevel/200};
     return iLevel;
 }
-//  returns the current iLevel
-
-int colatBase = 65000 * COIN;   // base MNcolat 
-float dynamNC(iLevel,colatBase,nHeight){
-    dynamNC = colatBase;
     
-    if(iLActive=true){
-        dynamNC == colatBase * iLevel
+    float isFibonacci(int nHeight, float iLevel)
+{
+        if (isPerfectSquare(5*nHeight*nHeight + 4) ||
+           isPerfectSquare(5*nHeight*nHeight - 4)){iLevel+=iLevel/70};
+        
+  return iLevel;
     }
     
- return dynamNC;
+    float golden(int nHeight, float iLevel,bool isFibonacci(bool isPerfectSquare ),bool isPrime )
+    {
+      if (nHeight = isPrime && nHeight = isFibonacci)  {iLevel+=iLevel * 0.666}
+        return iLevel
+    }
+        
+        return iLevel * baseC
+        
+        
+    
+    }else{break;}
     
     // iLevels by SpayseMcG
     
@@ -551,7 +531,7 @@ float dynamNC(iLevel,colatBase,nHeight){
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-        if (out.tx->vout[out.i].nValue == dynamNC ) { //exactly
+        if (out.tx->vout[out.i].nValue == dynamNC * COIN ) { //exactly
             filteredCoins.push_back(out);
         }
     }

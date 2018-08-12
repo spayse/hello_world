@@ -2173,29 +2173,16 @@ double ConvertBitsToDouble(unsigned int nBits)
 // Begin economic modifications (McG)
 
 
-float iLevel(int nHeight){       // the infinite level 
-   bool iLActive(nHeight){
-      if (nHeight >= 23098) {
-          return true
-      }
-       
-   }
+int64_t dynamNC(int nHeight){
+
+int baseC = 65000;
+float iLevel= 1.0000;
+bool iLActive{
+    if(nHeight >= 23000){ return iLActive true}};
+
     
-    bool isPerfectSquare(nHeight)
-{
-    int s = sqrt(nHeight);
-    return (s*s == nHeight);
-}
-    
-    bool isFibonacci(nHeight)
-{
-  
-    return isPerfectSquare(5*nHeight*nHeight + 4) ||
-           isPerfectSquare(5*nHeight*nHeight - 4);
-}
-   
-    
-    bool isPrime(nHeight){
+    if (iLActive ){
+float isPrime(int nHeight, iLevel){
         
         int n = nHeight 
         
@@ -2203,49 +2190,43 @@ float iLevel(int nHeight){       // the infinite level
   {
       if(n % i == 0)
       {
-          isPrime = false;
+          iLevel+=iLevel/133;
           break;
       }
-  }
+  } return iLevel;
         
-    }
-    
-    if(iLActive = true){     // lets do some nerd shit(mcg)
-        
-        switch(nHeight){
-                
-            case isPrime = true: iLevel += iLevel/133;   
-                
-                                    break;
-            case isPerfectSquare = true :iLevel+=iLevel/200; 
-                                    break;
-            case  isFibonacci = true : iLevel += iLevel/70;
-                                    break;
-            case isPrime = true &&  isFibonacci = true: iLevel+=iLevel * 0.666;
-                break;
-        }
-        
-        
-         }else(iLActive = false){
-        iLevel=1;
-    }
-    
+    };
+
+float isPerfectSquare(int nHeight, float iLevel)
+{
+    int s = sqrt(nHeight);
+    if (s*s == nHeight){iLevel+=iLevel/200};
     return iLevel;
 }
-//  returns the current iLevel
-
-int colatBase = 65000 * COIN;   // base MNcolat 
-float dynamNC(iLevel,colatBase,nHeight){
-    dynamNC = colatBase;
     
-    if(iLActive=true){
-        dynamNC == colatBase * iLevel
+    float isFibonacci(int nHeight, float iLevel)
+{
+        if (isPerfectSquare(5*nHeight*nHeight + 4) ||
+           isPerfectSquare(5*nHeight*nHeight - 4)){iLevel+=iLevel/70};
+        
+  return iLevel;
     }
     
- return dynamNC;
+    float golden(int nHeight, float iLevel,bool isFibonacci(bool isPerfectSquare ),bool isPrime )
+    {
+      if (nHeight = isPrime && nHeight = isFibonacci)  {iLevel+=iLevel * 0.666}
+        return iLevel
+    }
+        
+        return iLevel * baseC
+        
+        
+    
+    }else{break;}
     
     
-};
+    
+
 
 int64_t GetBlockValue(int nHeight)
 {
@@ -2265,7 +2246,7 @@ int64_t GetBlockValue(int nHeight)
     return nSubsidy;
 }
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, int64_t dynamNC )
 {
     int64_t ret = 0;
 
@@ -2285,7 +2266,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     }
     else if (nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = mnodeman.size() * dynamNC;
+        int64_t mNodeCoins = mnodeman.size() * dynamNC * COIN ;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)

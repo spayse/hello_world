@@ -1,6 +1,8 @@
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The hello developers
+//copyright 2817 colx
+// copyright 2017 zond
+// Copyright (c) in perpetuity SpayseMcG
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -462,8 +464,75 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
         }
     }
 
+    
+//this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
+
+
+int64_t dynamNC(int nHeight){
+
+int baseC = 65000;
+float iLevel= 1.0000;
+bool iLActive;
+    if(nHeight >= 23000)
+    iLActive = true;
+
+
+    
+    
+float isPrime;{
+        int i;
+        int n = nHeight ;
+        
+          for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0 && iLActive)
+      {
+          iLevel+=iLevel/133;
+          break;
+      }
+  } return iLevel;
+        
+    }
+
+
+
+float isPerfectSquare(int);
+{
+    int s = sqrt(nHeight);
+    if (s*s == nHeight) iLevel+=iLevel/200;
+    return iLevel;
+}
+
+    
+    float isFibonacci;
+{
+        if (isPerfectSquare(5*nHeight*nHeight + 4 ||
+           isPerfectSquare(5*nHeight*nHeight - 4  && iLActive)))
+           {iLevel+=iLevel/70;}
+        
+  return iLevel;
+    }
+    
+   
+      if (nHeight = isPrime && isFibonacci && iLActive) {iLevel+=iLevel * 0.666;
+        return iLevel;
+    
+        
+        return iLevel * baseC;
+        
+        
+    
+    }else (iLActive = false);{return iLevel;}
+ 
+        
+        
+        
+    }
+    
+    // iLevels by SpayseMcG
+    
     // Retrieve all possible outputs
-    pwalletMain->AvailableCoins(vCoins);
+    pwalletMain->AvailableCoins(vCoins, dynamNC* COIN);
 
     // Lock MN coins from masternode.conf back if they where temporary unlocked
     if (!confLockedCoins.empty()) {
@@ -473,7 +542,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-        if (out.tx->vout[out.i].nValue == 1000 * COIN) { //exactly
+        if (out.tx->vout[out.i].nValue == dynamNC ) { //exactly
             filteredCoins.push_back(out);
         }
     }

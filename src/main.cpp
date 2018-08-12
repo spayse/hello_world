@@ -2176,6 +2176,19 @@ float iLevel= 1.0000;
 bool iLActive{
     if(nHeight >= 23000){ return iLActive true}};
 
+<<<<<<< HEAD
+=======
+// Begin economic modifications (McG)
+
+
+int64_t dynamNC(int nHeight){
+
+int baseC = 65000;
+float iLevel= 1.0000;
+bool iLActive{
+    if(nHeight >= 23000){ return iLActive true}};
+
+>>>>>>> 48f6f52b0f206d4cbf26b5027ce97f351960bf6e
     
     if (iLActive ){
 float isPrime(int nHeight, iLevel){
@@ -2199,6 +2212,7 @@ float isPerfectSquare(int nHeight, float iLevel)
     if (s*s == nHeight){iLevel+=iLevel/200};
     return iLevel;
 }
+<<<<<<< HEAD
     
     float isFibonacci(int nHeight, float iLevel)
 {
@@ -2224,15 +2238,32 @@ float isPerfectSquare(int nHeight, float iLevel)
 int colatBase = 65000 * COIN;   // base MNcolat 
 float dynamNC(iLevel,colatBase,nHeight){
     dynamNC = colatBase;
+=======
+>>>>>>> 48f6f52b0f206d4cbf26b5027ce97f351960bf6e
     
-    if(iLActive=true){
-        dynamNC == colatBase * iLevel
+    float isFibonacci(int nHeight, float iLevel)
+{
+        if (isPerfectSquare(5*nHeight*nHeight + 4) ||
+           isPerfectSquare(5*nHeight*nHeight - 4)){iLevel+=iLevel/70};
+        
+  return iLevel;
     }
     
- return dynamNC;
+    float golden(int nHeight, float iLevel,bool isFibonacci(bool isPerfectSquare ),bool isPrime )
+    {
+      if (nHeight = isPrime && nHeight = isFibonacci)  {iLevel+=iLevel * 0.666}
+        return iLevel
+    }
+        
+        return iLevel * baseC
+        
+        
+    
+    }else{break;}
     
     
-};
+    
+
 
 int64_t GetBlockValue(int nHeight)
 {
@@ -2252,7 +2283,11 @@ int64_t GetBlockValue(int nHeight)
     return nSubsidy;
 }
 
+<<<<<<< HEAD
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, float iLevel, int_64 dynamNC )
+=======
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, int64_t dynamNC )
+>>>>>>> 48f6f52b0f206d4cbf26b5027ce97f351960bf6e
 {
     int64_t ret = 0;
 
@@ -2272,7 +2307,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     }
     else if (nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = mnodeman.size() * dynamNC;
+        int64_t mNodeCoins = mnodeman.size() * dynamNC * COIN ;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)
@@ -2324,7 +2359,8 @@ bool IsInitialBlockDownload()
         return true;
     static bool lockIBDState = false;
     if (lockIBDState)
-        return false;
+        return false
+        ;
     bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
                   pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60); // ~144 blocks behind -> 2 x fork detection time
     if (!state)

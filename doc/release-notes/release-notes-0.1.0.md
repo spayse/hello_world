@@ -9,12 +9,12 @@ hellop world  version 0.1
  
  if prime and fibonacci the iLevel increases by .666% (hail satan )
  
- THIS ALSO CONVERTS PIVX SEESAW TO KEYNSEIAN adversarial framework to soak up excess liquidity in markets
+ THIS ALSO CONVERTS PIVX SEESAW TO KEYNSEIAN adversarial framework to soak up excess liquidity in markets before the march begins
  
- creates a much better variable :mNRatio 
+also  creates a much better variable :mNRatio 
 
 
- this was forked from  zond from amsterdamcoin from colx from pivx
+ this was forked from  zond from amsterdamcoin from colx from pivx from dash from bitcoin
 
 
 mad props 

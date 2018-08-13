@@ -2171,67 +2171,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 
 
-int64_t dynamNC(int nHeight){
-
-int baseC = 65000;
-float iLevel= 1.0000;
-bool iLActive;
-    if(nHeight >= 23000)
-    iLActive = true;
-
-
-    
-    
-float isPrime;{
-        int i;
-        int n = nHeight ;
-        
-          for(i = 2; i <= n / 2; ++i)
-  {
-      if(n % i == 0 && iLActive)
-      {
-          iLevel+=iLevel/133;
-          break;
-      }
-  } return iLevel;
-        
-    }
-
-
-
-float isPerfectSquare(int);
-{
-    int s = sqrt(nHeight);
-    if (s*s == nHeight) iLevel+=iLevel/200;
-    return iLevel;
-}
-
-    
-    float isFibonacci;
-{
-        if (isPerfectSquare(5*nHeight*nHeight + 4 ||
-           isPerfectSquare(5*nHeight*nHeight - 4  && iLActive)))
-           {iLevel+=iLevel/70;}
-        
-  return iLevel;
-    }
-    
-   
-      if (nHeight = isPrime && isFibonacci && iLActive) {iLevel+=iLevel * 0.666;
-        return iLevel;
-    
-        
-        return iLevel * baseC;
-        
-        
-    
-    }else (iLActive = false);{return iLevel;}
- 
-        
-        
-        
-    }
-    
+          
 
 
 int64_t GetBlockValue(int nHeight)
@@ -2252,8 +2192,7 @@ int64_t GetBlockValue(int nHeight)
     return nSubsidy;
 }
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, float iLevel, float dynamNC )
-
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
 
 {
     int64_t ret = 0;
@@ -2274,7 +2213,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     }
     else if (nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = mnodeman.size() * dynamNC * COIN ;
+        int64_t mNodeCoins = mnodeman.size() * 65000 * COIN ;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)
@@ -2291,14 +2230,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             
         } else if (nHeight >=15000  && nHeight <= 262980) { 
             
-           float mNRatio=100; 
-           mNRatio = nMoneySupply/(nMasternodeCount*mNodeCoins) ;
-         
-               if (mNRatio > 10 ){ret = blockValue  * 0.85;}
-               else if   (mNRatio > 5){ret = blockValue  * 0.74;}   
-               else if   (mNRatio > 3){ret = blockValue  * 0.55;}
-               else if   (mNRatio > 2){ret = blockValue  * 0.42;}
-               else if   (mNRatio > 1){ret = blockValue  * 0.333;}                  
+          {ret = blockValue  * 0.333;}                  
                     
               } else(nHeight >= 262980);{
             

@@ -4591,7 +4591,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>(must be 44545for mainnet)</source>
-        <translation>(메인넷 일경우 60128)</translation>
+        <translation>(메인넷 일경우 44545)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

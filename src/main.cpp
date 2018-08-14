@@ -2217,7 +2217,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)
-            mNodeCoins = nMasternodeCount * dynamNC * COIN;
+            mNodeCoins = nMasternodeCount * 65000 * COIN;
 
         if (fDebug)
             LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),

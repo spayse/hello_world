@@ -1150,7 +1150,7 @@ public:
             }
 
             // Add masternode collaterals which are handled likc locked coins
-            if (fMasterNode && vout[i].nValue == 1000 * COIN) {
+            if (fMasterNode && vout[i].nValue == 65000 * COIN) {
                 nCredit += pwallet->GetCredit(txout, ISMINE_SPENDABLE);
             }
 

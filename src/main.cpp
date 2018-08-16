@@ -2204,7 +2204,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	
    //if (nHeight >= 2500 && nHeight <= 1499) {
       //  ret = blockValue * 0.75;
-    } else if (nHeight >= 12500 && nHeight <= 17500){
+    
+if (nHeight >= 12500 && nHeight <= 17500){
          ret = blockValue * 0.75;
         
     }
@@ -2220,15 +2221,15 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),
                 FormatMoney(mNodeCoins).c_str());
 
-        if (mNodeCoins == 0) {
+        if (mNodeCoins == 0){ 
             ret = 0;
             
             
-        } if (nHeight >=17500  && nHeight <= 262980) { 
+        }else if (nHeight >=17500  && nHeight <= 262980) { 
             
-          {ret = blockValue  * 0.333;}                  
+          ret = blockValue  * 0.333;}                  
                     
-              } else if (nHeight >= 262980){
+               else if (nHeight >= 262980){
             
             ret = blockValue - (blockValue/2);
             

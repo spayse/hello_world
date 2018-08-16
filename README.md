@@ -3,6 +3,12 @@
 <br><p><strong><span style="color: #800080;"><em>http://hello.network</em></span></strong></p>
 <p><strong><span style="color: #800080;"><em>https://bitcointalk.org/</em></span></strong></p>
 <h3><strong>Coin specs:</strong></h3>
+
+
+PORTS 
+44545 P2P
+44544 RPC
+
 <p><strong><span style="color: #800080;"><em>Algo:</em></span></strong></p>
 <ul>
 <li>XEVAN, MASTERNODES | POW | POS | ZEROCOIN. ASIC resistant</li>

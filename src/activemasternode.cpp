@@ -465,10 +465,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     }
 
     
-//this  is my first experiment with balancing economic factors.  the ultimate goal is infinite mint with deflationary properties.  this is not the complete solution the infinite level increases over time  making more coins needed for Mn holders.  
 
-
-    // iLevels by SpayseMcG
     
     // Retrieve all possible outputs
     pwalletMain->AvailableCoins(vCoins);

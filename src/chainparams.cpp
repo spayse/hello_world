@@ -109,7 +109,7 @@ public:
         nMaturity = 101;
 		nMaxMoneyOut = 10500000 * COIN;
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 17500; // about 24 days 
+        nLastPOWBlock = 15000; // about 24 days 
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; // Enforce serial range starting this block

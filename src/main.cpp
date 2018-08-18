@@ -2199,7 +2199,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             return 0;
     }
 	
-	if (nHeight == 0)
+	if (nHeight == 0){
 		return 0;
 	
 

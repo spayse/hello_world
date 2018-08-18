@@ -2177,7 +2177,7 @@ int64_t GetBlockValue(int nHeight)
         nSubsidy = 10000000 * COIN; // Developer Fund -- Block 1
     } else if (nHeight < 17500 && nHeight > 0) {
         nSubsidy = 1000 * COIN; // 
-    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 17500 ) {
+    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 15000 ) {
         nSubsidy = 250 * COIN;
         
     }else if(nHeight >=23000  && nHeight <= 262980){
@@ -2202,11 +2202,10 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	if (nHeight == 0)
 		return 0;
 	
-   //if (nHeight >= 2500 && nHeight <= 1499) {
-      //  ret = blockValue * 0.75;
+
     
-if (nHeight >= 12500 && nHeight <= 17500){
-         ret = blockValue * 0.75;
+    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 15000) {
+        ret = blockValue * 0.75;
         
     }
     else if (nHeight > Params().LAST_POW_BLOCK()) {
@@ -2225,7 +2224,7 @@ if (nHeight >= 12500 && nHeight <= 17500){
             ret = 0;
             
             
-        }else if (nHeight >=17500  && nHeight <= 262980) { 
+        }else if (nHeight >=23600  && nHeight <= 262980) { 
             
           ret = blockValue  * 0.333;}                  
                     

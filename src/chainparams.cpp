@@ -46,16 +46,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
 	(0, uint256("0x0000067d628f3b576ae87e8d248c35e652ac09be921de19c9346611d24804146"))
-    (1000, uint256("0x00000000214b97c7d46931dda3405c5efec40b24ae4155de894d91df97b61a08"))
+(15016, uint256("0xe366e88bb5a3d4fb4376d8f6c5c71aba83a4f4fdb5f6ae6e917ef8bbdfeebacb"));
 	
-    (14200, uint256("0x000000000e662c32555958dcf3f8d3ffbc1cc0c159a5f127f46e94f20f46fafc"))
-	
- (14999, uint256("00000000102cd812309fb617c427f0f8d71ab9884c808a953be5d40dc3c5c23c"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1534525288, // * UNIX timestamp of last checkpoint block
-    15000,    // * total number of transactions between genesis and last checkpoint
+    1534534161, // * UNIX timestamp of last checkpoint block
+    15018,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     720        // * estimated number of transactions per day after checkpoint
 };
@@ -109,7 +106,7 @@ public:
         nMaturity = 101;
 		nMaxMoneyOut = 10500000 * COIN;
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 15000; // about 24 days 
+        nLastPOWBlock = 15000; // about 20 days 
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; // Enforce serial range starting this block

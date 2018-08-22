@@ -2222,7 +2222,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             ret = 0;
             
             
-            } else if (nHeight >= Params().LAST_POW_BLOCK() nHeight >= 15020 && nHeight <= 23000) {
+            } else if (nHeight >= Params().LAST_POW_BLOCK() && nHeight >= 15020 && nHeight <= 23000) {
         ret = blockValue * 0.75;
         }else if (nHeight >=23000  && nHeight <= 262980) { 
             
